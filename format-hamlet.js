@@ -1,4 +1,10 @@
+process.env.GOOGLE_APPLICATION_CREDENTIALS = './gcred.json';
 var fs = require('fs');
+var gcloud = require('gcloud');
+var dataset = gcloud.datastore.dataset({
+	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet'
+});
+
 var text = fs.readFileSync('hamlet.txt').toString();
 
 var lines = text.split('\n');
@@ -19,6 +25,8 @@ var allWords = extractWords(fs.readFileSync('hamlet.txt').toString());
 
 var nextWordI = 0;
 
+var toSave = {};
+
 
 function out(html, s){
 //console.log('out', html, s);
@@ -35,6 +43,12 @@ function out(html, s){
 					console.log(clean, '!=', allWords[nextWordI]);
 					process.exit();
 				}
+
+				toSave['word-'+nextWordI] = {
+					word: word,
+					clean: clean
+				};
+
 
 				sReplaced += '<span data-i="'+nextWordI+'">'+word+'</span> ';
 				nextWordI++;
@@ -161,6 +175,15 @@ lines.forEach(function(line, i){
 	}
 });
 
-
+console.log('saving...');
+dataset.save({
+	key: dataset.key('words',[1]),
+	data: toSave
+}, function(err, resp){
+	if(err){
+		throw err;
+	}
+	console.log(resp);
+});
 
 fs.writeFileSync('hamlet.html', fs.readFileSync('hamlet-header.html')+dialogLines.join('\n')+fs.readFileSync('hamlet-footer.html'));

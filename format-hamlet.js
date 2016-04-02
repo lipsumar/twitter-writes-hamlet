@@ -2,7 +2,7 @@ var fs = require('fs');
 var text = fs.readFileSync('hamlet.txt').toString();
 
 var lines = text.split('\n');
-console.log(lines.slice(0,20));
+
 var dialogLines = [];
 var lastWasName = false;
 var openTextTag = false;
@@ -12,13 +12,58 @@ var lastWasDialog = false;
 var openTextDialogTag = false;
 var lastWasDirection = false;
 
-function out(s){
-	dialogLines.push(s);
+var extractWords = require('./extract-words.js');
+var cleanWord = require('./clean-word.js');
+
+var allWords = extractWords(fs.readFileSync('hamlet.txt').toString());
+
+var nextWordI = 0;
+
+
+function out(html, s){
+//console.log('out', html, s);
+	if(s){
+		var words = extractWords(s);
+		sReplaced = '';
+		words.forEach(function(word){
+
+			var clean = cleanWord(word);
+			if(clean){
+
+				if(clean.toLowerCase() !== cleanWord(allWords[nextWordI]).toLowerCase()){
+					console.log(s);
+					console.log(clean, '!=', allWords[nextWordI]);
+					process.exit();
+				}
+
+				sReplaced += '<span data-clean="'+clean+'" data-word="'+allWords[nextWordI]+'">'+word+'</span> ';
+				nextWordI++;
+				if(typeof(allWords[nextWordI])==='undefined'){
+						//console.log('last word', word);
+						return;
+					}
+				while(!allWords[nextWordI].trim()){
+					nextWordI++;
+					if(typeof(allWords[nextWordI])==='undefined'){
+						//console.log('last word', word);
+						return;
+					}
+				}
+			}else{
+				sReplaced += word;
+			}
+
+		});
+
+		html = html.split('%s').join(sReplaced);
+	}
+
+	dialogLines.push(html);
 }
 
 
 lines.forEach(function(line, i){
-//if(i>50) return;
+//if(i>1001) return;
 	line = line.trim();
 	var nextLine = lines[i+1];
 
@@ -38,7 +83,7 @@ lines.forEach(function(line, i){
 			out('\t\t</div>');
 			openTextTag = false;
 		}
-		out('<div class="text__act">'+line+'</div>');
+		out('<div class="text__act">%s</div>', line);
 		lastWasDialog = false;
 		lastWasDirection = false;
 		return;
@@ -52,7 +97,7 @@ lines.forEach(function(line, i){
 			out('\t\t</div>');
 			openTextTag = false;
 		}
-		out('<div class="text__scene">'+line+'</div>');
+		out('<div class="text__scene">%s</div>', line);
 		lastWasScene = true;
 		lastWasDialog = false;
 		lastWasDirection = false;
@@ -67,7 +112,7 @@ lines.forEach(function(line, i){
 			out('<div class="text__dialog">\n\t<div class="dialog">');
 			openTextDialogTag = true;
 		}
-		out('\t\t<div class="dialog__name">'+line+'</div>');
+		out('\t\t<div class="dialog__name">%s</div>', line);
 		lastWasName = true;
 		lastWasDialog = true;
 		lastWasDirection = false;
@@ -78,9 +123,9 @@ lines.forEach(function(line, i){
 		}
 
 		if(!titleOut){
-			out('<div class="text__title text__title--1">The Tragedy of</div>');
-			out('<div class="text__title text__title--2">Hamlet</div>');
-			out('<div class="text__title text__title--3">Prince of Denmark</div>');
+			out('<div class="text__title text__title--1">%s</div>', 'The Tragedy of');
+			out('<div class="text__title text__title--2">%s</div>', 'Hamlet');
+			out('<div class="text__title text__title--3">%s</div>', 'Prince of Denmark');
 			titleOut = true;
 			lastWasDialog = false;
 			lastWasDirection = false;
@@ -94,7 +139,7 @@ lines.forEach(function(line, i){
 					out('\t</div>\n</div>');
 					openTextDialogTag = false;
 				}
-				out('<div class="text__stage-direction">'+line+'</div>');
+				out('<div class="text__stage-direction">%s</div>', line);
 				lastWasDirection = true;
 				lastWasScene = false;
 				lastWasDialog = false;
@@ -106,7 +151,7 @@ lines.forEach(function(line, i){
 					//lastWasName = true;
 					lastWasDialog = true;
 				}
-				out('\t\t\t<div>'+line+'</div>');
+				out('\t\t\t<div>%s</div>', line);
 				lastWasDirection = false;
 			}
 

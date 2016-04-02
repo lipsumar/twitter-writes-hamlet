@@ -2,90 +2,142 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Twitter writes Hamlet</title>
+	<title>writing</title>
 	<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+body{
+	background-color: #6D1A05;
+	color:#E6B26C;
+}
+#page{
+	margin:3em;
+	margin-left:4em;
+	font-size: 1.5em;
+	line-height: 1;
+	cursor:pointer;
+	font-family: 'Crimson Text', serif;
+}
+.word{
+	display: inline-block;
+
+	color: inherit;
+    text-decoration: none;
+    margin-bottom:7px;
+}
+
+
+.tweet{
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+	box-sizing:border-box;
+	width: 400px;
+
+
+	border: 1px solid #e1e8ed;
+	pointer-events:none;
+	background-color: rgba(255,255,255,200);
+	color:#292f33;
+	padding:10px 13px 10px 68px;
+
+	transition:all 0.25s ease;
+	border-radius:2px;
+	/*line-height: 0.7;*/
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	line-height: 18px;
+}
+.tweet__avatar{
+	float:left;
+	border-radius:5px;
+	margin-left:-58px;
+	width:48px;
+	height:48px;
+}
+.tweet__text{
+	/*font-size: 3em;*/
+}
+.tweet__handle{
+	/*font-size: 2em;*/
+
+	font-weight: bold;
+}
+.tweet__word{
+	display: inline-block;
+	text-decoration: none;
+	color:inherit;
+	font-weight: bold;
+	font-size: 18px;
+}
+.word:hover{
+	opacity: 1;
+	background: #CCC;
+}
+.word:hover > .tweet{
+	opacity: 1;
+}
+
+
+	</style>
 </head>
 <body>
-	<div class="app">
-		<div class="app__page">
-			<div class="text">
-				<div class="text__title text__title--1">The Tragedy of</div>
-				<div class="text__title text__title--2">Hamlet</div>
-				<div class="text__title text__title--3">Prince of Denmark</div>
+	<div id="page"></div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+var socket = io();
 
-				<div class="text__act">Act I</div>
-				<div class="text__scene">Scene I</div>
-				<div class="text__stage-direction">Elsinore. A platform before the castle.</div>
-				<div class="text__stage-direction">FRANCISCO at his post. Enter to him BERNARDO.</div>
-				<div class="text__dialog">
-					<div class="dialog">
-<div class="dialog__name">BERNARDO</div>
-<div class="dialog__text">
-	<div>Who's there?</div>
-</div>
-<div class="dialog__name">FRANCISCO</div>
-<div class="dialog__text">
-	<div>Nay, answer me: stand, and unfold yourself.</div>
-</div>
-<div class="dialog__name">BERNARDO</div>
-<div class="dialog__text">
-	<div>Long live the king!</div>
-</div>
-<div class="dialog__name">FRANCISCO</div>
-<div class="dialog__text">
-	<div>Bernardo?</div>
-</div>
-<div class="dialog__name">BERNARDO</div>
-<div class="dialog__text">
-	<div>He.</div>
-</div>
-<div class="dialog__name">FRANCISCO</div>
-<div class="dialog__text">
-	<div>You come most carefully upon your hour.</div>
-</div>
-<div class="dialog__name">BERNARDO</div>
-<div class="dialog__text">
-	<div>'Tis now struck twelve; get thee to bed, Francisco.</div>
-</div>
-<div class="dialog__name">FRANCISCO</div>
-<div class="dialog__text">
-	<div>For this relief much thanks: 'tis bitter cold,</div>
-	<div>And I am sick at heart.</div>
-</div>
-<div class="dialog__name">BERNARDO</div>
-<div class="dialog__text">
-	<div>Have you had quiet guard?</div>
-</div>
-<div class="dialog__name">FRANCISCO</div>
-<div class="dialog__text">
-	<div>Not a mouse stirring.</div>
-</div>
-<div class="dialog__name">BERNARDO</div>
-<div class="dialog__text">
-	<div>Well, good night.</div>
-	<div>If you do meet Horatio and Marcellus,</div>
-	<div>The rivals of my watch, bid them make haste.</div>
-</div>
-<div class="dialog__name">FRANCISCO</div>
-<div class="dialog__text">
-	<div>I think I hear them. Stand, ho! Who's there?</div>
-</div>
-					</div>
+socket.on('state', function(resp){
 
-				</div>
-			</div>
 
-		</div>
-		<div class="app__aside">
-			<div class="hero">
-				<div class="hero__text hero__text--percent">4%</div>
-				<div class="hero__text">Hamlet written so&nbsp;far</div>
-			</div>
-			<div class="about-text">
-				Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-			</div>
-		</div>
-	</div>
+	resp.all.forEach(addWord);
+
+
+
+
+});
+socket.on('word', function(resp){
+	addWord(resp)
+});
+
+
+function addWord(tw){
+	console.log(tw);
+	if(tw.word==='\n'){
+		$('#page').append('<br>');
+		return;
+	}
+	var $word = $('<a class="word" href="https://twitter.com/'+tw.screen_name+'/status/'+tw.id+'" target="_blank">'+tw.word+'</a>');
+	$('#page').append($word);
+	$('#page').append(' ');
+
+	var parts = cutTweet(tw);
+
+	//var parts = tw.tweetText.split(tw.word);
+	var t = parts.shift();
+	t+= '<a class="tweet__word" href="https://twitter.com/'+tw.screen_name+'/status/'+tw.id+'" target="_blank">'+tw.wordClean+'</a>'+parts[0];
+	var $tweet = $('<div class="tweet"><img class="tweet__avatar" src="'+tw.profile_image_url+'"><div class="tweet__handle">'+tw.screen_name+'</div><div class="tweet__text">'+t+'</div></div>');
+	//$('#page').before($tweet);
+	$word.append($tweet);
+	$tweet.css({top:0,left:0});
+	var tweetWordOffset = $tweet.find('.tweet__word').offset();
+	var wordOffset = $word.offset();
+	$tweet.css({
+		top: wordOffset.top - tweetWordOffset.top,
+		left:wordOffset.left - tweetWordOffset.left
+	})
+
+}
+
+function cutTweet(tw){
+	var parts = [];
+	parts.push(tw.tweetText.substring(0,tw.charAt));
+	//parts.push(tw.tweetText.substring(tw.charAt, tw.charAt+tw.word.length))
+	parts.push(tw.tweetText.substring(tw.charAt+tw.wordClean.length));
+	return parts;
+}
+	</script>
 </body>
 </html>

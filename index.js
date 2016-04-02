@@ -1,5 +1,5 @@
 /*jslint node: true */
-
+process.env.GOOGLE_APPLICATION_CREDENTIALS = './gcred.json';
 var Twitter = require('twitter');
 var client = new Twitter({
 	consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -8,23 +8,29 @@ var client = new Twitter({
 	access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
+var gcloud = require('gcloud');
+var dataset = gcloud.datastore.dataset({
+	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet'
+});
+
 var TRACK_KEYWORDS = 'writingtwitter,shakespeare,hamlet,act,scene,claudius,gertrude,polonius,horatio,ophelia,laertes,fortinbras,ghost,rosencrantz,guildenstern,osric,voltimand,cornelius,marcellus,bernardo,francesco,reynaldo,elsinor';
 
-var exec = require('child_process').exec;
-var fs = require('fs');
+//var exec = require('child_process').exec;
+//var fs = require('fs');
 
 
 //var textFileContent = 'I have a dream that one day every valley shall be exalted and every hill and mountain shall be made low the rough places will be made plain and the crooked places will be made straight and the glory of the Lord shall be revealed and all flesh shall see it together.';
 
-var textFileContent = fs.readFileSync('hamlet.txt').toString();
-var text = textFileContent;
-console.log(text.substring(0,50));
-text = text.replace(/\n\n/gm, '   ').replace(/ /gm, '=').replace(/\n/gm,'=\n=');//.split('==').join('===');
-var words = text.split('=');
-
+// var textFileContent = fs.readFileSync('hamlet.txt').toString();
+// var text = textFileContent;
+// console.log(text.substring(0,50));
+// text = text.replace(/\n\n/gm, '   ').replace(/ /gm, '=').replace(/\n/gm,'=\n=');//.split('==').join('===');
+//var words = text.split('=');
+var words = [];
 var currentWordI = -1;
+var currentWordIndex = -1;
 var currentWord,currentWordNotClean,matchWordRegex,currentWordDate;
-nextWord();
+//nextWord();
 
 var allTweets=[];
 var searchInt;
@@ -79,7 +85,7 @@ function onStream( source, stream){
 
 
 
-(function stayAliveLoop(){
+function stayAliveLoop(){
 
 	console.log('tweets last minute: ===================');
 	for(var source in lastMinuteBySource){
@@ -95,7 +101,7 @@ function onStream( source, stream){
 	}
 
 	setTimeout(stayAliveLoop, 60000);
-}());
+};
 
 
 function onTweet(source, tweet){
@@ -187,7 +193,12 @@ function onNewLine(){
 function nextWord(){
 	currentWordDate = new Date();
 	currentWordI++;
-	currentWord = words[currentWordI].trim();
+	currentWord = words[currentWordI].word.trim();
+
+	if(words.length - currentWordI < 10){
+		fetchNextWordsFromStore();
+	}
+
 	currentWordNotClean = currentWord;
 	currentWord = cleanWord(currentWord);
 	matchWordRegex = new RegExp('([^a-z]|^)'+currentWord+'([^a-z]|$)','mi');
@@ -204,6 +215,32 @@ function cleanWord(w){
 }
 
 
+function fetchNextWordsFromStore(start){
+	var query = dataset.createQuery('Word')
+		.filter('index >', currentWordIndex)
+		.order('index')
+		.limit(10);
+
+	dataset.runQuery(query, function(err,wordsFromStore){
+
+		if(err){
+			throw err;
+		}
+		var lastIndex;
+		wordsFromStore.forEach(function(word){
+			words.push(word.data);
+			lastIndex = word.data.index;
+		});
+		currentWordIndex = lastIndex;
+
+		if(start){
+			nextWord();
+			stayAliveLoop();
+		}
+
+	});
+}
+
 /**
 * Stream statuses filtered by keyword
 * number of tweets per second depends on topic popularity
@@ -211,7 +248,7 @@ function cleanWord(w){
 
 //currentWord='twitter';
 //console.log('search/tweets', {q:currentWord});
-searchFor(currentWord);
+//searchFor(currentWord);
 
 
 function searchFor(w){
@@ -261,7 +298,7 @@ function searchFor(w){
 		});
 
 	}.bind(this, w), searchWait);
-	console.log('wait',searchWait/1000,'sec');
+	//console.log('wait',searchWait/1000,'sec');
 
 }
 
@@ -297,3 +334,6 @@ app.use(express.static('.'));
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });
+
+
+fetchNextWordsFromStore(true);

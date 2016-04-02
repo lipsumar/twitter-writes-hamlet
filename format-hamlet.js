@@ -36,12 +36,12 @@ function out(html, s){
 					process.exit();
 				}
 
-				sReplaced += '<span data-clean="'+clean+'" data-word="'+allWords[nextWordI]+'">'+word+'</span> ';
+				sReplaced += '<span data-i="'+nextWordI+'">'+word+'</span> ';
 				nextWordI++;
 				if(typeof(allWords[nextWordI])==='undefined'){
-						//console.log('last word', word);
-						return;
-					}
+					//console.log('last word', word);
+					return;
+				}
 				while(!allWords[nextWordI].trim()){
 					nextWordI++;
 					if(typeof(allWords[nextWordI])==='undefined'){

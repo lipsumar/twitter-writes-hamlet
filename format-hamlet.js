@@ -24,8 +24,8 @@ var cleanWord = require('./clean-word.js');
 var allWords = extractWords(fs.readFileSync('hamlet.txt').toString());
 
 var nextWordI = 0;
+var queue = [];
 
-var toSave = {};
 
 
 function out(html, s){
@@ -44,10 +44,12 @@ function out(html, s){
 					process.exit();
 				}
 
-				toSave['word-'+nextWordI] = {
+
+				queue.push({
+					index: nextWordI,
 					word: word,
 					clean: clean
-				};
+				});
 
 
 				sReplaced += '<span data-i="'+nextWordI+'">'+word+'</span> ';
@@ -77,7 +79,8 @@ function out(html, s){
 
 
 lines.forEach(function(line, i){
-//if(i>1001) return;
+
+
 	line = line.trim();
 	var nextLine = lines[i+1];
 
@@ -175,15 +178,41 @@ lines.forEach(function(line, i){
 	}
 });
 
-console.log('saving...');
-dataset.save({
-	key: dataset.key('words',[1]),
-	data: toSave
-}, function(err, resp){
-	if(err){
-		throw err;
+
+
+
+
+function processQueue(){
+	var items = [],item;
+	for(var i=0;i<500;i++){
+		item = queue.shift();
+		if(!item) break;
+		items.push({
+			key: dataset.key(['Word',item.index]),
+			data: item
+		});
 	}
-	console.log(resp);
-});
+
+	function save(){
+		dataset.save(items, function(err, resp){
+			if(err){
+				console.log(err);
+				save();
+				return;
+			}
+
+			console.log(queue.length, 'to save');
+			processQueue();
+		});
+	}
+
+	if(items.length > 0){
+		save();
+	}
+
+}
+processQueue();
+
+
 
 fs.writeFileSync('hamlet.html', fs.readFileSync('hamlet-header.html')+dialogLines.join('\n')+fs.readFileSync('hamlet-footer.html'));

@@ -2,10 +2,10 @@
 process.env.GOOGLE_APPLICATION_CREDENTIALS = './gcred.json';
 var Twitter = require('twitter');
 var client = new Twitter({
-	consumer_key: process.env.TWITTER_CONSUMER_KEY,
-	consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-	access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-	access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
+	consumer_key: 'jEWvKxDeIq4XYeEKOLQa78VlO',
+	consumer_secret: 'PxneO6JUDVpTNylhhvzhZctk3R8DahlqPuq1M7p9XxS9XeG8Xb',
+	access_token_key: '65347065-TdyjkbKhXnjCYkgO8UsYhulkdtfpHJISPegLLgut8',
+	access_token_secret: 'tbt7dSQKwTmLGQE6e61fkYzjbqLXxfNTT6C2guBV5U7zN'
 });
 
 var gcloud = require('gcloud');
@@ -13,10 +13,12 @@ var dataset = gcloud.datastore.dataset({
 	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet'
 });
 
+var htmlPieceIndex = require('./data/htmlPieceIndex.json');
+
 var TRACK_KEYWORDS = 'writingtwitter,shakespeare,hamlet,act,scene,claudius,gertrude,polonius,horatio,ophelia,laertes,fortinbras,ghost,rosencrantz,guildenstern,osric,voltimand,cornelius,marcellus,bernardo,francesco,reynaldo,elsinor';
 
 //var exec = require('child_process').exec;
-//var fs = require('fs');
+var fs = require('fs');
 
 
 //var textFileContent = 'I have a dream that one day every valley shall be exalted and every hill and mountain shall be made low the rough places will be made plain and the crooked places will be made straight and the glory of the Lord shall be revealed and all flesh shall see it together.';
@@ -29,6 +31,7 @@ var TRACK_KEYWORDS = 'writingtwitter,shakespeare,hamlet,act,scene,claudius,gertr
 var words = [];
 var currentWordI = -1;
 var currentWordIndex = -1;
+var currentWordFetchIndex;
 var currentWord,currentWordNotClean,matchWordRegex,currentWordDate;
 //nextWord();
 
@@ -145,55 +148,35 @@ function onTweet(source, tweet){
 				tweetText: tweet.text,
 				screen_name: tweet.user.screen_name,
 				word: currentWordNotClean,
-				wordClean: currentWord,
+				clean: currentWord,
 				charAt: tweet.text[matched.index].toLowerCase() === currentWord[0].toLowerCase() ? matched.index : matched.index+1,
-				id: tweet.id_str,
-				profile_image_url: tweet.user.profile_image_url
+				id: tweet.id,
+				profile_image_url: tweet.user.profile_image_url,
+				date: (new Date()).toString(),
+				index: words[currentWordI].index,
+				found_in_twitter: 1
 			};
 			io.emit('word',smallTweet);
 			allTweets.push(smallTweet);
-
-			nextWord();
-
-
-			if(currentWord===''){
-				onNewLine();
-				return;
-			}
+			saveTweet(smallTweet, function(){
+				nextWord();
+				searchFor(currentWord);
+			});
 
 
-
-			searchFor(currentWord);
 		}
 
 	}
 }
 
 
-function onNewLine(){
-	console.log('new line');
-	var smallTweet = {
-		tweetText: '',
-		screen_name: '',
-		word: '\n',
-		wordClean: '\n'
-	};
-	io.emit('word',smallTweet);
-	allTweets.push(smallTweet);
-	nextWord();
 
-	if(currentWord===''){
-		onNewLine();
-		return;
-	}
-
-	searchFor(currentWord);
-}
 
 function nextWord(){
 	currentWordDate = new Date();
 	currentWordI++;
 	currentWord = words[currentWordI].word.trim();
+	currentWordIndex = words[currentWordI].index;
 
 	if(words.length - currentWordI < 10){
 		fetchNextWordsFromStore();
@@ -210,20 +193,41 @@ function nextWord(){
 	}
 }
 
+function saveTweet(tw, callback){
+	dataset.save([
+		{
+			key: dataset.key(['Word', tw.index]),
+			data: tw
+		},
+		{
+			key: dataset.key(['Meta', 1]),
+			data: {index:tw.index}
+		}
+	], function(err){
+		if(err){
+			throw err;
+		}
+		if(callback){
+			callback();
+		}
+	});
+}
+
 function cleanWord(w){
 	return w.replace(/(^[,.'":;!?]+)|([,.'":;!?]+$)/g, '');
 }
 
 
-function fetchNextWordsFromStore(start){
+function fetchNextWordsFromStore(callback){
 	var query = dataset.createQuery('Word')
-		.filter('index >', currentWordIndex)
+		.filter('index >', currentWordFetchIndex)
 		.order('index')
 		.limit(10);
 
 	dataset.runQuery(query, function(err,wordsFromStore){
 
 		if(err){
+			console.log(err);
 			throw err;
 		}
 		var lastIndex;
@@ -231,11 +235,10 @@ function fetchNextWordsFromStore(start){
 			words.push(word.data);
 			lastIndex = word.data.index;
 		});
-		currentWordIndex = lastIndex;
+		currentWordFetchIndex = lastIndex;
 
-		if(start){
-			nextWord();
-			stayAliveLoop();
+		if(callback){
+			callback();
 		}
 
 	});
@@ -315,9 +318,37 @@ var io = require('socket.io')(http);
 
 io.on('connection', function(socket){
 	console.log('a user connected');
+
+	var htmlPieces = [];
+	for (var i = 0; i < htmlPieceIndex.length; i++) {
+		if(htmlPieceIndex[i] > currentWordIndex){
+			if(typeof htmlPieceIndex[i-2] !== 'undefined'){
+				htmlPieces.push({
+					html: fs.readFileSync('data/htmlPiece-'+htmlPieceIndex[i-2]).toString(),
+					index: htmlPieceIndex[i-2]
+				});
+			}
+			if(typeof htmlPieceIndex[i-1] !== 'undefined'){
+				htmlPieces.push({
+					html: fs.readFileSync('data/htmlPiece-'+htmlPieceIndex[i-1]).toString(),
+					index: htmlPieceIndex[i-1]
+				});
+			}
+			htmlPieces.push({
+				html: fs.readFileSync('data/htmlPiece-'+htmlPieceIndex[i]).toString(),
+				index: htmlPieceIndex[i]
+			});
+
+			break;
+		}
+	}
 	socket.emit('state', {
-		all:allTweets
+		htmlPieces: htmlPieces,
+		currentWordIndex: currentWordIndex,
+		currentWord: currentWord
 	});
+
+
 });
 
 
@@ -331,9 +362,27 @@ app.use(express.static('.'));
 
 //app.listen(1337);
 
-http.listen(3000, function(){
-  console.log('listening on *:3000');
+
+
+dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
+	if(err){
+		throw err;
+	}
+	console.log(metaLast);
+	if(metaLast){
+		currentWordIndex = metaLast.data.index;
+		currentWordFetchIndex = currentWordIndex;
+		console.log('currentWordIndex', currentWordIndex);
+	}
+
+	fetchNextWordsFromStore(function(){
+		nextWord();
+
+		http.listen(3000, function(){
+			console.log('listening on *:3000');
+		});
+		console.log('starting looking for '+currentWord);
+		searchFor(currentWord);
+		stayAliveLoop();
+	});
 });
-
-
-fetchNextWordsFromStore(true);

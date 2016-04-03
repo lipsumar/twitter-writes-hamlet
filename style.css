@@ -60,6 +60,9 @@ body{
 	text-align: center;
 	color:#333;
 }
+.text span{opacity:0;}
+.text span.v{opacity:1;}
+.text span.looking{opacity:0.5;}
 .text__title{}
 .text__title--1{
 	font-size: 2em;

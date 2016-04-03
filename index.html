@@ -2,107 +2,77 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>writing</title>
+	<title>Twitter writes Hamlet</title>
 	<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-	<style>
-body{
-	background-color: #6D1A05;
-	color:#E6B26C;
-}
-#page{
-	margin:3em;
-	margin-left:4em;
-	font-size: 1.5em;
-	line-height: 1;
-	cursor:pointer;
-	font-family: 'Crimson Text', serif;
-}
-.word{
-	display: inline-block;
-
-	color: inherit;
-    text-decoration: none;
-    margin-bottom:7px;
-}
-
-
-.tweet{
-	overflow: hidden;
-	position: absolute;
-	top:0;
-	left:0;
-	opacity: 0;
-	box-sizing:border-box;
-	width: 400px;
-
-
-	border: 1px solid #e1e8ed;
-	pointer-events:none;
-	background-color: rgba(255,255,255,200);
-	color:#292f33;
-	padding:10px 13px 10px 68px;
-
-	transition:all 0.25s ease;
-	border-radius:2px;
-	/*line-height: 0.7;*/
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:14px;
-	line-height: 18px;
-}
-.tweet__avatar{
-	float:left;
-	border-radius:5px;
-	margin-left:-58px;
-	width:48px;
-	height:48px;
-}
-.tweet__text{
-	/*font-size: 3em;*/
-}
-.tweet__handle{
-	/*font-size: 2em;*/
-
-	font-weight: bold;
-}
-.tweet__word{
-	display: inline-block;
-	text-decoration: none;
-	color:inherit;
-	font-weight: bold;
-	font-size: 18px;
-}
-.word:hover{
-	opacity: 1;
-	background: #CCC;
-}
-.word:hover > .tweet{
-	opacity: 1;
-}
-
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="page"></div>
+	<div class="app">
+		<div class="app__page">
+			<div class="text">
+				<div class="text__stage-direction" style="margin-top:3em">LOADING...</div>
+			</div>
+
+		</div>
+		<div class="app__aside">
+			<div class="hero">
+				<div class="hero__text hero__text--percent">4%</div>
+				<div class="hero__text">Hamlet written so&nbsp;far</div>
+			</div>
+			<div class="about-text">
+				Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+			</div>
+		</div>
+	</div>
+</body>
+</html>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
 var socket = io();
 
 socket.on('state', function(resp){
+	console.log(resp);
+	var html = '';
 
+	for (var i = 0; i < resp.htmlPieces.length; i++) {
+		html+= resp.htmlPieces[i].html;
+	}
+	$('.text').html(html);
+	$('.text').find('span').each(function(){
+		var i = parseInt(this.getAttribute('data-i'), 10);
+		if(i<=resp.currentWordIndex){
+			$(this).addClass('v');
+		}
+	});
 
-	resp.all.forEach(addWord);
-
-
-
+	var $nextWord = getNextWord(resp.currentWordIndex);
+	if($nextWord){
+		$nextWord.addClass('looking');
+	}
 
 });
 socket.on('word', function(resp){
-	addWord(resp)
+	var $word = $('.text').find('span[data-i="'+resp.index+'"]');
+	$word.removeClass('looking').addClass('v');
+	var $nextWord = getNextWord(resp.index);
+	if($nextWord){
+		$nextWord.addClass('looking');
+	}
 });
 
+function getNextWord(index){
+	var $nextWord,i=0;
+	while(true){
+		$nextWord = $('.text').find('span[data-i="'+(index+i)+'"]');
+		if($nextWord.length===1) break;
+		i++;
+		if(i>50) break;
+	}
+	return $nextWord;
+}
 
+/*
 function addWord(tw){
 	console.log(tw);
 	if(tw.word==='\n'){
@@ -117,7 +87,7 @@ function addWord(tw){
 
 	//var parts = tw.tweetText.split(tw.word);
 	var t = parts.shift();
-	t+= '<a class="tweet__word" href="https://twitter.com/'+tw.screen_name+'/status/'+tw.id+'" target="_blank">'+tw.wordClean+'</a>'+parts[0];
+	t+= '<a class="tweet__word" href="https://twitter.com/'+tw.screen_name+'/status/'+tw.id+'" target="_blank">'+tw.clean+'</a>'+parts[0];
 	var $tweet = $('<div class="tweet"><img class="tweet__avatar" src="'+tw.profile_image_url+'"><div class="tweet__handle">'+tw.screen_name+'</div><div class="tweet__text">'+t+'</div></div>');
 	//$('#page').before($tweet);
 	$word.append($tweet);
@@ -135,9 +105,9 @@ function cutTweet(tw){
 	var parts = [];
 	parts.push(tw.tweetText.substring(0,tw.charAt));
 	//parts.push(tw.tweetText.substring(tw.charAt, tw.charAt+tw.word.length))
-	parts.push(tw.tweetText.substring(tw.charAt+tw.wordClean.length));
+	parts.push(tw.tweetText.substring(tw.charAt+tw.clean.length));
 	return parts;
-}
+}*/
 	</script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+indexes:
+
+- kind: Word
+  properties:
+  - name: found_in_twitter
+  - name: index
+    direction: asc

@@ -22,6 +22,7 @@ body{
 	height: 85vh;
 	padding:1em;
 	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
 }
 .app__page::-webkit-scrollbar {
     -webkit-appearance: none;

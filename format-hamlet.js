@@ -2,7 +2,7 @@ process.env.GOOGLE_APPLICATION_CREDENTIALS = './gcred.json';
 var fs = require('fs');
 var gcloud = require('gcloud');
 var dataset = gcloud.datastore.dataset({
-	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet'
+	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet-us'
 });
 
 var text = fs.readFileSync('hamlet.txt').toString();

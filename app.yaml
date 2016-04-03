@@ -5,7 +5,7 @@ vm: true
 
 
 env_variables:
-    GCLOUD_PROJECT: twitter-writes-hamlet
+    GCLOUD_PROJECT: twitter-writes-hamlet-us
 
 # Temporary setting to keep gcloud from uploading node_modules
 skip_files:

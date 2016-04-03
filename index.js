@@ -378,8 +378,8 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 	fetchNextWordsFromStore(function(){
 		nextWord();
 
-		http.listen(3000, function(){
-			console.log('listening on *:3000');
+		http.listen(8080, function(){
+			console.log('listening on *:8080');
 		});
 		console.log('starting looking for '+currentWord);
 		searchFor(currentWord);

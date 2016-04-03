@@ -137,7 +137,7 @@ body{
 .hero__text{
 	color:white;
 	font-size: 2em;
-	padding:0 2em;
+	padding:10px;
 	text-align: center;
 }
 .hero__text--percent{

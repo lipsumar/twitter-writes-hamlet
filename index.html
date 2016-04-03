@@ -41,7 +41,7 @@ socket.on('state', function(resp){
 	$('.text').html(html);
 	$('.text').find('span').each(function(){
 		var i = parseInt(this.getAttribute('data-i'), 10);
-		if(i<=resp.currentWordIndex){
+		if(i<resp.currentWordIndex){
 			$(this).addClass('v');
 		}
 	});
@@ -62,7 +62,7 @@ socket.on('word', function(resp){
 });
 
 function getNextWord(index){
-	var $nextWord,i=0;
+	var $nextWord,i=1;
 	while(true){
 		$nextWord = $('.text').find('span[data-i="'+(index+i)+'"]');
 		if($nextWord.length===1) break;

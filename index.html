@@ -53,6 +53,7 @@ socket.on('state', function(resp){
 
 });
 socket.on('word', function(resp){
+	console.log('got index',resp.index);
 	var $word = $('.text').find('span[data-i="'+resp.index+'"]');
 	$word.removeClass('looking').addClass('v');
 	var $nextWord = getNextWord(resp.index);

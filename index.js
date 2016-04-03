@@ -33,6 +33,7 @@ var currentWordI = -1;
 var currentWordIndex = -1;
 var currentWordFetchIndex;
 var currentWord,currentWordNotClean,matchWordRegex,currentWordDate;
+var found = false;
 //nextWord();
 
 var allTweets=[];
@@ -108,7 +109,7 @@ function stayAliveLoop(){
 
 
 function onTweet(source, tweet){
-
+	if(found) return;
 	if(!tweet.text) return;
 
 
@@ -136,7 +137,7 @@ function onTweet(source, tweet){
 
 		var matched = tweet.text.match(matchWordRegex);
 		if(matched!==null){
-
+			found = true;
 			if(searchInt){
 				clearTimeout(searchInt);
 			}
@@ -160,6 +161,7 @@ function onTweet(source, tweet){
 			allTweets.push(smallTweet);
 			saveTweet(smallTweet, function(){
 				nextWord();
+				found = false;
 				searchFor(currentWord);
 			});
 

@@ -46,7 +46,7 @@ socket.on('state', function(resp){
 		}
 	});
 
-	var $nextWord = getNextWord(resp.currentWordIndex);
+	var $nextWord = getNextWord(resp.currentWordIndex-1);
 	if($nextWord){
 		$nextWord.addClass('looking');
 	}

@@ -1,0 +1,37 @@
+<div class="text__stage-direction"><span data-i="26257">Enter</span> <span data-i="26258">QUEEN</span> <span data-i="26259">GERTRUDE,</span> <span data-i="26260">HORATIO,</span> <span data-i="26261">and</span> <span data-i="26262">a</span> <span data-i="26263">Gentleman</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="26265">QUEEN</span> <span data-i="26266">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26268">I</span> <span data-i="26269">will</span> <span data-i="26270">not</span> <span data-i="26271">speak</span> <span data-i="26272">with</span> <span data-i="26273">her.</span> </div>
+			<div><span data-i="26275">Gentleman</span> </div>
+			<div><span data-i="26277">She</span> <span data-i="26278">is</span> <span data-i="26279">importunate,</span> <span data-i="26280">indeed</span> <span data-i="26281">distract:</span> </div>
+			<div><span data-i="26283">Her</span> <span data-i="26284">mood</span> <span data-i="26285">will</span> <span data-i="26286">needs</span> <span data-i="26287">be</span> <span data-i="26288">pitied.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26290">QUEEN</span> <span data-i="26291">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26293">What</span> <span data-i="26294">would</span> <span data-i="26295">she</span> <span data-i="26296">have?</span> </div>
+			<div><span data-i="26298">Gentleman</span> </div>
+			<div><span data-i="26300">She</span> <span data-i="26301">speaks</span> <span data-i="26302">much</span> <span data-i="26303">of</span> <span data-i="26304">her</span> <span data-i="26305">father;</span> <span data-i="26306">says</span> <span data-i="26307">she</span> <span data-i="26308">hears</span> </div>
+			<div><span data-i="26310">There's</span> <span data-i="26311">tricks</span> <span data-i="26312">i'</span> <span data-i="26313">the</span> <span data-i="26314">world;</span> <span data-i="26315">and</span> <span data-i="26316">hems,</span> <span data-i="26317">and</span> <span data-i="26318">beats</span> <span data-i="26319">her</span> <span data-i="26320">heart;</span> </div>
+			<div><span data-i="26322">Spurns</span> <span data-i="26323">enviously</span> <span data-i="26324">at</span> <span data-i="26325">straws;</span> <span data-i="26326">speaks</span> <span data-i="26327">things</span> <span data-i="26328">in</span> <span data-i="26329">doubt,</span> </div>
+			<div><span data-i="26331">That</span> <span data-i="26332">carry</span> <span data-i="26333">but</span> <span data-i="26334">half</span> <span data-i="26335">sense:</span> <span data-i="26336">her</span> <span data-i="26337">speech</span> <span data-i="26338">is</span> <span data-i="26339">nothing,</span> </div>
+			<div><span data-i="26341">Yet</span> <span data-i="26342">the</span> <span data-i="26343">unshaped</span> <span data-i="26344">use</span> <span data-i="26345">of</span> <span data-i="26346">it</span> <span data-i="26347">doth</span> <span data-i="26348">move</span> </div>
+			<div><span data-i="26350">The</span> <span data-i="26351">hearers</span> <span data-i="26352">to</span> <span data-i="26353">collection;</span> <span data-i="26354">they</span> <span data-i="26355">aim</span> <span data-i="26356">at</span> <span data-i="26357">it,</span> </div>
+			<div><span data-i="26359">And</span> <span data-i="26360">botch</span> <span data-i="26361">the</span> <span data-i="26362">words</span> <span data-i="26363">up</span> <span data-i="26364">fit</span> <span data-i="26365">to</span> <span data-i="26366">their</span> <span data-i="26367">own</span> <span data-i="26368">thoughts;</span> </div>
+			<div><span data-i="26370">Which,</span> <span data-i="26371">as</span> <span data-i="26372">her</span> <span data-i="26373">winks,</span> <span data-i="26374">and</span> <span data-i="26375">nods,</span> <span data-i="26376">and</span> <span data-i="26377">gestures</span> </div>
+			<div><span data-i="26379">yield</span> <span data-i="26380">them,</span> </div>
+			<div><span data-i="26382">Indeed</span> <span data-i="26383">would</span> <span data-i="26384">make</span> <span data-i="26385">one</span> <span data-i="26386">think</span> <span data-i="26387">there</span> <span data-i="26388">might</span> <span data-i="26389">be</span> <span data-i="26390">thought,</span> </div>
+			<div><span data-i="26392">Though</span> <span data-i="26393">nothing</span> <span data-i="26394">sure,</span> <span data-i="26395">yet</span> <span data-i="26396">much</span> <span data-i="26397">unhappily.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26399">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26401">'Twere</span> <span data-i="26402">good</span> <span data-i="26403">she</span> <span data-i="26404">were</span> <span data-i="26405">spoken</span> <span data-i="26406">with;</span> <span data-i="26407">for</span> <span data-i="26408">she</span> <span data-i="26409">may</span> <span data-i="26410">strew</span> </div>
+			<div><span data-i="26412">Dangerous</span> <span data-i="26413">conjectures</span> <span data-i="26414">in</span> <span data-i="26415">ill-breeding</span> <span data-i="26416">minds.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26418">QUEEN</span> <span data-i="26419">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26421">Let</span> <span data-i="26422">her</span> <span data-i="26423">come</span> <span data-i="26424">in.</span> </div>
+		</div>
+	</div>
+</div>

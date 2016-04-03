@@ -1,0 +1,56 @@
+<div class="text__stage-direction"><span data-i="23">FRANCISCO</span> <span data-i="24">at</span> <span data-i="25">his</span> <span data-i="26">post.</span> <span data-i="27">Enter</span> <span data-i="28">to</span> <span data-i="29">him</span> <span data-i="30">BERNARDO</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="32">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34">Who's</span> <span data-i="35">there?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="37">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="39">Nay,</span> <span data-i="40">answer</span> <span data-i="41">me:</span> <span data-i="42">stand,</span> <span data-i="43">and</span> <span data-i="44">unfold</span> <span data-i="45">yourself.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="47">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="49">Long</span> <span data-i="50">live</span> <span data-i="51">the</span> <span data-i="52">king!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="54">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="56">Bernardo?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="58">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="60">He.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="62">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="64">You</span> <span data-i="65">come</span> <span data-i="66">most</span> <span data-i="67">carefully</span> <span data-i="68">upon</span> <span data-i="69">your</span> <span data-i="70">hour.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="72">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="74">'Tis</span> <span data-i="75">now</span> <span data-i="76">struck</span> <span data-i="77">twelve;</span> <span data-i="78">get</span> <span data-i="79">thee</span> <span data-i="80">to</span> <span data-i="81">bed,</span> <span data-i="82">Francisco.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="84">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="86">For</span> <span data-i="87">this</span> <span data-i="88">relief</span> <span data-i="89">much</span> <span data-i="90">thanks:</span> <span data-i="91">'tis</span> <span data-i="92">bitter</span> <span data-i="93">cold,</span> </div>
+			<div><span data-i="95">And</span> <span data-i="96">I</span> <span data-i="97">am</span> <span data-i="98">sick</span> <span data-i="99">at</span> <span data-i="100">heart.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="102">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="104">Have</span> <span data-i="105">you</span> <span data-i="106">had</span> <span data-i="107">quiet</span> <span data-i="108">guard?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="110">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="112">Not</span> <span data-i="113">a</span> <span data-i="114">mouse</span> <span data-i="115">stirring.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="117">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="119">Well,</span> <span data-i="120">good</span> <span data-i="121">night.</span> </div>
+			<div><span data-i="123">If</span> <span data-i="124">you</span> <span data-i="125">do</span> <span data-i="126">meet</span> <span data-i="127">Horatio</span> <span data-i="128">and</span> <span data-i="129">Marcellus,</span> </div>
+			<div><span data-i="131">The</span> <span data-i="132">rivals</span> <span data-i="133">of</span> <span data-i="134">my</span> <span data-i="135">watch,</span> <span data-i="136">bid</span> <span data-i="137">them</span> <span data-i="138">make</span> <span data-i="139">haste.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="141">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="143">I</span> <span data-i="144">think</span> <span data-i="145">I</span> <span data-i="146">hear</span> <span data-i="147">them.</span> <span data-i="148">Stand,</span> <span data-i="149">ho!</span> <span data-i="150">Who's</span> <span data-i="151">there?</span> </div>
+		</div>
+	</div>
+</div>

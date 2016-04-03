@@ -1,0 +1,40 @@
+<div class="text__stage-direction"><span data-i="35514">Exit</span> <span data-i="35515">Lord</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="35518">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35520">You</span> <span data-i="35521">will</span> <span data-i="35522">lose</span> <span data-i="35523">this</span> <span data-i="35524">wager,</span> <span data-i="35525">my</span> <span data-i="35526">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35528">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35530">I</span> <span data-i="35531">do</span> <span data-i="35532">not</span> <span data-i="35533">think</span> <span data-i="35534">so:</span> <span data-i="35535">since</span> <span data-i="35536">he</span> <span data-i="35537">went</span> <span data-i="35538">into</span> <span data-i="35539">France,</span> <span data-i="35540">I</span> </div>
+			<div><span data-i="35542">have</span> <span data-i="35543">been</span> <span data-i="35544">in</span> <span data-i="35545">continual</span> <span data-i="35546">practise:</span> <span data-i="35547">I</span> <span data-i="35548">shall</span> <span data-i="35549">win</span> <span data-i="35550">at</span> <span data-i="35551">the</span> </div>
+			<div><span data-i="35553">odds.</span> <span data-i="35554">But</span> <span data-i="35555">thou</span> <span data-i="35556">wouldst</span> <span data-i="35557">not</span> <span data-i="35558">think</span> <span data-i="35559">how</span> <span data-i="35560">ill</span> <span data-i="35561">all's</span> <span data-i="35562">here</span> </div>
+			<div><span data-i="35564">about</span> <span data-i="35565">my</span> <span data-i="35566">heart:</span> <span data-i="35567">but</span> <span data-i="35568">it</span> <span data-i="35569">is</span> <span data-i="35570">no</span> <span data-i="35571">matter.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35573">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35575">Nay,</span> <span data-i="35576">good</span> <span data-i="35577">my</span> <span data-i="35578">lord,--</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35580">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35582">It</span> <span data-i="35583">is</span> <span data-i="35584">but</span> <span data-i="35585">foolery;</span> <span data-i="35586">but</span> <span data-i="35587">it</span> <span data-i="35588">is</span> <span data-i="35589">such</span> <span data-i="35590">a</span> <span data-i="35591">kind</span> <span data-i="35592">of</span> </div>
+			<div><span data-i="35594">gain-giving,</span> <span data-i="35595">as</span> <span data-i="35596">would</span> <span data-i="35597">perhaps</span> <span data-i="35598">trouble</span> <span data-i="35599">a</span> <span data-i="35600">woman.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35602">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35604">If</span> <span data-i="35605">your</span> <span data-i="35606">mind</span> <span data-i="35607">dislike</span> <span data-i="35608">any</span> <span data-i="35609">thing,</span> <span data-i="35610">obey</span> <span data-i="35611">it:</span> <span data-i="35612">I</span> <span data-i="35613">will</span> </div>
+			<div><span data-i="35615">forestall</span> <span data-i="35616">their</span> <span data-i="35617">repair</span> <span data-i="35618">hither,</span> <span data-i="35619">and</span> <span data-i="35620">say</span> <span data-i="35621">you</span> <span data-i="35622">are</span> <span data-i="35623">not</span> </div>
+			<div><span data-i="35625">fit.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35627">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35629">Not</span> <span data-i="35630">a</span> <span data-i="35631">whit,</span> <span data-i="35632">we</span> <span data-i="35633">defy</span> <span data-i="35634">augury:</span> <span data-i="35635">there's</span> <span data-i="35636">a</span> <span data-i="35637">special</span> </div>
+			<div><span data-i="35639">providence</span> <span data-i="35640">in</span> <span data-i="35641">the</span> <span data-i="35642">fall</span> <span data-i="35643">of</span> <span data-i="35644">a</span> <span data-i="35645">sparrow.</span> <span data-i="35646">If</span> <span data-i="35647">it</span> <span data-i="35648">be</span> <span data-i="35649">now,</span> </div>
+			<div><span data-i="35651">'tis</span> <span data-i="35652">not</span> <span data-i="35653">to</span> <span data-i="35654">come;</span> <span data-i="35655">if</span> <span data-i="35656">it</span> <span data-i="35657">be</span> <span data-i="35658">not</span> <span data-i="35659">to</span> <span data-i="35660">come,</span> <span data-i="35661">it</span> <span data-i="35662">will</span> <span data-i="35663">be</span> </div>
+			<div><span data-i="35665">now;</span> <span data-i="35666">if</span> <span data-i="35667">it</span> <span data-i="35668">be</span> <span data-i="35669">not</span> <span data-i="35670">now,</span> <span data-i="35671">yet</span> <span data-i="35672">it</span> <span data-i="35673">will</span> <span data-i="35674">come:</span> <span data-i="35675">the</span> </div>
+			<div><span data-i="35677">readiness</span> <span data-i="35678">is</span> <span data-i="35679">all:</span> <span data-i="35680">since</span> <span data-i="35681">no</span> <span data-i="35682">man</span> <span data-i="35683">has</span> <span data-i="35684">aught</span> <span data-i="35685">of</span> <span data-i="35686">what</span> <span data-i="35687">he</span> </div>
+			<div><span data-i="35689">leaves,</span> <span data-i="35690">what</span> <span data-i="35691">is't</span> <span data-i="35692">to</span> <span data-i="35693">leave</span> <span data-i="35694">betimes?</span> </div>
+		</div>
+	</div>
+</div>

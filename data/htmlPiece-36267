@@ -1,0 +1,30 @@
+<div class="text__stage-direction"><span data-i="36267">They</span> <span data-i="36268">play</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="36271">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36273">One.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36275">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36277">No.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36279">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36281">Judgment.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36283">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36285">A</span> <span data-i="36286">hit,</span> <span data-i="36287">a</span> <span data-i="36288">very</span> <span data-i="36289">palpable</span> <span data-i="36290">hit.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36292">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36294">Well;</span> <span data-i="36295">again.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36297">KING</span> <span data-i="36298">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36300">Stay;</span> <span data-i="36301">give</span> <span data-i="36302">me</span> <span data-i="36303">drink.</span> <span data-i="36304">Hamlet,</span> <span data-i="36305">this</span> <span data-i="36306">pearl</span> <span data-i="36307">is</span> <span data-i="36308">thine;</span> </div>
+			<div><span data-i="36310">Here's</span> <span data-i="36311">to</span> <span data-i="36312">thy</span> <span data-i="36313">health.</span> </div>
+		</div>
+	</div>
+</div>

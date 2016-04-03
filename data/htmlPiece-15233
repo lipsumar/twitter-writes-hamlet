@@ -1,0 +1,72 @@
+<div class="text__stage-direction"><span data-i="15233">Enter</span> <span data-i="15234">KING</span> <span data-i="15235">CLAUDIUS,</span> <span data-i="15236">QUEEN</span> <span data-i="15237">GERTRUDE,</span> <span data-i="15238">POLONIUS,</span> <span data-i="15239">OPHELIA,</span> <span data-i="15240">ROSENCRANTZ,</span> <span data-i="15241">and</span> <span data-i="15242">GUILDENSTERN</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="15244">KING</span> <span data-i="15245">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15247">And</span> <span data-i="15248">can</span> <span data-i="15249">you,</span> <span data-i="15250">by</span> <span data-i="15251">no</span> <span data-i="15252">drift</span> <span data-i="15253">of</span> <span data-i="15254">circumstance,</span> </div>
+			<div><span data-i="15256">Get</span> <span data-i="15257">from</span> <span data-i="15258">him</span> <span data-i="15259">why</span> <span data-i="15260">he</span> <span data-i="15261">puts</span> <span data-i="15262">on</span> <span data-i="15263">this</span> <span data-i="15264">confusion,</span> </div>
+			<div><span data-i="15266">Grating</span> <span data-i="15267">so</span> <span data-i="15268">harshly</span> <span data-i="15269">all</span> <span data-i="15270">his</span> <span data-i="15271">days</span> <span data-i="15272">of</span> <span data-i="15273">quiet</span> </div>
+			<div><span data-i="15275">With</span> <span data-i="15276">turbulent</span> <span data-i="15277">and</span> <span data-i="15278">dangerous</span> <span data-i="15279">lunacy?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15281">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15283">He</span> <span data-i="15284">does</span> <span data-i="15285">confess</span> <span data-i="15286">he</span> <span data-i="15287">feels</span> <span data-i="15288">himself</span> <span data-i="15289">distracted;</span> </div>
+			<div><span data-i="15291">But</span> <span data-i="15292">from</span> <span data-i="15293">what</span> <span data-i="15294">cause</span> <span data-i="15295">he</span> <span data-i="15296">will</span> <span data-i="15297">by</span> <span data-i="15298">no</span> <span data-i="15299">means</span> <span data-i="15300">speak.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15302">GUILDENSTERN</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15304">Nor</span> <span data-i="15305">do</span> <span data-i="15306">we</span> <span data-i="15307">find</span> <span data-i="15308">him</span> <span data-i="15309">forward</span> <span data-i="15310">to</span> <span data-i="15311">be</span> <span data-i="15312">sounded,</span> </div>
+			<div><span data-i="15314">But,</span> <span data-i="15315">with</span> <span data-i="15316">a</span> <span data-i="15317">crafty</span> <span data-i="15318">madness,</span> <span data-i="15319">keeps</span> <span data-i="15320">aloof,</span> </div>
+			<div><span data-i="15322">When</span> <span data-i="15323">we</span> <span data-i="15324">would</span> <span data-i="15325">bring</span> <span data-i="15326">him</span> <span data-i="15327">on</span> <span data-i="15328">to</span> <span data-i="15329">some</span> <span data-i="15330">confession</span> </div>
+			<div><span data-i="15332">Of</span> <span data-i="15333">his</span> <span data-i="15334">true</span> <span data-i="15335">state.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15337">QUEEN</span> <span data-i="15338">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15340">Did</span> <span data-i="15341">he</span> <span data-i="15342">receive</span> <span data-i="15343">you</span> <span data-i="15344">well?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15346">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15348">Most</span> <span data-i="15349">like</span> <span data-i="15350">a</span> <span data-i="15351">gentleman.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15353">GUILDENSTERN</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15355">But</span> <span data-i="15356">with</span> <span data-i="15357">much</span> <span data-i="15358">forcing</span> <span data-i="15359">of</span> <span data-i="15360">his</span> <span data-i="15361">disposition.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15363">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15365">Niggard</span> <span data-i="15366">of</span> <span data-i="15367">question;</span> <span data-i="15368">but,</span> <span data-i="15369">of</span> <span data-i="15370">our</span> <span data-i="15371">demands,</span> </div>
+			<div><span data-i="15373">Most</span> <span data-i="15374">free</span> <span data-i="15375">in</span> <span data-i="15376">his</span> <span data-i="15377">reply.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15379">QUEEN</span> <span data-i="15380">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15382">Did</span> <span data-i="15383">you</span> <span data-i="15384">assay</span> <span data-i="15385">him?</span> </div>
+			<div><span data-i="15387">To</span> <span data-i="15388">any</span> <span data-i="15389">pastime?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15391">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15393">Madam,</span> <span data-i="15394">it</span> <span data-i="15395">so</span> <span data-i="15396">fell</span> <span data-i="15397">out,</span> <span data-i="15398">that</span> <span data-i="15399">certain</span> <span data-i="15400">players</span> </div>
+			<div><span data-i="15402">We</span> <span data-i="15403">o'er-raught</span> <span data-i="15404">on</span> <span data-i="15405">the</span> <span data-i="15406">way:</span> <span data-i="15407">of</span> <span data-i="15408">these</span> <span data-i="15409">we</span> <span data-i="15410">told</span> <span data-i="15411">him;</span> </div>
+			<div><span data-i="15413">And</span> <span data-i="15414">there</span> <span data-i="15415">did</span> <span data-i="15416">seem</span> <span data-i="15417">in</span> <span data-i="15418">him</span> <span data-i="15419">a</span> <span data-i="15420">kind</span> <span data-i="15421">of</span> <span data-i="15422">joy</span> </div>
+			<div><span data-i="15424">To</span> <span data-i="15425">hear</span> <span data-i="15426">of</span> <span data-i="15427">it:</span> <span data-i="15428">they</span> <span data-i="15429">are</span> <span data-i="15430">about</span> <span data-i="15431">the</span> <span data-i="15432">court,</span> </div>
+			<div><span data-i="15434">And,</span> <span data-i="15435">as</span> <span data-i="15436">I</span> <span data-i="15437">think,</span> <span data-i="15438">they</span> <span data-i="15439">have</span> <span data-i="15440">already</span> <span data-i="15441">order</span> </div>
+			<div><span data-i="15443">This</span> <span data-i="15444">night</span> <span data-i="15445">to</span> <span data-i="15446">play</span> <span data-i="15447">before</span> <span data-i="15448">him.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15450">LORD</span> <span data-i="15451">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15453">'Tis</span> <span data-i="15454">most</span> <span data-i="15455">true:</span> </div>
+			<div><span data-i="15457">And</span> <span data-i="15458">he</span> <span data-i="15459">beseech'd</span> <span data-i="15460">me</span> <span data-i="15461">to</span> <span data-i="15462">entreat</span> <span data-i="15463">your</span> <span data-i="15464">majesties</span> </div>
+			<div><span data-i="15466">To</span> <span data-i="15467">hear</span> <span data-i="15468">and</span> <span data-i="15469">see</span> <span data-i="15470">the</span> <span data-i="15471">matter.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15473">KING</span> <span data-i="15474">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15476">With</span> <span data-i="15477">all</span> <span data-i="15478">my</span> <span data-i="15479">heart;</span> <span data-i="15480">and</span> <span data-i="15481">it</span> <span data-i="15482">doth</span> <span data-i="15483">much</span> <span data-i="15484">content</span> <span data-i="15485">me</span> </div>
+			<div><span data-i="15487">To</span> <span data-i="15488">hear</span> <span data-i="15489">him</span> <span data-i="15490">so</span> <span data-i="15491">inclined.</span> </div>
+			<div><span data-i="15493">Good</span> <span data-i="15494">gentlemen,</span> <span data-i="15495">give</span> <span data-i="15496">him</span> <span data-i="15497">a</span> <span data-i="15498">further</span> <span data-i="15499">edge,</span> </div>
+			<div><span data-i="15501">And</span> <span data-i="15502">drive</span> <span data-i="15503">his</span> <span data-i="15504">purpose</span> <span data-i="15505">on</span> <span data-i="15506">to</span> <span data-i="15507">these</span> <span data-i="15508">delights.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15510">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15512">We</span> <span data-i="15513">shall,</span> <span data-i="15514">my</span> <span data-i="15515">lord.</span> </div>
+		</div>
+	</div>
+</div>

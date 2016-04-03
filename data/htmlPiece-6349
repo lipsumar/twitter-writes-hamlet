@@ -1,0 +1,29 @@
+<div class="text__stage-direction"><span data-i="6349">Exeunt</span> <span data-i="6350">Ghost</span> <span data-i="6351">and</span> <span data-i="6352">HAMLET</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="6355">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="6357">He</span> <span data-i="6358">waxes</span> <span data-i="6359">desperate</span> <span data-i="6360">with</span> <span data-i="6361">imagination.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="6363">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="6365">Let's</span> <span data-i="6366">follow;</span> <span data-i="6367">'tis</span> <span data-i="6368">not</span> <span data-i="6369">fit</span> <span data-i="6370">thus</span> <span data-i="6371">to</span> <span data-i="6372">obey</span> <span data-i="6373">him.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="6375">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="6377">Have</span> <span data-i="6378">after.</span> <span data-i="6379">To</span> <span data-i="6380">what</span> <span data-i="6381">issue</span> <span data-i="6382">will</span> <span data-i="6383">this</span> <span data-i="6384">come?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="6386">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="6388">Something</span> <span data-i="6389">is</span> <span data-i="6390">rotten</span> <span data-i="6391">in</span> <span data-i="6392">the</span> <span data-i="6393">state</span> <span data-i="6394">of</span> <span data-i="6395">Denmark.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="6397">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="6399">Heaven</span> <span data-i="6400">will</span> <span data-i="6401">direct</span> <span data-i="6402">it.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="6404">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="6406">Nay,</span> <span data-i="6407">let's</span> <span data-i="6408">follow</span> <span data-i="6409">him.</span> </div>
+		</div>
+	</div>
+</div>

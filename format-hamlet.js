@@ -28,8 +28,9 @@ var queue = [];
 
 
 
-function out(html, s){
+function out(html, s, split){
 //console.log('out', html, s);
+	var splitI = nextWordI;
 	if(s){
 		var words = extractWords(s);
 		sReplaced = '';
@@ -73,6 +74,10 @@ function out(html, s){
 		});
 
 		html = html.split('%s').join(sReplaced);
+	}
+
+	if(split){
+		html = '@split-token@'+splitI+'==='+html;
 	}
 
 	dialogLines.push(html);
@@ -141,7 +146,7 @@ lines.forEach(function(line, i){
 		}
 
 		if(!titleOut){
-			out('<div class="text__title text__title--1">%s</div>', 'The Tragedy of');
+			out('0===<div class="text__title text__title--1">%s</div>', 'The Tragedy of');
 			out('<div class="text__title text__title--2">%s</div>', 'Hamlet');
 			out('<div class="text__title text__title--3">%s</div>', 'Prince of Denmark');
 			titleOut = true;
@@ -157,7 +162,7 @@ lines.forEach(function(line, i){
 					out('\t</div>\n</div>');
 					openTextDialogTag = false;
 				}
-				out('<div class="text__stage-direction">%s</div>', line);
+				out('<div class="text__stage-direction">%s</div>', line, true);
 				lastWasDirection = true;
 				lastWasScene = false;
 				lastWasDialog = false;
@@ -212,8 +217,38 @@ function processQueue(){
 	}
 
 }
-processQueue();
+//processQueue();
 
 
 
-fs.writeFileSync('hamlet.html', fs.readFileSync('hamlet-header.html')+dialogLines.join('\n')+fs.readFileSync('hamlet-footer.html'));
+var hamletHtml = dialogLines.join('\n');
+var hamletHtmlParts = hamletHtml.split('@split-token@');
+var savedHamletHtmlPartsCount = 0;
+var htmlQueue = [];
+var htmlPieceIndex = [];
+hamletHtmlParts.forEach(function(section){
+	var parts = section.split('===');
+	var partI = parseInt(parts[0], 10);
+	htmlQueue.push({
+		html: parts[1],
+		index: partI
+	});
+	htmlPieceIndex.push(partI);
+
+});
+console.log(hamletHtmlParts.length + ' parts');
+
+function processHtmlQueue(item){
+	item = item || htmlQueue.shift();
+	if(item){
+		fs.writeFileSync('data/htmlPiece-'+item.index, item.html);
+		savedHamletHtmlPartsCount++;
+		console.log('parts saved: ' + Math.round((savedHamletHtmlPartsCount/hamletHtmlParts.length)*100)+'%');
+		processHtmlQueue();
+
+	}
+
+}
+fs.writeFileSync('data/htmlPieceIndex.json', JSON.stringify(htmlPieceIndex));
+processHtmlQueue();
+//fs.writeFileSync('hamlet.html', fs.readFileSync('hamlet-header.html') + hamletHtml + fs.readFileSync('hamlet-footer.html'));

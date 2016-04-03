@@ -1,0 +1,30 @@
+<div class="text__stage-direction"><span data-i="35383">Enter</span> <span data-i="35384">a</span> <span data-i="35385">Lord</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="35388">Lord</span> </div>
+			<div><span data-i="35390">My</span> <span data-i="35391">lord,</span> <span data-i="35392">his</span> <span data-i="35393">majesty</span> <span data-i="35394">commended</span> <span data-i="35395">him</span> <span data-i="35396">to</span> <span data-i="35397">you</span> <span data-i="35398">by</span> <span data-i="35399">young</span> </div>
+			<div><span data-i="35401">Osric,</span> <span data-i="35402">who</span> <span data-i="35403">brings</span> <span data-i="35404">back</span> <span data-i="35405">to</span> <span data-i="35406">him</span> <span data-i="35407">that</span> <span data-i="35408">you</span> <span data-i="35409">attend</span> <span data-i="35410">him</span> <span data-i="35411">in</span> </div>
+			<div><span data-i="35413">the</span> <span data-i="35414">hall:</span> <span data-i="35415">he</span> <span data-i="35416">sends</span> <span data-i="35417">to</span> <span data-i="35418">know</span> <span data-i="35419">if</span> <span data-i="35420">your</span> <span data-i="35421">pleasure</span> <span data-i="35422">hold</span> <span data-i="35423">to</span> </div>
+			<div><span data-i="35425">play</span> <span data-i="35426">with</span> <span data-i="35427">Laertes,</span> <span data-i="35428">or</span> <span data-i="35429">that</span> <span data-i="35430">you</span> <span data-i="35431">will</span> <span data-i="35432">take</span> <span data-i="35433">longer</span> <span data-i="35434">time.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35436">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35438">I</span> <span data-i="35439">am</span> <span data-i="35440">constant</span> <span data-i="35441">to</span> <span data-i="35442">my</span> <span data-i="35443">purpose;</span> <span data-i="35444">they</span> <span data-i="35445">follow</span> <span data-i="35446">the</span> <span data-i="35447">king's</span> </div>
+			<div><span data-i="35449">pleasure:</span> <span data-i="35450">if</span> <span data-i="35451">his</span> <span data-i="35452">fitness</span> <span data-i="35453">speaks,</span> <span data-i="35454">mine</span> <span data-i="35455">is</span> <span data-i="35456">ready;</span> <span data-i="35457">now</span> </div>
+			<div><span data-i="35459">or</span> <span data-i="35460">whensoever,</span> <span data-i="35461">provided</span> <span data-i="35462">I</span> <span data-i="35463">be</span> <span data-i="35464">so</span> <span data-i="35465">able</span> <span data-i="35466">as</span> <span data-i="35467">now.</span> </div>
+			<div><span data-i="35469">Lord</span> </div>
+			<div><span data-i="35471">The</span> <span data-i="35472">king</span> <span data-i="35473">and</span> <span data-i="35474">queen</span> <span data-i="35475">and</span> <span data-i="35476">all</span> <span data-i="35477">are</span> <span data-i="35478">coming</span> <span data-i="35479">down.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35481">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35483">In</span> <span data-i="35484">happy</span> <span data-i="35485">time.</span> </div>
+			<div><span data-i="35487">Lord</span> </div>
+			<div><span data-i="35489">The</span> <span data-i="35490">queen</span> <span data-i="35491">desires</span> <span data-i="35492">you</span> <span data-i="35493">to</span> <span data-i="35494">use</span> <span data-i="35495">some</span> <span data-i="35496">gentle</span> </div>
+			<div><span data-i="35498">entertainment</span> <span data-i="35499">to</span> <span data-i="35500">Laertes</span> <span data-i="35501">before</span> <span data-i="35502">you</span> <span data-i="35503">fall</span> <span data-i="35504">to</span> <span data-i="35505">play.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="35507">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="35509">She</span> <span data-i="35510">well</span> <span data-i="35511">instructs</span> <span data-i="35512">me.</span> </div>
+		</div>
+	</div>
+</div>

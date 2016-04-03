@@ -1,0 +1,28 @@
+<div class="text__stage-direction"><span data-i="27142">Enter</span> <span data-i="27143">another</span> <span data-i="27144">Gentleman</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="27147">What</span> <span data-i="27148">is</span> <span data-i="27149">the</span> <span data-i="27150">matter?</span> </div>
+			<div><span data-i="27152">Gentleman</span> </div>
+			<div><span data-i="27154">Save</span> <span data-i="27155">yourself,</span> <span data-i="27156">my</span> <span data-i="27157">lord:</span> </div>
+			<div><span data-i="27159">The</span> <span data-i="27160">ocean,</span> <span data-i="27161">overpeering</span> <span data-i="27162">of</span> <span data-i="27163">his</span> <span data-i="27164">list,</span> </div>
+			<div><span data-i="27166">Eats</span> <span data-i="27167">not</span> <span data-i="27168">the</span> <span data-i="27169">flats</span> <span data-i="27170">with</span> <span data-i="27171">more</span> <span data-i="27172">impetuous</span> <span data-i="27173">haste</span> </div>
+			<div><span data-i="27175">Than</span> <span data-i="27176">young</span> <span data-i="27177">Laertes,</span> <span data-i="27178">in</span> <span data-i="27179">a</span> <span data-i="27180">riotous</span> <span data-i="27181">head,</span> </div>
+			<div><span data-i="27183">O'erbears</span> <span data-i="27184">your</span> <span data-i="27185">officers.</span> <span data-i="27186">The</span> <span data-i="27187">rabble</span> <span data-i="27188">call</span> <span data-i="27189">him</span> <span data-i="27190">lord;</span> </div>
+			<div><span data-i="27192">And,</span> <span data-i="27193">as</span> <span data-i="27194">the</span> <span data-i="27195">world</span> <span data-i="27196">were</span> <span data-i="27197">now</span> <span data-i="27198">but</span> <span data-i="27199">to</span> <span data-i="27200">begin,</span> </div>
+			<div><span data-i="27202">Antiquity</span> <span data-i="27203">forgot,</span> <span data-i="27204">custom</span> <span data-i="27205">not</span> <span data-i="27206">known,</span> </div>
+			<div><span data-i="27208">The</span> <span data-i="27209">ratifiers</span> <span data-i="27210">and</span> <span data-i="27211">props</span> <span data-i="27212">of</span> <span data-i="27213">every</span> <span data-i="27214">word,</span> </div>
+			<div><span data-i="27216">They</span> <span data-i="27217">cry</span> <span data-i="27218">'Choose</span> <span data-i="27219">we:</span> <span data-i="27220">Laertes</span> <span data-i="27221">shall</span> <span data-i="27222">be</span> <span data-i="27223">king:'</span> </div>
+			<div><span data-i="27225">Caps,</span> <span data-i="27226">hands,</span> <span data-i="27227">and</span> <span data-i="27228">tongues,</span> <span data-i="27229">applaud</span> <span data-i="27230">it</span> <span data-i="27231">to</span> <span data-i="27232">the</span> <span data-i="27233">clouds:</span> </div>
+			<div><span data-i="27235">'Laertes</span> <span data-i="27236">shall</span> <span data-i="27237">be</span> <span data-i="27238">king,</span> <span data-i="27239">Laertes</span> <span data-i="27240">king!'</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="27242">QUEEN</span> <span data-i="27243">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="27245">How</span> <span data-i="27246">cheerfully</span> <span data-i="27247">on</span> <span data-i="27248">the</span> <span data-i="27249">false</span> <span data-i="27250">trail</span> <span data-i="27251">they</span> <span data-i="27252">cry!</span> </div>
+			<div><span data-i="27254">O,</span> <span data-i="27255">this</span> <span data-i="27256">is</span> <span data-i="27257">counter,</span> <span data-i="27258">you</span> <span data-i="27259">false</span> <span data-i="27260">Danish</span> <span data-i="27261">dogs!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="27263">KING</span> <span data-i="27264">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="27266">The</span> <span data-i="27267">doors</span> <span data-i="27268">are</span> <span data-i="27269">broke.</span> </div>
+		</div>
+	</div>
+</div>

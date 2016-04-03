@@ -1,0 +1,15 @@
+<div class="text__stage-direction"><span data-i="10525">Reads</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="10528">'In</span> <span data-i="10529">her</span> <span data-i="10530">excellent</span> <span data-i="10531">white</span> <span data-i="10532">bosom,</span> <span data-i="10533">these,</span> <span data-i="10534">&</span> <span data-i="10535">c.'</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="10537">QUEEN</span> <span data-i="10538">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="10540">Came</span> <span data-i="10541">this</span> <span data-i="10542">from</span> <span data-i="10543">Hamlet</span> <span data-i="10544">to</span> <span data-i="10545">her?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="10547">LORD</span> <span data-i="10548">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="10550">Good</span> <span data-i="10551">madam,</span> <span data-i="10552">stay</span> <span data-i="10553">awhile;</span> <span data-i="10554">I</span> <span data-i="10555">will</span> <span data-i="10556">be</span> <span data-i="10557">faithful.</span> </div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,45 @@
+<div class="text__stage-direction"><span data-i="25297">Exeunt</span> <span data-i="25298">Attendants</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="25301">KING</span> <span data-i="25302">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25304">Hamlet,</span> <span data-i="25305">this</span> <span data-i="25306">deed,</span> <span data-i="25307">for</span> <span data-i="25308">thine</span> <span data-i="25309">especial</span> <span data-i="25310">safety,--</span> </div>
+			<div><span data-i="25312">Which</span> <span data-i="25313">we</span> <span data-i="25314">do</span> <span data-i="25315">tender,</span> <span data-i="25316">as</span> <span data-i="25317">we</span> <span data-i="25318">dearly</span> <span data-i="25319">grieve</span> </div>
+			<div><span data-i="25321">For</span> <span data-i="25322">that</span> <span data-i="25323">which</span> <span data-i="25324">thou</span> <span data-i="25325">hast</span> <span data-i="25326">done,--must</span> <span data-i="25327">send</span> <span data-i="25328">thee</span> <span data-i="25329">hence</span> </div>
+			<div><span data-i="25331">With</span> <span data-i="25332">fiery</span> <span data-i="25333">quickness:</span> <span data-i="25334">therefore</span> <span data-i="25335">prepare</span> <span data-i="25336">thyself;</span> </div>
+			<div><span data-i="25338">The</span> <span data-i="25339">bark</span> <span data-i="25340">is</span> <span data-i="25341">ready,</span> <span data-i="25342">and</span> <span data-i="25343">the</span> <span data-i="25344">wind</span> <span data-i="25345">at</span> <span data-i="25346">help,</span> </div>
+			<div><span data-i="25348">The</span> <span data-i="25349">associates</span> <span data-i="25350">tend,</span> <span data-i="25351">and</span> <span data-i="25352">every</span> <span data-i="25353">thing</span> <span data-i="25354">is</span> <span data-i="25355">bent</span> </div>
+			<div><span data-i="25357">For</span> <span data-i="25358">England.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25360">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25362">For</span> <span data-i="25363">England!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25365">KING</span> <span data-i="25366">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25368">Ay,</span> <span data-i="25369">Hamlet.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25371">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25373">Good.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25375">KING</span> <span data-i="25376">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25378">So</span> <span data-i="25379">is</span> <span data-i="25380">it,</span> <span data-i="25381">if</span> <span data-i="25382">thou</span> <span data-i="25383">knew'st</span> <span data-i="25384">our</span> <span data-i="25385">purposes.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25387">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25389">I</span> <span data-i="25390">see</span> <span data-i="25391">a</span> <span data-i="25392">cherub</span> <span data-i="25393">that</span> <span data-i="25394">sees</span> <span data-i="25395">them.</span> <span data-i="25396">But,</span> <span data-i="25397">come;</span> <span data-i="25398">for</span> </div>
+			<div><span data-i="25400">England!</span> <span data-i="25401">Farewell,</span> <span data-i="25402">dear</span> <span data-i="25403">mother.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25405">KING</span> <span data-i="25406">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25408">Thy</span> <span data-i="25409">loving</span> <span data-i="25410">father,</span> <span data-i="25411">Hamlet.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25413">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25415">My</span> <span data-i="25416">mother:</span> <span data-i="25417">father</span> <span data-i="25418">and</span> <span data-i="25419">mother</span> <span data-i="25420">is</span> <span data-i="25421">man</span> <span data-i="25422">and</span> <span data-i="25423">wife;</span> <span data-i="25424">man</span> </div>
+			<div><span data-i="25426">and</span> <span data-i="25427">wife</span> <span data-i="25428">is</span> <span data-i="25429">one</span> <span data-i="25430">flesh;</span> <span data-i="25431">and</span> <span data-i="25432">so,</span> <span data-i="25433">my</span> <span data-i="25434">mother.</span> <span data-i="25435">Come,</span> <span data-i="25436">for</span> <span data-i="25437">England!</span> </div>
+		</div>
+	</div>
+</div>

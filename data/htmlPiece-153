@@ -1,0 +1,27 @@
+<div class="text__stage-direction"><span data-i="153">Enter</span> <span data-i="154">HORATIO</span> <span data-i="155">and</span> <span data-i="156">MARCELLUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="159">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="161">Friends</span> <span data-i="162">to</span> <span data-i="163">this</span> <span data-i="164">ground.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="166">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="168">And</span> <span data-i="169">liegemen</span> <span data-i="170">to</span> <span data-i="171">the</span> <span data-i="172">Dane.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="174">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="176">Give</span> <span data-i="177">you</span> <span data-i="178">good</span> <span data-i="179">night.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="181">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="183">O,</span> <span data-i="184">farewell,</span> <span data-i="185">honest</span> <span data-i="186">soldier:</span> </div>
+			<div><span data-i="188">Who</span> <span data-i="189">hath</span> <span data-i="190">relieved</span> <span data-i="191">you?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="193">FRANCISCO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="195">Bernardo</span> <span data-i="196">has</span> <span data-i="197">my</span> <span data-i="198">place.</span> </div>
+			<div><span data-i="200">Give</span> <span data-i="201">you</span> <span data-i="202">good</span> <span data-i="203">night.</span> </div>
+		</div>
+	</div>
+</div>

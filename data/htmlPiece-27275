@@ -1,0 +1,17 @@
+<div class="text__stage-direction"><span data-i="27275">Enter</span> <span data-i="27276">LAERTES,</span> <span data-i="27277">armed;</span> <span data-i="27278">Danes</span> <span data-i="27279">following</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="27282">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="27284">Where</span> <span data-i="27285">is</span> <span data-i="27286">this</span> <span data-i="27287">king?</span> <span data-i="27288">Sirs,</span> <span data-i="27289">stand</span> <span data-i="27290">you</span> <span data-i="27291">all</span> <span data-i="27292">without.</span> </div>
+			<div><span data-i="27294">Danes</span> </div>
+			<div><span data-i="27296">No,</span> <span data-i="27297">let's</span> <span data-i="27298">come</span> <span data-i="27299">in.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="27301">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="27303">I</span> <span data-i="27304">pray</span> <span data-i="27305">you,</span> <span data-i="27306">give</span> <span data-i="27307">me</span> <span data-i="27308">leave.</span> </div>
+			<div><span data-i="27310">Danes</span> </div>
+			<div><span data-i="27312">We</span> <span data-i="27313">will,</span> <span data-i="27314">we</span> <span data-i="27315">will.</span> </div>
+		</div>
+	</div>
+</div>

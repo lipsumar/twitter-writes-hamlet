@@ -1,0 +1,32 @@
+<div class="text__stage-direction"><span data-i="1287">Cock</span> <span data-i="1288">crows</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="1291">If</span> <span data-i="1292">thou</span> <span data-i="1293">art</span> <span data-i="1294">privy</span> <span data-i="1295">to</span> <span data-i="1296">thy</span> <span data-i="1297">country's</span> <span data-i="1298">fate,</span> </div>
+			<div><span data-i="1300">Which,</span> <span data-i="1301">happily,</span> <span data-i="1302">foreknowing</span> <span data-i="1303">may</span> <span data-i="1304">avoid,</span> <span data-i="1305">O,</span> <span data-i="1306">speak!</span> </div>
+			<div><span data-i="1308">Or</span> <span data-i="1309">if</span> <span data-i="1310">thou</span> <span data-i="1311">hast</span> <span data-i="1312">uphoarded</span> <span data-i="1313">in</span> <span data-i="1314">thy</span> <span data-i="1315">life</span> </div>
+			<div><span data-i="1317">Extorted</span> <span data-i="1318">treasure</span> <span data-i="1319">in</span> <span data-i="1320">the</span> <span data-i="1321">womb</span> <span data-i="1322">of</span> <span data-i="1323">earth,</span> </div>
+			<div><span data-i="1325">For</span> <span data-i="1326">which,</span> <span data-i="1327">they</span> <span data-i="1328">say,</span> <span data-i="1329">you</span> <span data-i="1330">spirits</span> <span data-i="1331">oft</span> <span data-i="1332">walk</span> <span data-i="1333">in</span> <span data-i="1334">death,</span> </div>
+			<div><span data-i="1336">Speak</span> <span data-i="1337">of</span> <span data-i="1338">it:</span> <span data-i="1339">stay,</span> <span data-i="1340">and</span> <span data-i="1341">speak!</span> <span data-i="1342">Stop</span> <span data-i="1343">it,</span> <span data-i="1344">Marcellus.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="1346">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="1348">Shall</span> <span data-i="1349">I</span> <span data-i="1350">strike</span> <span data-i="1351">at</span> <span data-i="1352">it</span> <span data-i="1353">with</span> <span data-i="1354">my</span> <span data-i="1355">partisan?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="1357">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="1359">Do,</span> <span data-i="1360">if</span> <span data-i="1361">it</span> <span data-i="1362">will</span> <span data-i="1363">not</span> <span data-i="1364">stand.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="1366">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="1368">'Tis</span> <span data-i="1369">here!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="1371">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="1373">'Tis</span> <span data-i="1374">here!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="1376">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="1378">'Tis</span> <span data-i="1379">gone!</span> </div>
+		</div>
+	</div>
+</div>

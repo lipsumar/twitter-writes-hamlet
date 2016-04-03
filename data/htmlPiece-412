@@ -1,0 +1,52 @@
+<div class="text__stage-direction"><span data-i="412">Enter</span> <span data-i="413">Ghost</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="416">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="418">Peace,</span> <span data-i="419">break</span> <span data-i="420">thee</span> <span data-i="421">off;</span> <span data-i="422">look,</span> <span data-i="423">where</span> <span data-i="424">it</span> <span data-i="425">comes</span> <span data-i="426">again!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="428">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="430">In</span> <span data-i="431">the</span> <span data-i="432">same</span> <span data-i="433">figure,</span> <span data-i="434">like</span> <span data-i="435">the</span> <span data-i="436">king</span> <span data-i="437">that's</span> <span data-i="438">dead.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="440">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="442">Thou</span> <span data-i="443">art</span> <span data-i="444">a</span> <span data-i="445">scholar;</span> <span data-i="446">speak</span> <span data-i="447">to</span> <span data-i="448">it,</span> <span data-i="449">Horatio.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="451">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="453">Looks</span> <span data-i="454">it</span> <span data-i="455">not</span> <span data-i="456">like</span> <span data-i="457">the</span> <span data-i="458">king?</span> <span data-i="459">mark</span> <span data-i="460">it,</span> <span data-i="461">Horatio.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="463">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="465">Most</span> <span data-i="466">like:</span> <span data-i="467">it</span> <span data-i="468">harrows</span> <span data-i="469">me</span> <span data-i="470">with</span> <span data-i="471">fear</span> <span data-i="472">and</span> <span data-i="473">wonder.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="475">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="477">It</span> <span data-i="478">would</span> <span data-i="479">be</span> <span data-i="480">spoke</span> <span data-i="481">to.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="483">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="485">Question</span> <span data-i="486">it,</span> <span data-i="487">Horatio.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="489">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="491">What</span> <span data-i="492">art</span> <span data-i="493">thou</span> <span data-i="494">that</span> <span data-i="495">usurp'st</span> <span data-i="496">this</span> <span data-i="497">time</span> <span data-i="498">of</span> <span data-i="499">night,</span> </div>
+			<div><span data-i="501">Together</span> <span data-i="502">with</span> <span data-i="503">that</span> <span data-i="504">fair</span> <span data-i="505">and</span> <span data-i="506">warlike</span> <span data-i="507">form</span> </div>
+			<div><span data-i="509">In</span> <span data-i="510">which</span> <span data-i="511">the</span> <span data-i="512">majesty</span> <span data-i="513">of</span> <span data-i="514">buried</span> <span data-i="515">Denmark</span> </div>
+			<div><span data-i="517">Did</span> <span data-i="518">sometimes</span> <span data-i="519">march?</span> <span data-i="520">by</span> <span data-i="521">heaven</span> <span data-i="522">I</span> <span data-i="523">charge</span> <span data-i="524">thee,</span> <span data-i="525">speak!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="527">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="529">It</span> <span data-i="530">is</span> <span data-i="531">offended.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="533">BERNARDO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="535">See,</span> <span data-i="536">it</span> <span data-i="537">stalks</span> <span data-i="538">away!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="540">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="542">Stay!</span> <span data-i="543">speak,</span> <span data-i="544">speak!</span> <span data-i="545">I</span> <span data-i="546">charge</span> <span data-i="547">thee,</span> <span data-i="548">speak!</span> </div>
+		</div>
+	</div>
+</div>

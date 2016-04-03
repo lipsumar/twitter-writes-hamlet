@@ -1,0 +1,49 @@
+<div class="text__stage-direction"><span data-i="20738">Enter</span> <span data-i="20739">POLONIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="20742">God</span> <span data-i="20743">bless</span> <span data-i="20744">you,</span> <span data-i="20745">sir!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20747">LORD</span> <span data-i="20748">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20750">My</span> <span data-i="20751">lord,</span> <span data-i="20752">the</span> <span data-i="20753">queen</span> <span data-i="20754">would</span> <span data-i="20755">speak</span> <span data-i="20756">with</span> <span data-i="20757">you,</span> <span data-i="20758">and</span> </div>
+			<div><span data-i="20760">presently.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20762">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20764">Do</span> <span data-i="20765">you</span> <span data-i="20766">see</span> <span data-i="20767">yonder</span> <span data-i="20768">cloud</span> <span data-i="20769">that's</span> <span data-i="20770">almost</span> <span data-i="20771">in</span> <span data-i="20772">shape</span> <span data-i="20773">of</span> <span data-i="20774">a</span> <span data-i="20775">camel?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20777">LORD</span> <span data-i="20778">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20780">By</span> <span data-i="20781">the</span> <span data-i="20782">mass,</span> <span data-i="20783">and</span> <span data-i="20784">'tis</span> <span data-i="20785">like</span> <span data-i="20786">a</span> <span data-i="20787">camel,</span> <span data-i="20788">indeed.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20790">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20792">Methinks</span> <span data-i="20793">it</span> <span data-i="20794">is</span> <span data-i="20795">like</span> <span data-i="20796">a</span> <span data-i="20797">weasel.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20799">LORD</span> <span data-i="20800">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20802">It</span> <span data-i="20803">is</span> <span data-i="20804">backed</span> <span data-i="20805">like</span> <span data-i="20806">a</span> <span data-i="20807">weasel.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20809">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20811">Or</span> <span data-i="20812">like</span> <span data-i="20813">a</span> <span data-i="20814">whale?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20816">LORD</span> <span data-i="20817">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20819">Very</span> <span data-i="20820">like</span> <span data-i="20821">a</span> <span data-i="20822">whale.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20824">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20826">Then</span> <span data-i="20827">I</span> <span data-i="20828">will</span> <span data-i="20829">come</span> <span data-i="20830">to</span> <span data-i="20831">my</span> <span data-i="20832">mother</span> <span data-i="20833">by</span> <span data-i="20834">and</span> <span data-i="20835">by.</span> <span data-i="20836">They</span> <span data-i="20837">fool</span> </div>
+			<div><span data-i="20839">me</span> <span data-i="20840">to</span> <span data-i="20841">the</span> <span data-i="20842">top</span> <span data-i="20843">of</span> <span data-i="20844">my</span> <span data-i="20845">bent.</span> <span data-i="20846">I</span> <span data-i="20847">will</span> <span data-i="20848">come</span> <span data-i="20849">by</span> <span data-i="20850">and</span> <span data-i="20851">by.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20853">LORD</span> <span data-i="20854">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20856">I</span> <span data-i="20857">will</span> <span data-i="20858">say</span> <span data-i="20859">so.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20861">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20863">By</span> <span data-i="20864">and</span> <span data-i="20865">by</span> <span data-i="20866">is</span> <span data-i="20867">easily</span> <span data-i="20868">said.</span> </div>
+		</div>
+	</div>
+</div>

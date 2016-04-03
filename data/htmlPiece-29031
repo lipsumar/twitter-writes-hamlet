@@ -1,0 +1,22 @@
+<div class="text__stage-direction"><span data-i="29031">Enter</span> <span data-i="29032">a</span> <span data-i="29033">Messenger</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="29036">How</span> <span data-i="29037">now!</span> <span data-i="29038">what</span> <span data-i="29039">news?</span> </div>
+			<div><span data-i="29041">Messenger</span> </div>
+			<div><span data-i="29043">Letters,</span> <span data-i="29044">my</span> <span data-i="29045">lord,</span> <span data-i="29046">from</span> <span data-i="29047">Hamlet:</span> </div>
+			<div><span data-i="29049">This</span> <span data-i="29050">to</span> <span data-i="29051">your</span> <span data-i="29052">majesty;</span> <span data-i="29053">this</span> <span data-i="29054">to</span> <span data-i="29055">the</span> <span data-i="29056">queen.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="29058">KING</span> <span data-i="29059">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="29061">From</span> <span data-i="29062">Hamlet!</span> <span data-i="29063">who</span> <span data-i="29064">brought</span> <span data-i="29065">them?</span> </div>
+			<div><span data-i="29067">Messenger</span> </div>
+			<div><span data-i="29069">Sailors,</span> <span data-i="29070">my</span> <span data-i="29071">lord,</span> <span data-i="29072">they</span> <span data-i="29073">say;</span> <span data-i="29074">I</span> <span data-i="29075">saw</span> <span data-i="29076">them</span> <span data-i="29077">not:</span> </div>
+			<div><span data-i="29079">They</span> <span data-i="29080">were</span> <span data-i="29081">given</span> <span data-i="29082">me</span> <span data-i="29083">by</span> <span data-i="29084">Claudio;</span> <span data-i="29085">he</span> <span data-i="29086">received</span> <span data-i="29087">them</span> </div>
+			<div><span data-i="29089">Of</span> <span data-i="29090">him</span> <span data-i="29091">that</span> <span data-i="29092">brought</span> <span data-i="29093">them.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="29095">KING</span> <span data-i="29096">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="29098">Laertes,</span> <span data-i="29099">you</span> <span data-i="29100">shall</span> <span data-i="29101">hear</span> <span data-i="29102">them.</span> <span data-i="29103">Leave</span> <span data-i="29104">us.</span> </div>
+		</div>
+	</div>
+</div>

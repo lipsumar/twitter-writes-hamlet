@@ -1,0 +1,22 @@
+<div class="text__stage-direction"><span data-i="21963">Enter</span> <span data-i="21964">QUEEN</span> <span data-i="21965">GERTRUDE</span> <span data-i="21966">and</span> <span data-i="21967">POLONIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="21969">LORD</span> <span data-i="21970">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="21972">He</span> <span data-i="21973">will</span> <span data-i="21974">come</span> <span data-i="21975">straight.</span> <span data-i="21976">Look</span> <span data-i="21977">you</span> <span data-i="21978">lay</span> <span data-i="21979">home</span> <span data-i="21980">to</span> <span data-i="21981">him:</span> </div>
+			<div><span data-i="21983">Tell</span> <span data-i="21984">him</span> <span data-i="21985">his</span> <span data-i="21986">pranks</span> <span data-i="21987">have</span> <span data-i="21988">been</span> <span data-i="21989">too</span> <span data-i="21990">broad</span> <span data-i="21991">to</span> <span data-i="21992">bear</span> <span data-i="21993">with,</span> </div>
+			<div><span data-i="21995">And</span> <span data-i="21996">that</span> <span data-i="21997">your</span> <span data-i="21998">grace</span> <span data-i="21999">hath</span> <span data-i="22000">screen'd</span> <span data-i="22001">and</span> <span data-i="22002">stood</span> <span data-i="22003">between</span> </div>
+			<div><span data-i="22005">Much</span> <span data-i="22006">heat</span> <span data-i="22007">and</span> <span data-i="22008">him.</span> <span data-i="22009">I'll</span> <span data-i="22010">sconce</span> <span data-i="22011">me</span> <span data-i="22012">even</span> <span data-i="22013">here.</span> </div>
+			<div><span data-i="22015">Pray</span> <span data-i="22016">you,</span> <span data-i="22017">be</span> <span data-i="22018">round</span> <span data-i="22019">with</span> <span data-i="22020">him.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22022">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22024">[Within]</span> <span data-i="22025">Mother,</span> <span data-i="22026">mother,</span> <span data-i="22027">mother!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22029">QUEEN</span> <span data-i="22030">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22032">I'll</span> <span data-i="22033">warrant</span> <span data-i="22034">you,</span> </div>
+			<div><span data-i="22036">Fear</span> <span data-i="22037">me</span> <span data-i="22038">not:</span> <span data-i="22039">withdraw,</span> <span data-i="22040">I</span> <span data-i="22041">hear</span> <span data-i="22042">him</span> <span data-i="22043">coming.</span> </div>
+		</div>
+	</div>
+</div>

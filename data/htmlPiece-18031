@@ -1,0 +1,23 @@
+<div class="text__stage-direction"><span data-i="18031">Danish</span> <span data-i="18032">march.</span> <span data-i="18033">A</span> <span data-i="18034">flourish.</span> <span data-i="18035">Enter</span> <span data-i="18036">KING</span> <span data-i="18037">CLAUDIUS,</span> <span data-i="18038">QUEEN</span> <span data-i="18039">GERTRUDE,</span> <span data-i="18040">POLONIUS,</span> <span data-i="18041">OPHELIA,</span> <span data-i="18042">ROSENCRANTZ,</span> <span data-i="18043">GUILDENSTERN,</span> <span data-i="18044">and</span> <span data-i="18045">others</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="18048">KING</span> <span data-i="18049">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18051">How</span> <span data-i="18052">fares</span> <span data-i="18053">our</span> <span data-i="18054">cousin</span> <span data-i="18055">Hamlet?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18057">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18059">Excellent,</span> <span data-i="18060">i'</span> <span data-i="18061">faith;</span> <span data-i="18062">of</span> <span data-i="18063">the</span> <span data-i="18064">chameleon's</span> <span data-i="18065">dish:</span> <span data-i="18066">I</span> <span data-i="18067">eat</span> </div>
+			<div><span data-i="18069">the</span> <span data-i="18070">air,</span> <span data-i="18071">promise-crammed:</span> <span data-i="18072">you</span> <span data-i="18073">cannot</span> <span data-i="18074">feed</span> <span data-i="18075">capons</span> <span data-i="18076">so.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18078">KING</span> <span data-i="18079">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18081">I</span> <span data-i="18082">have</span> <span data-i="18083">nothing</span> <span data-i="18084">with</span> <span data-i="18085">this</span> <span data-i="18086">answer,</span> <span data-i="18087">Hamlet;</span> <span data-i="18088">these</span> <span data-i="18089">words</span> </div>
+			<div><span data-i="18091">are</span> <span data-i="18092">not</span> <span data-i="18093">mine.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18095">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18097">No,</span> <span data-i="18098">nor</span> <span data-i="18099">mine</span> <span data-i="18100">now.</span> </div>
+		</div>
+	</div>
+</div>

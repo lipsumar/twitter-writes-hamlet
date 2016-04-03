@@ -1,0 +1,28 @@
+<div class="text__stage-direction"><span data-i="24993">Enter</span> <span data-i="24994">ROSENCRANTZ</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="24997">How</span> <span data-i="24998">now!</span> <span data-i="24999">what</span> <span data-i="25000">hath</span> <span data-i="25001">befall'n?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25003">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25005">Where</span> <span data-i="25006">the</span> <span data-i="25007">dead</span> <span data-i="25008">body</span> <span data-i="25009">is</span> <span data-i="25010">bestow'd,</span> <span data-i="25011">my</span> <span data-i="25012">lord,</span> </div>
+			<div><span data-i="25014">We</span> <span data-i="25015">cannot</span> <span data-i="25016">get</span> <span data-i="25017">from</span> <span data-i="25018">him.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25020">KING</span> <span data-i="25021">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25023">But</span> <span data-i="25024">where</span> <span data-i="25025">is</span> <span data-i="25026">he?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25028">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25030">Without,</span> <span data-i="25031">my</span> <span data-i="25032">lord;</span> <span data-i="25033">guarded,</span> <span data-i="25034">to</span> <span data-i="25035">know</span> <span data-i="25036">your</span> <span data-i="25037">pleasure.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25039">KING</span> <span data-i="25040">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25042">Bring</span> <span data-i="25043">him</span> <span data-i="25044">before</span> <span data-i="25045">us.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25047">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25049">Ho,</span> <span data-i="25050">Guildenstern!</span> <span data-i="25051">bring</span> <span data-i="25052">in</span> <span data-i="25053">my</span> <span data-i="25054">lord.</span> </div>
+		</div>
+	</div>
+</div>

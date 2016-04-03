@@ -15,7 +15,7 @@ var dataset = gcloud.datastore.dataset({
 
 var htmlPieceIndex = require('./data/htmlPieceIndex.json');
 
-var TRACK_KEYWORDS = 'writingtwitter,shakespeare,hamlet,act,scene,claudius,gertrude,polonius,horatio,ophelia,laertes,fortinbras,ghost,rosencrantz,guildenstern,osric,voltimand,cornelius,marcellus,bernardo,francesco,reynaldo,elsinor';
+var TRACK_KEYWORDS = 'writingtwitter,shakespeare,hamlet,act,scene,claudius,gertrude,polonius,horatio,ophelia,laertes,fortinbras,ghost,rosencrantz,guildenstern,osric,voltimand,cornelius,marcellus,bernardo,francesco,reynaldo,elsinore';
 
 //var exec = require('child_process').exec;
 var fs = require('fs');

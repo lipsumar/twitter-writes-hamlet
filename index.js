@@ -10,7 +10,7 @@ var client = new Twitter({
 
 var gcloud = require('gcloud');
 var dataset = gcloud.datastore.dataset({
-	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet'
+	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet-us'
 });
 
 var htmlPieceIndex = require('./data/htmlPieceIndex.json');
@@ -371,9 +371,10 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 	console.log(metaLast);
 	if(metaLast){
 		currentWordIndex = metaLast.data.index;
-		currentWordFetchIndex = currentWordIndex;
+
 		console.log('currentWordIndex', currentWordIndex);
 	}
+	currentWordFetchIndex = currentWordIndex;
 
 	fetchNextWordsFromStore(function(){
 		nextWord();

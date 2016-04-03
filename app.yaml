@@ -3,6 +3,8 @@ runtime: nodejs
 vm: true
 # [END runtime]
 
+manual_scaling:
+  instances: 1
 
 env_variables:
     GCLOUD_PROJECT: twitter-writes-hamlet-us

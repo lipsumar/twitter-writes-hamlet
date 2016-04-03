@@ -5,6 +5,17 @@ indexes:
     properties:
       -
         name: found_in_twitter
+  -
+    kind: Word
+    properties:
+      -
+        name: index
+  -
+    kind: Word
+    properties:
+      -
+        name: found_in_twitter
       -
         direction: asc
         name: index
+

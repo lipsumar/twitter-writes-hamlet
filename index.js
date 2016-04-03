@@ -1,12 +1,7 @@
 /*jslint node: true */
 process.env.GOOGLE_APPLICATION_CREDENTIALS = './gcred.json';
 var Twitter = require('twitter');
-var client = new Twitter({
-	consumer_key: 'jEWvKxDeIq4XYeEKOLQa78VlO',
-	consumer_secret: 'PxneO6JUDVpTNylhhvzhZctk3R8DahlqPuq1M7p9XxS9XeG8Xb',
-	access_token_key: '65347065-TdyjkbKhXnjCYkgO8UsYhulkdtfpHJISPegLLgut8',
-	access_token_secret: 'tbt7dSQKwTmLGQE6e61fkYzjbqLXxfNTT6C2guBV5U7zN'
-});
+var client = new Twitter(require('./twitter-cred.json'));
 
 var gcloud = require('gcloud');
 var dataset = gcloud.datastore.dataset({

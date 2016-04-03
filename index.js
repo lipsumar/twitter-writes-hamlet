@@ -369,7 +369,7 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 		throw err;
 	}
 	console.log(metaLast);
-	if(metaLast){
+	if(metaLast && metaLast.data){
 		currentWordIndex = metaLast.data.index;
 
 		console.log('currentWordIndex', currentWordIndex);

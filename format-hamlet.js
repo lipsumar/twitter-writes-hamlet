@@ -48,7 +48,8 @@ function out(html, s){
 				queue.push({
 					index: nextWordI,
 					word: word,
-					clean: clean
+					clean: clean,
+					found_in_twitter: 0
 				});
 
 

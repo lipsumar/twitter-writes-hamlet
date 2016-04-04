@@ -18,10 +18,10 @@ var lastWasDialog = false;
 var openTextDialogTag = false;
 var lastWasDirection = false;
 
-var extractWords = require('./extract-words.js');
-var cleanWord = require('./clean-word.js');
+var extractWords = require('./lib/extract-words.js');
+var cleanWord = require('./lib/clean-word.js');
 
-var allWords = extractWords(fs.readFileSync('hamlet.txt').toString());
+var allWords = extractWords(fs.readFileSync('resources/hamlet.txt').toString());
 
 var nextWordI = 0;
 var queue = [];
@@ -251,4 +251,4 @@ function processHtmlQueue(item){
 }
 fs.writeFileSync('data/htmlPieceIndex.json', JSON.stringify(htmlPieceIndex));
 processHtmlQueue();
-//fs.writeFileSync('hamlet.html', fs.readFileSync('hamlet-header.html') + hamletHtml + fs.readFileSync('hamlet-footer.html'));
+//fs.writeFileSync('hamlet.html', fs.readFileSync('tpl/hamlet-header.html') + hamletHtml + fs.readFileSync('tpl/hamlet-footer.html'));

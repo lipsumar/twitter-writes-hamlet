@@ -125,7 +125,7 @@ body{
 
 .hero{
 	background-color:#3B6B65;
-	/*background-image: url(singe.gif);*/
+	/*background-image: url(../img/singe.gif);*/
 	background-size: cover;
 	background-position: 50% 50%;
 

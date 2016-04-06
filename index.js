@@ -49,6 +49,7 @@ var connectBySource = {
 		client.stream('statuses/sample', {},  onStream.bind(this, 'sample'));
 	}
 };
+var letStreamAlone = 0;
 
 //var matchWordRegex = ;
 
@@ -58,6 +59,7 @@ function onStream( source, stream){
 
 	stream.on('error', function(error) {
 		console.log('STREAM ERROR:', error);
+		letStreamAlone += 5;
 		//exec('say erreur de flux');
 	});
 
@@ -90,7 +92,7 @@ function stayAliveLoop(){
 	for(var source in lastMinuteBySource){
 		if(lastMinuteBySource.hasOwnProperty(source)){
 			console.log(' '+source+': '+lastMinuteBySource[source]);
-			if(lastMinuteBySource[source]===0){
+			if(letStreamAlone===0 && lastMinuteBySource[source]===0){
 				//exec('say flux '+source+' perdu, reconnection');
 				console.log('RECONNECT', source);
 				connectBySource[source]();
@@ -99,6 +101,10 @@ function stayAliveLoop(){
 		}
 	}
 
+	letStreamAlone--;
+	if(letStreamAlone<0){
+		letStreamAlone = 0;
+	}
 	setTimeout(stayAliveLoop, 60000);
 };
 

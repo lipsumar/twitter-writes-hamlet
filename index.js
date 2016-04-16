@@ -157,7 +157,8 @@ function onTweet(source, tweet){
 				profile_image_url: tweet.user.profile_image_url,
 				date: (new Date()).toString(),
 				index: words[currentWordI].index,
-				found_in_twitter: 1
+				found_in_twitter: 1,
+				currentWordCount: currentWordCount
 			};
 			io.emit('word',smallTweet);
 			allTweets.push(smallTweet);

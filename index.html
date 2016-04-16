@@ -90,10 +90,7 @@ socket.on('state', function(resp){
 
 
 	// init stats
-	var pc = ((resp.currentWordCount / 32003)*100);
-	$('.word-count').text(resp.currentWordCount);
-	$('.word-count-pc').text(pc + '%');
-	$('.timeline__progress').css('width', pc+'%');
+	refreshStats(resp);
 
 	scrollText();
 
@@ -106,7 +103,18 @@ socket.on('word', function(resp){
 	if($nextWord){
 		$nextWord.addClass('looking');
 	}
+
+	refreshStats(resp);
+
+	scrollText();
 });
+
+function refreshStats(resp){
+	var pc = ((resp.currentWordCount / 32003)*100).toFixed(2);
+	$('.word-count').text(resp.currentWordCount);
+	$('.word-count-pc').text(pc + '%');
+	$('.timeline__progress').css('width', pc+'%');
+}
 
 
 function init(){

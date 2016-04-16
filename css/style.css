@@ -41,6 +41,10 @@ body{
 	overflow-y:hidden;
 	-webkit-overflow-scrolling: touch;
 }
+.app__title{
+	display:none;
+}
+/*
 .app__page::-webkit-scrollbar {
     -webkit-appearance: none;
 }
@@ -55,14 +59,14 @@ body{
 
 .app__page::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    border: 2px solid white; /* should match background, can't be transparent */
+    border: 2px solid white;
     background-color: rgba(0, 0, 0, .5);
 }
 
 .app__page::-webkit-scrollbar-track {
     background-color: #fff;
     border-radius: 8px;
-}
+}*/
 
 
 
@@ -234,7 +238,8 @@ body{
 	height:100%;
 	display: flex;
 	align-items:center;
-	padding-left:1em;
+	padding-left:10px;
+	font-size:2em;
 }
 
 
@@ -258,6 +263,36 @@ body{
 		font-size:5em;
 		letter-spacing: 0.2em;
 	}
+	.app__title{
+		display: block;
+		width:100%;
+		position: absolute;
+		top:98px;
+		left:0;
+		background-color: #fff;
+		text-align: center;
+	}
+	.app__title::after{
+		display: block;
+		content:'';
+		width:70%;
+		height:1px;
+		background-color: #333;
+		margin:0 auto;
+		border:20px solid #FFF;
+		border-top: none;
+	}
+	.text__title--1{
+		margin-top:0.6em;
+		font-size: 1.5em;
+	}
+	.text__title--2{
+		font-size:2.5em;
+	}
+	.text__title--3{
+		margin-bottom: 0.6em;
+		font-size: 1em;
+	}
 }
 
 
@@ -267,6 +302,23 @@ body{
 		justify-content:space-between;
 		align-items: flex-start;
 		height: 100%;
+	}
+
+	.app__title{
+		width:60%;
+		top:0;
+	}
+	.text__title--1{
+		font-size: 2em;
+		margin-top:1.2em;
+	}
+	.text__title--2{
+		font-size: 4em;
+		text-transform: uppercase;
+	}
+	.text__title--3{
+		font-size: 1.5em;
+		margin-bottom:1.5em;
 	}
 
 	.app__page{

@@ -91,9 +91,8 @@ body{
 	margin-top:2em;
 }
 .text__title--2{
-	font-size: 5em;
+	font-size: 4em;
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
 }
 .text__title--3{
 	font-size: 1.5em;
@@ -252,6 +251,13 @@ body{
 
 	margin-bottom:1em;
 	color:#666;
+}
+
+@media screen and (min-width: 40em) {
+	.text__title--2{
+		font-size:5em;
+		letter-spacing: 0.2em;
+	}
 }
 
 

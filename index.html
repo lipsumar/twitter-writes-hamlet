@@ -116,12 +116,15 @@ function refreshStats(resp){
 	$('.timeline__progress').css('width', pc+'%');
 }
 
-
-function init(){
+function refreshTimer(){
 	var duration = moment.duration( ( (new Date()).getTime()) - (new Date('Sat Apr 16 2016 11:06:10 GMT+0000 (UTC)').getTime()) );
 	$('.full-duration').text(duration.humanize());
 }
-init();
+refreshTimer();
+setInterval(refreshTimer, 60000);
+
+
+
 $(window).on('resize', scrollText);
 
 function getNextWord(index){

@@ -393,7 +393,10 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 			console.log('listening on *:8080');
 		});
 		console.log('starting looking for '+currentWord);
-		searchFor(currentWord);
-		stayAliveLoop();
+		if(typeof client !== 'undefined'){
+			searchFor(currentWord);
+			stayAliveLoop();
+		}
+
 	});
 });

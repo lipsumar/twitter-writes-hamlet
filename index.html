@@ -6,9 +6,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css?v=1459710744">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 </head>
 <body>
 	<div class="app">
+		<div class="app__top">
+			<div class="hero">
+				<h1 class="hero__text">Twitter writes Hamlet</h1>
+			</div>
+
+		</div>
 		<div class="app__page">
 			<div class="text">
 				<div class="text__stage-direction" style="margin-top:3em">LOADING...</div>
@@ -16,18 +23,47 @@
 
 		</div>
 		<div class="app__aside">
-			<div class="hero">
-				<div class="hero__text hero__text--percent">4%</div>
-				<div class="hero__text">Hamlet written so&nbsp;far</div>
+			<div class="hero hero--desktop">
+				<h1 class="hero__text">Twitter writes Hamlet</h1>
 			</div>
 			<div class="about-text">
-				Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+				<cite>“If you put 100 monkeys with typewriters in a room long enough, eventually you'll get Hamlet.”</cite>
+				<p>This is the actual experiment, using a real-time feed of Twitter as the proveribial room of monkeys.</p>
+				<p>Tweet the next word with the hashtag <a href="https://twitter.com/search?q=%23hamlet" class="hashtag">#hamlet</a> to continue the play!</p>
+				<p class="cta-container">
+					<a href="https://twitter.com/intent/tweet" target="_blank" class="cta">
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 416 448" style="vertical-align:bottom">
+							<path fill="#fff" d="M405 102q-16.75 24.5-40.5 41.75 0.25 3.5 0.25 10.5 0 32.5-9.5 64.875t-28.875 62.125-46.125 52.625-64.5 36.5-80.75 13.625q-67.75 0-124-36.25 8.75 1 19.5 1 56.25 0 100.25-34.5-26.25-0.5-47-16.125t-28.5-39.875q8.25 1.25 15.25 1.25 10.75 0 21.25-2.75-28-5.75-46.375-27.875t-18.375-51.375v-1q17 9.5 36.5 10.25-16.5-11-26.25-28.75t-9.75-38.5q0-22 11-40.75 30.25 37.25 73.625 59.625t92.875 24.875q-2-9.5-2-18.5 0-33.5 23.625-57.125t57.125-23.625q35 0 59 25.5 27.25-5.25 51.25-19.5-9.25 28.75-35.5 44.5 23.25-2.5 46.5-12.5z"></path>
+						</svg>
+						Tweet now
+					</a>
+				</p>
+
+			</div>
+
+			<div class="stats">
+				<div class="stat__name">Experiment started:</div>
+				<div class="stat__value">Sun Apr 03 2016 17:28:50</div>
+
+				<div class="stat__name">Experiment running since:</div>
+				<div class="stat__value"><span class="full-duration">---</span></div>
+
+				<div class="stat__name">Words:</div>
+				<div class="stat__value"><span class="word-count">--</span> / 32003<br>(<span class="word-count-pc">-%</span>)</div>
 			</div>
 		</div>
+
 	</div>
+
+	<div class="timeline">
+		<div class="timeline__progress" style="width:0%"></div>
+		<div class="timeline__text"><span class="word-count-pc"></span></div>
+	</div>
+
 </body>
 </html>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/moment/min/moment.min.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
 var socket = io();
@@ -52,6 +88,15 @@ socket.on('state', function(resp){
 		$nextWord.addClass('looking');
 	}
 
+
+	// init stats
+	var pc = ((resp.currentWordCount / 32003)*100);
+	$('word-count').text(resp.currentWordCount);
+	$('word-count-pc').text(pc + '%');
+	$('.timeline__progress').css('width', pc+'%');
+
+	scrollText();
+
 });
 socket.on('word', function(resp){
 	console.log('got index',resp.index);
@@ -62,6 +107,14 @@ socket.on('word', function(resp){
 		$nextWord.addClass('looking');
 	}
 });
+
+
+function init(){
+	var duration = moment.duration( ( (new Date()).getTime()) - (new Date('Sun Apr 03 2016 17:28:50 GMT+0000 (UTC)').getTime()) );
+	$('.full-duration').text(duration.humanize());
+}
+init();
+$(window).on('resize', scrollText);
 
 function getNextWord(index){
 	var $nextWord,i=1;
@@ -74,42 +127,19 @@ function getNextWord(index){
 	return $nextWord;
 }
 
-/*
-function addWord(tw){
-	console.log(tw);
-	if(tw.word==='\n'){
-		$('#page').append('<br>');
-		return;
-	}
-	var $word = $('<a class="word" href="https://twitter.com/'+tw.screen_name+'/status/'+tw.id+'" target="_blank">'+tw.word+'</a>');
-	$('#page').append($word);
-	$('#page').append(' ');
 
-	var parts = cutTweet(tw);
 
-	//var parts = tw.tweetText.split(tw.word);
-	var t = parts.shift();
-	t+= '<a class="tweet__word" href="https://twitter.com/'+tw.screen_name+'/status/'+tw.id+'" target="_blank">'+tw.clean+'</a>'+parts[0];
-	var $tweet = $('<div class="tweet"><img class="tweet__avatar" src="'+tw.profile_image_url+'"><div class="tweet__handle">'+tw.screen_name+'</div><div class="tweet__text">'+t+'</div></div>');
-	//$('#page').before($tweet);
-	$word.append($tweet);
-	$tweet.css({top:0,left:0});
-	var tweetWordOffset = $tweet.find('.tweet__word').offset();
-	var wordOffset = $word.offset();
-	$tweet.css({
-		top: wordOffset.top - tweetWordOffset.top,
-		left:wordOffset.left - tweetWordOffset.left
-	})
 
+function keepTextScrolled(){
+	scrollText();
+	setTimeout(keepTextScrolled, 2000);
+};
+function scrollText(){
+	var pageEl = $('.app__page')[0];
+	pageEl.scrollTop = pageEl.scrollHeight;
 }
+keepTextScrolled();
 
-function cutTweet(tw){
-	var parts = [];
-	parts.push(tw.tweetText.substring(0,tw.charAt));
-	//parts.push(tw.tweetText.substring(tw.charAt, tw.charAt+tw.word.length))
-	parts.push(tw.tweetText.substring(tw.charAt+tw.clean.length));
-	return parts;
-}*/
 	</script>
 </body>
 </html>

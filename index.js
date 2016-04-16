@@ -26,6 +26,7 @@ var fs = require('fs');
 var words = [];
 var currentWordI = -1;
 var currentWordIndex = -1;
+var currentWordCount = 1; //count starts 1, not 0
 var currentWordFetchIndex;
 var currentWord,currentWordNotClean,matchWordRegex,currentWordDate;
 var found = false;
@@ -180,6 +181,7 @@ function nextWord(){
 	currentWordI++;
 	currentWord = words[currentWordI].word.trim();
 	currentWordIndex = words[currentWordI].index;
+	currentWordCount++;
 
 	if(words.length - currentWordI < 10){
 		fetchNextWordsFromStore();
@@ -204,7 +206,7 @@ function saveTweet(tw, callback){
 		},
 		{
 			key: dataset.key(['Meta', 1]),
-			data: {index:tw.index}
+			data: {index:tw.index, count: currentWordCount}
 		}
 	], function(err){
 		if(err){
@@ -348,7 +350,8 @@ io.on('connection', function(socket){
 	socket.emit('state', {
 		htmlPieces: htmlPieces,
 		currentWordIndex: currentWordIndex,
-		currentWord: currentWord
+		currentWord: currentWord,
+		currentWordCount: currentWordCount
 	});
 
 
@@ -374,6 +377,7 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 	console.log(metaLast);
 	if(metaLast && metaLast.data){
 		currentWordIndex = metaLast.data.index;
+		if(metaLast.data.count) currentWordCount = metaLast.data.count;
 		if(metaLast.data.start_again){
 			currentWordIndex = -1;
 		}

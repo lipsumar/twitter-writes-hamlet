@@ -361,14 +361,33 @@ io.on('connection', function(socket){
 
 // Routes
 // Routes - static
-app.use(express.static('.'));
-//app.use('/node_modules',express.static('node_modules'));
-//app.use('/genetic-evolution',express.static('genetic-evolution'));
+app.use(express.static('./public'));
 
 
 
-//app.listen(1337);
+app.get('/tweets/range/:range', function(req, res){
+	var range = req.params.range.split(',');
+	console.log(range);
 
+	var query = dataset.createQuery('Word')
+		.filter('index >=', parseInt(range[0],10))
+		.filter('index <=', parseInt(range[1], 10));
+
+	dataset.runQuery(query, function(err,wordsFromStore){
+		if(err){
+			console.log(err);
+			res.end();//don't let the client hanging
+			throw err;
+		}
+
+		var tweets = wordsFromStore.map(function(word){
+			return word.data;
+		});
+
+		res.end(JSON.stringify({tweets:tweets}));
+
+	});
+});
 
 
 dataset.get(dataset.key(['Meta',1]), function(err, metaLast){

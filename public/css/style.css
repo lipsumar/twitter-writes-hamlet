@@ -71,7 +71,10 @@ body{
 
 
 .app__aside{
-
+	padding: 2em;
+	background-color: #55ACEE;
+	color:#fff;
+	font-family: arial;
 }
 
 
@@ -148,8 +151,9 @@ body{
 
 
 .hero{
-	background-color:#3B6B65;
+	background-color:#3EA2EF;
 	background-image: url(../img/singe.gif);
+	-webkit-filter:grayscale(100%);filter:grayscale(100%);
 	background-size: cover;
 	background-position: 50% 50%;
 
@@ -186,7 +190,7 @@ body{
 .about-text cite{
 	font-style: italic;
 	margin-left:2em;
-	margin-bottom:1em;
+	margin-bottom:3em;
 	display:block;
 }
 .about-text p{
@@ -251,12 +255,35 @@ body{
 }
 .stat__name{
 	margin-bottom:0.3em;
+	color:#EAECEF;
 }
 .stat__value{
 
 	margin-bottom:1em;
-	color:#666;
+	color:#E1E5EC;
 }
+
+
+
+
+
+
+.tweet-bubble{
+	opacity: 0;
+	transition:all 0.2s ease;
+    position: absolute;
+    background: white;
+    border:1px solid #ccc;
+    padding:13px 15px;
+    width:420px;
+    pointer-events:none;
+    font-family: arial;
+}
+.tweet-bubble.visible{
+	opacity: 1;
+}
+
+
 
 @media screen and (min-width: 40em) {
 	.text__title--2{
@@ -305,7 +332,7 @@ body{
 	}
 
 	.app__title{
-		width:60%;
+		width:70%;
 		top:0;
 	}
 	.text__title--1{
@@ -322,13 +349,13 @@ body{
 	}
 
 	.app__page{
-		width:60%;
+		width:70%;
 		height: 100%;
 		padding:3em;
 	}
 	.app__aside{
-		width:35%;
-		padding: 3em 3em 3em 0;
+		width:30%;
+		height: 100%;
 	}
 
 	.app__top{
@@ -347,3 +374,4 @@ body{
 		margin-right:0;
 	}
 }
+

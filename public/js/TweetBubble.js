@@ -1,7 +1,12 @@
 var TweetStore = require('./TweetStore');
-function TweetBubble(){
+var tweetTpl = function(tweet){ return '<b>@'+tweet.screen_name+'</b><br>'+tweet.tweetText; };
+function TweetBubble(opts){
 	this.$el = createEl();
 	this.sourceEl = null;// the element we "attach" to bubble to
+
+	if(opts.tweetTpl){
+		tweetTpl = opts.tweetTpl;
+	}
 	$('body').append(this.$el);
 	$(window).on('resize', attach.bind(this));
 }
@@ -21,7 +26,7 @@ TweetBubble.prototype.hide = hide;
 function renderTweet(tweet){
 	console.log('renderTweet', tweet);
 	if(tweet.index !== this.tweetId) return; //server responded too late
-	this.$el.html('<b>@'+tweet.screen_name+'</b><br>'+tweet.tweetText);
+	this.$el.html(tweetTpl(tweet));
 	// tweet might have changed $el size
 	attach.call(this);
 }
@@ -39,6 +44,7 @@ function attach(){
 	if(!this.sourceEl) return;
 	var sourceElPos = $(this.sourceEl).offset();
 	sourceElPos.top += $(this.sourceEl).height()+2;
+	sourceElPos.left -= 10;
 	this.$el.css(sourceElPos);
 }
 

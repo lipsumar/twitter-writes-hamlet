@@ -7,7 +7,21 @@ var millisecondsToStr = require('./millisecondsToStr');
 
 
 
-	var bubble = new TweetBubble();
+	var bubble = new TweetBubble({
+		tweetTpl: function(tw){
+			var parts = [];
+			parts.push(tw.tweetText.substring(0,tw.charAt));
+			parts.push(tw.tweetText.substring(tw.charAt+tw.clean.length));
+
+			var text = parts[0]+'<a class="tweet-bubble__word">'+tw.clean+'</a>'+parts[1];
+
+			return '<img class="tweet-bubble__avatar" src="'+tw.profile_image_url+'">'
+			+ '<div class="tweet-bubble__body">'
+			+ '<div class="tweet-bubble__screen-name">@'+tw.screen_name+'</div>'
+			+ '<div class="tweet-bubble__text">'+text+'</div></div>';
+
+		}
+	});
 
 
 	socket.on('state', function(resp){
@@ -76,6 +90,13 @@ var millisecondsToStr = require('./millisecondsToStr');
 			console.log(tweet);
 		});*/
 	});
+	$('.text').delegate('span', 'click', function(e){
+		var index = $(this).data('i');
+		e.preventDefault();
+		//window.open('https://twitter.com/'+tw.screen_name+'/status/'+tw.id);
+		window.open('https://twitter.com/status/'+tw.id);
+	});
+
 
 	function getNextWord(index){
 		var $nextWord,i=1;

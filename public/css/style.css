@@ -20,6 +20,7 @@ html,body{
 body{
 	font-family: 'Crimson Text', serif;
 	line-height: 1.2;
+	background-color: #efeeee;
 }
 .align-center{text-align: center;}
 
@@ -40,6 +41,7 @@ body{
 	padding:1em 1em 0 1em;
 	overflow-y:hidden;
 	-webkit-overflow-scrolling: touch;
+	cursor: default;
 }
 .app__title{
 	display:none;
@@ -87,6 +89,7 @@ body{
 }
 .text span{display: none;}
 .text span.v{display: inline;}
+.text span.v:hover{background-color: rgba(85, 172, 238, 0.38);}
 .text span.looking{
 	display: inline;
 	opacity:0.6;
@@ -153,7 +156,8 @@ body{
 .hero{
 	background-color:#3EA2EF;
 	background-image: url(../img/singe.gif);
-	-webkit-filter:grayscale(100%);filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+	        filter:grayscale(100%);
 	background-size: cover;
 	background-position: 50% 50%;
 
@@ -273,14 +277,48 @@ body{
 	transition:all 0.2s ease;
     position: absolute;
     background: white;
-    border:1px solid #ccc;
-    padding:13px 15px;
+    padding:10px;
     width:420px;
     pointer-events:none;
     font-family: arial;
+    border-radius:2px;
+    box-shadow:0 14px 28px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.12);
+}
+.tweet-bubble::before,
+.tweet-bubble::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top:-7px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 8px 7px 8px;
+	border-color: transparent transparent rgba(0,0,0,0.03) transparent;
+}
+.tweet-bubble::after{
+	top:-6px;
+	border-color: transparent transparent #fff transparent;
 }
 .tweet-bubble.visible{
 	opacity: 1;
+}
+.tweet-bubble__word{
+	background-color: rgba(85, 172, 238, 0.38);
+}
+.tweet-bubble__avatar{
+	float:left;
+	border-radius:5px;
+	background-color: #eee;
+	width:48px;
+	height:48px;
+}
+.tweet-bubble__body{
+	padding-left:58px;
+	font-size: 0.9em;
+}
+.tweet-bubble__screen-name{
+	font-weight: bold;
 }
 
 
@@ -296,7 +334,7 @@ body{
 		position: absolute;
 		top:98px;
 		left:0;
-		background-color: #fff;
+		background-color: #efeeee;
 		text-align: center;
 	}
 	.app__title::after{
@@ -306,7 +344,7 @@ body{
 		height:1px;
 		background-color: #333;
 		margin:0 auto;
-		border:20px solid #FFF;
+		border:20px solid #efeeee;
 		border-top: none;
 	}
 	.text__title--1{

@@ -1,8 +1,13 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var TweetStore = require('./TweetStore');
-function TweetBubble(){
+var tweetTpl = function(tweet){ return '<b>@'+tweet.screen_name+'</b><br>'+tweet.tweetText; };
+function TweetBubble(opts){
 	this.$el = createEl();
 	this.sourceEl = null;// the element we "attach" to bubble to
+
+	if(opts.tweetTpl){
+		tweetTpl = opts.tweetTpl;
+	}
 	$('body').append(this.$el);
 	$(window).on('resize', attach.bind(this));
 }
@@ -22,7 +27,7 @@ TweetBubble.prototype.hide = hide;
 function renderTweet(tweet){
 	console.log('renderTweet', tweet);
 	if(tweet.index !== this.tweetId) return; //server responded too late
-	this.$el.html('<b>@'+tweet.screen_name+'</b><br>'+tweet.tweetText);
+	this.$el.html(tweetTpl(tweet));
 	// tweet might have changed $el size
 	attach.call(this);
 }
@@ -40,6 +45,7 @@ function attach(){
 	if(!this.sourceEl) return;
 	var sourceElPos = $(this.sourceEl).offset();
 	sourceElPos.top += $(this.sourceEl).height()+2;
+	sourceElPos.left -= 10;
 	this.$el.css(sourceElPos);
 }
 
@@ -190,7 +196,21 @@ var millisecondsToStr = require('./millisecondsToStr');
 
 
 
-	var bubble = new TweetBubble();
+	var bubble = new TweetBubble({
+		tweetTpl: function(tw){
+			var parts = [];
+			parts.push(tw.tweetText.substring(0,tw.charAt));
+			parts.push(tw.tweetText.substring(tw.charAt+tw.clean.length));
+
+			var text = parts[0]+'<a class="tweet-bubble__word">'+tw.clean+'</a>'+parts[1];
+
+			return '<img class="tweet-bubble__avatar" src="'+tw.profile_image_url+'">'
+			+ '<div class="tweet-bubble__body">'
+			+ '<div class="tweet-bubble__screen-name">@'+tw.screen_name+'</div>'
+			+ '<div class="tweet-bubble__text">'+text+'</div></div>';
+
+		}
+	});
 
 
 	socket.on('state', function(resp){
@@ -259,6 +279,13 @@ var millisecondsToStr = require('./millisecondsToStr');
 			console.log(tweet);
 		});*/
 	});
+	$('.text').delegate('span', 'click', function(e){
+		var index = $(this).data('i');
+		e.preventDefault();
+		//window.open('https://twitter.com/'+tw.screen_name+'/status/'+tw.id);
+		window.open('https://twitter.com/status/'+tw.id);
+	});
+
 
 	function getNextWord(index){
 		var $nextWord,i=1;

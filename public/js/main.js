@@ -1,4 +1,6 @@
-
+var TOTAL_WORDS = 32003;
+var WORDS_PER_PAGE = 150;
+var PAGE_COUNT = Math.ceil(TOTAL_WORDS / WORDS_PER_PAGE);
 var socket = io();
 var TweetStore = require('./TweetStore');
 var TweetBubble = require('./TweetBubble');
@@ -46,6 +48,7 @@ socket.on('state', function(resp){
 
 
 	// init stats
+	buildStatsPages($('.stats-pages'));
 	refreshStats(resp);
 
 	scrollText();
@@ -66,10 +69,30 @@ socket.on('word', function(resp){
 });
 
 function refreshStats(resp){
-	var pc = ((resp.currentWordCount / 32003)*100).toFixed(2);
+	var pc = ((resp.currentWordCount / TOTAL_WORDS)*100).toFixed(2);
 	$('.word-count').text(resp.currentWordCount);
 	$('.word-count-pc').text(pc + '%');
 	$('.timeline__progress').css('width', pc+'%');
+	refreshStatsPages(resp);
+}
+
+// simply builds all the pages, empty
+function buildStatsPages($el){
+	var html = '';
+	for(var i=0;i<PAGE_COUNT;i++){
+		html+='<div class="stat-page" data-p="'+i+'"></div>';
+
+	}
+	$el.html(html);
+}
+function refreshStatsPages(resp){
+	var w;
+	for(var i=0;i<PAGE_COUNT;i++){
+		w = i*WORDS_PER_PAGE;
+		if(resp.currentWordCount > w){
+			$('.stat-page[data-p="'+i+'"]').addClass('written');
+		}
+	}
 }
 
 function refreshTimer(){
@@ -84,11 +107,7 @@ $(window).on('resize', scrollText);
 
 $('.text').delegate('span', 'mouseenter', function(){
 	var index = $(this).data('i');
-
 	bubble.show(this, index);
-	/*TweetStore.get(index, function(tweet){
-		console.log(tweet);
-	});*/
 });
 $('.text').delegate('span', 'click', function(e){
 	var index = $(this).data('i');

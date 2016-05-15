@@ -237,6 +237,7 @@ body{
 	position: fixed;
 	width:100%;
 	bottom:0;
+	display: none;
 }
 .timeline__progress{
 	height: 100%;
@@ -268,7 +269,20 @@ body{
 }
 
 
-
+.stats-pages{
+	display: flex;
+	flex-wrap:wrap;
+	margin-bottom:2em;
+}
+.stat-page{
+	width:20px;
+	height:29px;
+	border:1px solid #FFF;
+	margin:2px;
+}
+.stat-page.written{
+	background-color: rgba(255,255,255,0.4);
+}
 
 
 
@@ -362,6 +376,9 @@ body{
 
 
 @media screen and (min-width: 60em) {
+	body{
+		overflow: hidden;
+	}
 	.app{
 		flex-direction:row;
 		justify-content:space-between;
@@ -394,6 +411,7 @@ body{
 	.app__aside{
 		width:30%;
 		height: 100%;
+		overflow-y:scroll;
 	}
 
 	.app__top{

@@ -5,7 +5,7 @@ var dataset = gcloud.datastore.dataset({
 	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet-us'
 });
 
-var text = fs.readFileSync('hamlet.txt').toString();
+var text = fs.readFileSync('resources/hamlet.txt').toString();
 
 var lines = text.split('\n');
 
@@ -21,7 +21,7 @@ var lastWasDirection = false;
 var extractWords = require('./lib/extract-words.js');
 var cleanWord = require('./lib/clean-word.js');
 
-var allWords = extractWords(fs.readFileSync('resources/hamlet.txt').toString());
+var allWords = extractWords(text);
 
 var nextWordI = 0;
 var queue = [];

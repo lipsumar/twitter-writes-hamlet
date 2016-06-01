@@ -1,0 +1,45 @@
+<div class="text__stage-direction"><span data-i="18119">To</span> <span data-i="18120">POLONIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="18123">My</span> <span data-i="18124">lord,</span> <span data-i="18125">you</span> <span data-i="18126">played</span> <span data-i="18127">once</span> <span data-i="18128">i'</span> <span data-i="18129">the</span> <span data-i="18130">university,</span> <span data-i="18131">you</span> <span data-i="18132">say?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18134">LORD</span> <span data-i="18135">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18137">That</span> <span data-i="18138">did</span> <span data-i="18139">I,</span> <span data-i="18140">my</span> <span data-i="18141">lord;</span> <span data-i="18142">and</span> <span data-i="18143">was</span> <span data-i="18144">accounted</span> <span data-i="18145">a</span> <span data-i="18146">good</span> <span data-i="18147">actor.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18149">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18151">What</span> <span data-i="18152">did</span> <span data-i="18153">you</span> <span data-i="18154">enact?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18156">LORD</span> <span data-i="18157">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18159">I</span> <span data-i="18160">did</span> <span data-i="18161">enact</span> <span data-i="18162">Julius</span> <span data-i="18163">Caesar:</span> <span data-i="18164">I</span> <span data-i="18165">was</span> <span data-i="18166">killed</span> <span data-i="18167">i'</span> <span data-i="18168">the</span> </div>
+			<div><span data-i="18170">Capitol;</span> <span data-i="18171">Brutus</span> <span data-i="18172">killed</span> <span data-i="18173">me.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18175">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18177">It</span> <span data-i="18178">was</span> <span data-i="18179">a</span> <span data-i="18180">brute</span> <span data-i="18181">part</span> <span data-i="18182">of</span> <span data-i="18183">him</span> <span data-i="18184">to</span> <span data-i="18185">kill</span> <span data-i="18186">so</span> <span data-i="18187">capital</span> <span data-i="18188">a</span> <span data-i="18189">calf</span> </div>
+			<div><span data-i="18191">there.</span> <span data-i="18192">Be</span> <span data-i="18193">the</span> <span data-i="18194">players</span> <span data-i="18195">ready?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18197">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18199">Ay,</span> <span data-i="18200">my</span> <span data-i="18201">lord;</span> <span data-i="18202">they</span> <span data-i="18203">stay</span> <span data-i="18204">upon</span> <span data-i="18205">your</span> <span data-i="18206">patience.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18208">QUEEN</span> <span data-i="18209">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18211">Come</span> <span data-i="18212">hither,</span> <span data-i="18213">my</span> <span data-i="18214">dear</span> <span data-i="18215">Hamlet,</span> <span data-i="18216">sit</span> <span data-i="18217">by</span> <span data-i="18218">me.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18220">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18222">No,</span> <span data-i="18223">good</span> <span data-i="18224">mother,</span> <span data-i="18225">here's</span> <span data-i="18226">metal</span> <span data-i="18227">more</span> <span data-i="18228">attractive.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18230">LORD</span> <span data-i="18231">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18233">[To</span> <span data-i="18234">KING</span> <span data-i="18235">CLAUDIUS]</span> <span data-i="18236">O,</span> <span data-i="18237">ho!</span> <span data-i="18238">do</span> <span data-i="18239">you</span> <span data-i="18240">mark</span> <span data-i="18241">that?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18243">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18245">Lady,</span> <span data-i="18246">shall</span> <span data-i="18247">I</span> <span data-i="18248">lie</span> <span data-i="18249">in</span> <span data-i="18250">your</span> <span data-i="18251">lap?</span> </div>
+		</div>
+	</div>
+</div>

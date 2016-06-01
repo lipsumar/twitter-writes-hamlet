@@ -1,0 +1,37 @@
+<div class="text__stage-direction"><span data-i="9822">Enter</span> <span data-i="9823">POLONIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="9826">LORD</span> <span data-i="9827">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="9829">The</span> <span data-i="9830">ambassadors</span> <span data-i="9831">from</span> <span data-i="9832">Norway,</span> <span data-i="9833">my</span> <span data-i="9834">good</span> <span data-i="9835">lord,</span> </div>
+			<div><span data-i="9837">Are</span> <span data-i="9838">joyfully</span> <span data-i="9839">return'd.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="9841">KING</span> <span data-i="9842">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="9844">Thou</span> <span data-i="9845">still</span> <span data-i="9846">hast</span> <span data-i="9847">been</span> <span data-i="9848">the</span> <span data-i="9849">father</span> <span data-i="9850">of</span> <span data-i="9851">good</span> <span data-i="9852">news.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="9854">LORD</span> <span data-i="9855">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="9857">Have</span> <span data-i="9858">I,</span> <span data-i="9859">my</span> <span data-i="9860">lord?</span> <span data-i="9861">I</span> <span data-i="9862">assure</span> <span data-i="9863">my</span> <span data-i="9864">good</span> <span data-i="9865">liege,</span> </div>
+			<div><span data-i="9867">I</span> <span data-i="9868">hold</span> <span data-i="9869">my</span> <span data-i="9870">duty,</span> <span data-i="9871">as</span> <span data-i="9872">I</span> <span data-i="9873">hold</span> <span data-i="9874">my</span> <span data-i="9875">soul,</span> </div>
+			<div><span data-i="9877">Both</span> <span data-i="9878">to</span> <span data-i="9879">my</span> <span data-i="9880">God</span> <span data-i="9881">and</span> <span data-i="9882">to</span> <span data-i="9883">my</span> <span data-i="9884">gracious</span> <span data-i="9885">king:</span> </div>
+			<div><span data-i="9887">And</span> <span data-i="9888">I</span> <span data-i="9889">do</span> <span data-i="9890">think,</span> <span data-i="9891">or</span> <span data-i="9892">else</span> <span data-i="9893">this</span> <span data-i="9894">brain</span> <span data-i="9895">of</span> <span data-i="9896">mine</span> </div>
+			<div><span data-i="9898">Hunts</span> <span data-i="9899">not</span> <span data-i="9900">the</span> <span data-i="9901">trail</span> <span data-i="9902">of</span> <span data-i="9903">policy</span> <span data-i="9904">so</span> <span data-i="9905">sure</span> </div>
+			<div><span data-i="9907">As</span> <span data-i="9908">it</span> <span data-i="9909">hath</span> <span data-i="9910">used</span> <span data-i="9911">to</span> <span data-i="9912">do,</span> <span data-i="9913">that</span> <span data-i="9914">I</span> <span data-i="9915">have</span> <span data-i="9916">found</span> </div>
+			<div><span data-i="9918">The</span> <span data-i="9919">very</span> <span data-i="9920">cause</span> <span data-i="9921">of</span> <span data-i="9922">Hamlet's</span> <span data-i="9923">lunacy.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="9925">KING</span> <span data-i="9926">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="9928">O,</span> <span data-i="9929">speak</span> <span data-i="9930">of</span> <span data-i="9931">that;</span> <span data-i="9932">that</span> <span data-i="9933">do</span> <span data-i="9934">I</span> <span data-i="9935">long</span> <span data-i="9936">to</span> <span data-i="9937">hear.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="9939">LORD</span> <span data-i="9940">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="9942">Give</span> <span data-i="9943">first</span> <span data-i="9944">admittance</span> <span data-i="9945">to</span> <span data-i="9946">the</span> <span data-i="9947">ambassadors;</span> </div>
+			<div><span data-i="9949">My</span> <span data-i="9950">news</span> <span data-i="9951">shall</span> <span data-i="9952">be</span> <span data-i="9953">the</span> <span data-i="9954">fruit</span> <span data-i="9955">to</span> <span data-i="9956">that</span> <span data-i="9957">great</span> <span data-i="9958">feast.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="9960">KING</span> <span data-i="9961">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="9963">Thyself</span> <span data-i="9964">do</span> <span data-i="9965">grace</span> <span data-i="9966">to</span> <span data-i="9967">them,</span> <span data-i="9968">and</span> <span data-i="9969">bring</span> <span data-i="9970">them</span> <span data-i="9971">in.</span> </div>
+		</div>
+	</div>
+</div>

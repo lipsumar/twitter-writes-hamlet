@@ -1,0 +1,56 @@
+<div class="text__stage-direction"><span data-i="19843">Exeunt</span> <span data-i="19844">all</span> <span data-i="19845">but</span> <span data-i="19846">HAMLET</span> <span data-i="19847">and</span> <span data-i="19848">HORATIO</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="19851">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19853">Why,</span> <span data-i="19854">let</span> <span data-i="19855">the</span> <span data-i="19856">stricken</span> <span data-i="19857">deer</span> <span data-i="19858">go</span> <span data-i="19859">weep,</span> </div>
+			<div><span data-i="19861">The</span> <span data-i="19862">hart</span> <span data-i="19863">ungalled</span> <span data-i="19864">play;</span> </div>
+			<div><span data-i="19866">For</span> <span data-i="19867">some</span> <span data-i="19868">must</span> <span data-i="19869">watch,</span> <span data-i="19870">while</span> <span data-i="19871">some</span> <span data-i="19872">must</span> <span data-i="19873">sleep:</span> </div>
+			<div><span data-i="19875">So</span> <span data-i="19876">runs</span> <span data-i="19877">the</span> <span data-i="19878">world</span> <span data-i="19879">away.</span> </div>
+			<div><span data-i="19881">Would</span> <span data-i="19882">not</span> <span data-i="19883">this,</span> <span data-i="19884">sir,</span> <span data-i="19885">and</span> <span data-i="19886">a</span> <span data-i="19887">forest</span> <span data-i="19888">of</span> <span data-i="19889">feathers—</span> <span data-i="19890">if</span> </div>
+			<div><span data-i="19892">the</span> <span data-i="19893">rest</span> <span data-i="19894">of</span> <span data-i="19895">my</span> <span data-i="19896">fortunes</span> <span data-i="19897">turn</span> <span data-i="19898">Turk</span> <span data-i="19899">with</span> <span data-i="19900">me—with</span> <span data-i="19901">two</span> </div>
+			<div><span data-i="19903">Provincial</span> <span data-i="19904">roses</span> <span data-i="19905">on</span> <span data-i="19906">my</span> <span data-i="19907">razed</span> <span data-i="19908">shoes,</span> <span data-i="19909">get</span> <span data-i="19910">me</span> <span data-i="19911">a</span> </div>
+			<div><span data-i="19913">fellowship</span> <span data-i="19914">in</span> <span data-i="19915">a</span> <span data-i="19916">cry</span> <span data-i="19917">of</span> <span data-i="19918">players,</span> <span data-i="19919">sir?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19921">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19923">Half</span> <span data-i="19924">a</span> <span data-i="19925">share.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19927">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19929">A</span> <span data-i="19930">whole</span> <span data-i="19931">one,</span> <span data-i="19932">I.</span> </div>
+			<div><span data-i="19934">For</span> <span data-i="19935">thou</span> <span data-i="19936">dost</span> <span data-i="19937">know,</span> <span data-i="19938">O</span> <span data-i="19939">Damon</span> <span data-i="19940">dear,</span> </div>
+			<div><span data-i="19942">This</span> <span data-i="19943">realm</span> <span data-i="19944">dismantled</span> <span data-i="19945">was</span> </div>
+			<div><span data-i="19947">Of</span> <span data-i="19948">Jove</span> <span data-i="19949">himself;</span> <span data-i="19950">and</span> <span data-i="19951">now</span> <span data-i="19952">reigns</span> <span data-i="19953">here</span> </div>
+			<div><span data-i="19955">A</span> <span data-i="19956">very,</span> <span data-i="19957">very—pajock.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19959">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19961">You</span> <span data-i="19962">might</span> <span data-i="19963">have</span> <span data-i="19964">rhymed.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19966">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19968">O</span> <span data-i="19969">good</span> <span data-i="19970">Horatio,</span> <span data-i="19971">I'll</span> <span data-i="19972">take</span> <span data-i="19973">the</span> <span data-i="19974">ghost's</span> <span data-i="19975">word</span> <span data-i="19976">for</span> <span data-i="19977">a</span> </div>
+			<div><span data-i="19979">thousand</span> <span data-i="19980">pound.</span> <span data-i="19981">Didst</span> <span data-i="19982">perceive?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19984">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19986">Very</span> <span data-i="19987">well,</span> <span data-i="19988">my</span> <span data-i="19989">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19991">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19993">Upon</span> <span data-i="19994">the</span> <span data-i="19995">talk</span> <span data-i="19996">of</span> <span data-i="19997">the</span> <span data-i="19998">poisoning?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20000">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20002">I</span> <span data-i="20003">did</span> <span data-i="20004">very</span> <span data-i="20005">well</span> <span data-i="20006">note</span> <span data-i="20007">him.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="20009">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="20011">Ah,</span> <span data-i="20012">ha!</span> <span data-i="20013">Come,</span> <span data-i="20014">some</span> <span data-i="20015">music!</span> <span data-i="20016">come,</span> <span data-i="20017">the</span> <span data-i="20018">recorders!</span> </div>
+			<div><span data-i="20020">For</span> <span data-i="20021">if</span> <span data-i="20022">the</span> <span data-i="20023">king</span> <span data-i="20024">like</span> <span data-i="20025">not</span> <span data-i="20026">the</span> <span data-i="20027">comedy,</span> </div>
+			<div><span data-i="20029">Why</span> <span data-i="20030">then,</span> <span data-i="20031">belike,</span> <span data-i="20032">he</span> <span data-i="20033">likes</span> <span data-i="20034">it</span> <span data-i="20035">not,</span> <span data-i="20036">perdy.</span> </div>
+			<div><span data-i="20038">Come,</span> <span data-i="20039">some</span> <span data-i="20040">music!</span> </div>
+		</div>
+	</div>
+</div>

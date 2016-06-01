@@ -1,0 +1,23 @@
+<div class="text__stage-direction"><span data-i="14588">Exit</span> <span data-i="14589">POLONIUS</span> <span data-i="14590">with</span> <span data-i="14591">all</span> <span data-i="14592">the</span> <span data-i="14593">Players</span> <span data-i="14594">but</span> <span data-i="14595">the</span> <span data-i="14596">First</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="14599">Dost</span> <span data-i="14600">thou</span> <span data-i="14601">hear</span> <span data-i="14602">me,</span> <span data-i="14603">old</span> <span data-i="14604">friend;</span> <span data-i="14605">can</span> <span data-i="14606">you</span> <span data-i="14607">play</span> <span data-i="14608">the</span> </div>
+			<div><span data-i="14610">Murder</span> <span data-i="14611">of</span> <span data-i="14612">Gonzago?</span> </div>
+			<div><span data-i="14614">First</span> <span data-i="14615">Player</span> </div>
+			<div><span data-i="14617">Ay,</span> <span data-i="14618">my</span> <span data-i="14619">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="14621">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="14623">We'll</span> <span data-i="14624">ha't</span> <span data-i="14625">to-morrow</span> <span data-i="14626">night.</span> <span data-i="14627">You</span> <span data-i="14628">could,</span> <span data-i="14629">for</span> <span data-i="14630">a</span> <span data-i="14631">need,</span> </div>
+			<div><span data-i="14633">study</span> <span data-i="14634">a</span> <span data-i="14635">speech</span> <span data-i="14636">of</span> <span data-i="14637">some</span> <span data-i="14638">dozen</span> <span data-i="14639">or</span> <span data-i="14640">sixteen</span> <span data-i="14641">lines,</span> <span data-i="14642">which</span> </div>
+			<div><span data-i="14644">I</span> <span data-i="14645">would</span> <span data-i="14646">set</span> <span data-i="14647">down</span> <span data-i="14648">and</span> <span data-i="14649">insert</span> <span data-i="14650">in't,</span> <span data-i="14651">could</span> <span data-i="14652">you</span> <span data-i="14653">not?</span> </div>
+			<div><span data-i="14655">First</span> <span data-i="14656">Player</span> </div>
+			<div><span data-i="14658">Ay,</span> <span data-i="14659">my</span> <span data-i="14660">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="14662">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="14664">Very</span> <span data-i="14665">well.</span> <span data-i="14666">Follow</span> <span data-i="14667">that</span> <span data-i="14668">lord;</span> <span data-i="14669">and</span> <span data-i="14670">look</span> <span data-i="14671">you</span> <span data-i="14672">mock</span> <span data-i="14673">him</span> </div>
+			<div><span data-i="14675">not.</span> </div>
+		</div>
+	</div>
+</div>

@@ -41,8 +41,19 @@ function out(html, s, split){
 
 				if(clean.toLowerCase() !== cleanWord(allWords[nextWordI]).toLowerCase()){
 					console.log(s);
-					console.log(clean, '!=', allWords[nextWordI]);
+					console.log(clean, '!=', allWords[nextWordI], '\n -1=', allWords[nextWordI-1], '\n +1=', allWords[nextWordI+1]);
 					process.exit();
+				}
+
+				var acceptable = [];
+
+				// further split composed words like free-footed
+				// => accept "free footed"
+				// => accept "freefooted"
+				var parts = clean.split('-');
+				if(parts.length > 1){
+					acceptable.push(parts.join(' '));
+					acceptable.push(parts.join(''));
 				}
 
 
@@ -50,6 +61,7 @@ function out(html, s, split){
 					index: nextWordI,
 					word: word,
 					clean: clean,
+					acceptable: acceptable,
 					found_in_twitter: 0
 				});
 
@@ -217,7 +229,7 @@ function processQueue(){
 	}
 
 }
-//processQueue();
+processQueue();
 
 
 
@@ -245,7 +257,6 @@ function processHtmlQueue(item){
 		savedHamletHtmlPartsCount++;
 		console.log('parts saved: ' + Math.round((savedHamletHtmlPartsCount/hamletHtmlParts.length)*100)+'%');
 		processHtmlQueue();
-
 	}
 
 }

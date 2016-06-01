@@ -1,0 +1,18 @@
+<div class="text__stage-direction"><span data-i="36797">Stabs</span> <span data-i="36798">KING</span> <span data-i="36799">CLAUDIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="36802">All</span> </div>
+			<div><span data-i="36804">Treason!</span> <span data-i="36805">treason!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36807">KING</span> <span data-i="36808">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36810">O,</span> <span data-i="36811">yet</span> <span data-i="36812">defend</span> <span data-i="36813">me,</span> <span data-i="36814">friends;</span> <span data-i="36815">I</span> <span data-i="36816">am</span> <span data-i="36817">but</span> <span data-i="36818">hurt.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36820">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36822">Here,</span> <span data-i="36823">thou</span> <span data-i="36824">incestuous,</span> <span data-i="36825">murderous,</span> <span data-i="36826">damned</span> <span data-i="36827">Dane,</span> </div>
+			<div><span data-i="36829">Drink</span> <span data-i="36830">off</span> <span data-i="36831">this</span> <span data-i="36832">potion.</span> <span data-i="36833">Is</span> <span data-i="36834">thy</span> <span data-i="36835">union</span> <span data-i="36836">here?</span> </div>
+			<div><span data-i="36838">Follow</span> <span data-i="36839">my</span> <span data-i="36840">mother.</span> </div>
+		</div>
+	</div>
+</div>

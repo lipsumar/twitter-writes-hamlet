@@ -1,0 +1,27 @@
+<div class="text__stage-direction"><span data-i="33172">Grappling</span> <span data-i="33173">with</span> <span data-i="33174">him</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="33177">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="33179">Thou</span> <span data-i="33180">pray'st</span> <span data-i="33181">not</span> <span data-i="33182">well.</span> </div>
+			<div><span data-i="33184">I</span> <span data-i="33185">prithee,</span> <span data-i="33186">take</span> <span data-i="33187">thy</span> <span data-i="33188">fingers</span> <span data-i="33189">from</span> <span data-i="33190">my</span> <span data-i="33191">throat;</span> </div>
+			<div><span data-i="33193">For,</span> <span data-i="33194">though</span> <span data-i="33195">I</span> <span data-i="33196">am</span> <span data-i="33197">not</span> <span data-i="33198">splenitive</span> <span data-i="33199">and</span> <span data-i="33200">rash,</span> </div>
+			<div><span data-i="33202">Yet</span> <span data-i="33203">have</span> <span data-i="33204">I</span> <span data-i="33205">something</span> <span data-i="33206">in</span> <span data-i="33207">me</span> <span data-i="33208">dangerous,</span> </div>
+			<div><span data-i="33210">Which</span> <span data-i="33211">let</span> <span data-i="33212">thy</span> <span data-i="33213">wiseness</span> <span data-i="33214">fear:</span> <span data-i="33215">hold</span> <span data-i="33216">off</span> <span data-i="33217">thy</span> <span data-i="33218">hand.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="33220">KING</span> <span data-i="33221">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="33223">Pluck</span> <span data-i="33224">them</span> <span data-i="33225">asunder.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="33227">QUEEN</span> <span data-i="33228">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="33230">Hamlet,</span> <span data-i="33231">Hamlet!</span> </div>
+			<div><span data-i="33233">All</span> </div>
+			<div><span data-i="33235">Gentlemen,—</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="33237">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="33239">Good</span> <span data-i="33240">my</span> <span data-i="33241">lord,</span> <span data-i="33242">be</span> <span data-i="33243">quiet.</span> </div>
+		</div>
+	</div>
+</div>

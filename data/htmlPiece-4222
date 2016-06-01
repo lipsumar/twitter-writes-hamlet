@@ -1,0 +1,81 @@
+<div class="text__stage-direction"><span data-i="4222">Enter</span> <span data-i="4223">LAERTES</span> <span data-i="4224">and</span> <span data-i="4225">OPHELIA</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="4227">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4229">My</span> <span data-i="4230">necessaries</span> <span data-i="4231">are</span> <span data-i="4232">embark'd:</span> <span data-i="4233">farewell:</span> </div>
+			<div><span data-i="4235">And,</span> <span data-i="4236">sister,</span> <span data-i="4237">as</span> <span data-i="4238">the</span> <span data-i="4239">winds</span> <span data-i="4240">give</span> <span data-i="4241">benefit</span> </div>
+			<div><span data-i="4243">And</span> <span data-i="4244">convoy</span> <span data-i="4245">is</span> <span data-i="4246">assistant,</span> <span data-i="4247">do</span> <span data-i="4248">not</span> <span data-i="4249">sleep,</span> </div>
+			<div><span data-i="4251">But</span> <span data-i="4252">let</span> <span data-i="4253">me</span> <span data-i="4254">hear</span> <span data-i="4255">from</span> <span data-i="4256">you.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="4258">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4260">Do</span> <span data-i="4261">you</span> <span data-i="4262">doubt</span> <span data-i="4263">that?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="4265">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4267">For</span> <span data-i="4268">Hamlet</span> <span data-i="4269">and</span> <span data-i="4270">the</span> <span data-i="4271">trifling</span> <span data-i="4272">of</span> <span data-i="4273">his</span> <span data-i="4274">favour,</span> </div>
+			<div><span data-i="4276">Hold</span> <span data-i="4277">it</span> <span data-i="4278">a</span> <span data-i="4279">fashion</span> <span data-i="4280">and</span> <span data-i="4281">a</span> <span data-i="4282">toy</span> <span data-i="4283">in</span> <span data-i="4284">blood,</span> </div>
+			<div><span data-i="4286">A</span> <span data-i="4287">violet</span> <span data-i="4288">in</span> <span data-i="4289">the</span> <span data-i="4290">youth</span> <span data-i="4291">of</span> <span data-i="4292">primy</span> <span data-i="4293">nature,</span> </div>
+			<div><span data-i="4295">Forward,</span> <span data-i="4296">not</span> <span data-i="4297">permanent,</span> <span data-i="4298">sweet,</span> <span data-i="4299">not</span> <span data-i="4300">lasting,</span> </div>
+			<div><span data-i="4302">The</span> <span data-i="4303">perfume</span> <span data-i="4304">and</span> <span data-i="4305">suppliance</span> <span data-i="4306">of</span> <span data-i="4307">a</span> <span data-i="4308">minute;</span> <span data-i="4309">No</span> <span data-i="4310">more.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="4312">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4314">No</span> <span data-i="4315">more</span> <span data-i="4316">but</span> <span data-i="4317">so?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="4319">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4321">Think</span> <span data-i="4322">it</span> <span data-i="4323">no</span> <span data-i="4324">more;</span> </div>
+			<div><span data-i="4326">For</span> <span data-i="4327">nature,</span> <span data-i="4328">crescent,</span> <span data-i="4329">does</span> <span data-i="4330">not</span> <span data-i="4331">grow</span> <span data-i="4332">alone</span> </div>
+			<div><span data-i="4334">In</span> <span data-i="4335">thews</span> <span data-i="4336">and</span> <span data-i="4337">bulk,</span> <span data-i="4338">but,</span> <span data-i="4339">as</span> <span data-i="4340">this</span> <span data-i="4341">temple</span> <span data-i="4342">waxes,</span> </div>
+			<div><span data-i="4344">The</span> <span data-i="4345">inward</span> <span data-i="4346">service</span> <span data-i="4347">of</span> <span data-i="4348">the</span> <span data-i="4349">mind</span> <span data-i="4350">and</span> <span data-i="4351">soul</span> </div>
+			<div><span data-i="4353">Grows</span> <span data-i="4354">wide</span> <span data-i="4355">withal.</span> <span data-i="4356">Perhaps</span> <span data-i="4357">he</span> <span data-i="4358">loves</span> <span data-i="4359">you</span> <span data-i="4360">now,</span> </div>
+			<div><span data-i="4362">And</span> <span data-i="4363">now</span> <span data-i="4364">no</span> <span data-i="4365">soil</span> <span data-i="4366">nor</span> <span data-i="4367">cautel</span> <span data-i="4368">doth</span> <span data-i="4369">besmirch</span> </div>
+			<div><span data-i="4371">The</span> <span data-i="4372">virtue</span> <span data-i="4373">of</span> <span data-i="4374">his</span> <span data-i="4375">will:</span> <span data-i="4376">but</span> <span data-i="4377">you</span> <span data-i="4378">must</span> <span data-i="4379">fear,</span> </div>
+			<div><span data-i="4381">His</span> <span data-i="4382">greatness</span> <span data-i="4383">weigh'd,</span> <span data-i="4384">his</span> <span data-i="4385">will</span> <span data-i="4386">is</span> <span data-i="4387">not</span> <span data-i="4388">his</span> <span data-i="4389">own;</span> </div>
+			<div><span data-i="4391">For</span> <span data-i="4392">he</span> <span data-i="4393">himself</span> <span data-i="4394">is</span> <span data-i="4395">subject</span> <span data-i="4396">to</span> <span data-i="4397">his</span> <span data-i="4398">birth:</span> </div>
+			<div><span data-i="4400">He</span> <span data-i="4401">may</span> <span data-i="4402">not,</span> <span data-i="4403">as</span> <span data-i="4404">unvalued</span> <span data-i="4405">persons</span> <span data-i="4406">do,</span> </div>
+			<div><span data-i="4408">Carve</span> <span data-i="4409">for</span> <span data-i="4410">himself;</span> <span data-i="4411">for</span> <span data-i="4412">on</span> <span data-i="4413">his</span> <span data-i="4414">choice</span> <span data-i="4415">depends</span> </div>
+			<div><span data-i="4417">The</span> <span data-i="4418">safety</span> <span data-i="4419">and</span> <span data-i="4420">health</span> <span data-i="4421">of</span> <span data-i="4422">this</span> <span data-i="4423">whole</span> <span data-i="4424">state;</span> </div>
+			<div><span data-i="4426">And</span> <span data-i="4427">therefore</span> <span data-i="4428">must</span> <span data-i="4429">his</span> <span data-i="4430">choice</span> <span data-i="4431">be</span> <span data-i="4432">circumscribed</span> </div>
+			<div><span data-i="4434">Unto</span> <span data-i="4435">the</span> <span data-i="4436">voice</span> <span data-i="4437">and</span> <span data-i="4438">yielding</span> <span data-i="4439">of</span> <span data-i="4440">that</span> <span data-i="4441">body</span> </div>
+			<div><span data-i="4443">Whereof</span> <span data-i="4444">he</span> <span data-i="4445">is</span> <span data-i="4446">the</span> <span data-i="4447">head.</span> <span data-i="4448">Then</span> <span data-i="4449">if</span> <span data-i="4450">he</span> <span data-i="4451">says</span> <span data-i="4452">he</span> <span data-i="4453">loves</span> <span data-i="4454">you,</span> </div>
+			<div><span data-i="4456">It</span> <span data-i="4457">fits</span> <span data-i="4458">your</span> <span data-i="4459">wisdom</span> <span data-i="4460">so</span> <span data-i="4461">far</span> <span data-i="4462">to</span> <span data-i="4463">believe</span> <span data-i="4464">it</span> </div>
+			<div><span data-i="4466">As</span> <span data-i="4467">he</span> <span data-i="4468">in</span> <span data-i="4469">his</span> <span data-i="4470">particular</span> <span data-i="4471">act</span> <span data-i="4472">and</span> <span data-i="4473">place</span> </div>
+			<div><span data-i="4475">May</span> <span data-i="4476">give</span> <span data-i="4477">his</span> <span data-i="4478">saying</span> <span data-i="4479">deed;</span> <span data-i="4480">which</span> <span data-i="4481">is</span> <span data-i="4482">no</span> <span data-i="4483">further</span> </div>
+			<div><span data-i="4485">Than</span> <span data-i="4486">the</span> <span data-i="4487">main</span> <span data-i="4488">voice</span> <span data-i="4489">of</span> <span data-i="4490">Denmark</span> <span data-i="4491">goes</span> <span data-i="4492">withal.</span> </div>
+			<div><span data-i="4494">Then</span> <span data-i="4495">weigh</span> <span data-i="4496">what</span> <span data-i="4497">loss</span> <span data-i="4498">your</span> <span data-i="4499">honour</span> <span data-i="4500">may</span> <span data-i="4501">sustain,</span> </div>
+			<div><span data-i="4503">If</span> <span data-i="4504">with</span> <span data-i="4505">too</span> <span data-i="4506">credent</span> <span data-i="4507">ear</span> <span data-i="4508">you</span> <span data-i="4509">list</span> <span data-i="4510">his</span> <span data-i="4511">songs,</span> </div>
+			<div><span data-i="4513">Or</span> <span data-i="4514">lose</span> <span data-i="4515">your</span> <span data-i="4516">heart,</span> <span data-i="4517">or</span> <span data-i="4518">your</span> <span data-i="4519">chaste</span> <span data-i="4520">treasure</span> <span data-i="4521">open</span> </div>
+			<div><span data-i="4523">To</span> <span data-i="4524">his</span> <span data-i="4525">unmaster'd</span> <span data-i="4526">importunity.</span> </div>
+			<div><span data-i="4528">Fear</span> <span data-i="4529">it,</span> <span data-i="4530">Ophelia,</span> <span data-i="4531">fear</span> <span data-i="4532">it,</span> <span data-i="4533">my</span> <span data-i="4534">dear</span> <span data-i="4535">sister,</span> </div>
+			<div><span data-i="4537">And</span> <span data-i="4538">keep</span> <span data-i="4539">you</span> <span data-i="4540">in</span> <span data-i="4541">the</span> <span data-i="4542">rear</span> <span data-i="4543">of</span> <span data-i="4544">your</span> <span data-i="4545">affection,</span> </div>
+			<div><span data-i="4547">Out</span> <span data-i="4548">of</span> <span data-i="4549">the</span> <span data-i="4550">shot</span> <span data-i="4551">and</span> <span data-i="4552">danger</span> <span data-i="4553">of</span> <span data-i="4554">desire.</span> </div>
+			<div><span data-i="4556">The</span> <span data-i="4557">chariest</span> <span data-i="4558">maid</span> <span data-i="4559">is</span> <span data-i="4560">prodigal</span> <span data-i="4561">enough,</span> </div>
+			<div><span data-i="4563">If</span> <span data-i="4564">she</span> <span data-i="4565">unmask</span> <span data-i="4566">her</span> <span data-i="4567">beauty</span> <span data-i="4568">to</span> <span data-i="4569">the</span> <span data-i="4570">moon:</span> </div>
+			<div><span data-i="4572">Virtue</span> <span data-i="4573">itself</span> <span data-i="4574">'scapes</span> <span data-i="4575">not</span> <span data-i="4576">calumnious</span> <span data-i="4577">strokes:</span> </div>
+			<div><span data-i="4579">The</span> <span data-i="4580">canker</span> <span data-i="4581">galls</span> <span data-i="4582">the</span> <span data-i="4583">infants</span> <span data-i="4584">of</span> <span data-i="4585">the</span> <span data-i="4586">spring,</span> </div>
+			<div><span data-i="4588">Too</span> <span data-i="4589">oft</span> <span data-i="4590">before</span> <span data-i="4591">their</span> <span data-i="4592">buttons</span> <span data-i="4593">be</span> <span data-i="4594">disclosed,</span> </div>
+			<div><span data-i="4596">And</span> <span data-i="4597">in</span> <span data-i="4598">the</span> <span data-i="4599">morn</span> <span data-i="4600">and</span> <span data-i="4601">liquid</span> <span data-i="4602">dew</span> <span data-i="4603">of</span> <span data-i="4604">youth</span> </div>
+			<div><span data-i="4606">Contagious</span> <span data-i="4607">blastments</span> <span data-i="4608">are</span> <span data-i="4609">most</span> <span data-i="4610">imminent.</span> </div>
+			<div><span data-i="4612">Be</span> <span data-i="4613">wary</span> <span data-i="4614">then;</span> <span data-i="4615">best</span> <span data-i="4616">safety</span> <span data-i="4617">lies</span> <span data-i="4618">in</span> <span data-i="4619">fear:</span> </div>
+			<div><span data-i="4621">Youth</span> <span data-i="4622">to</span> <span data-i="4623">itself</span> <span data-i="4624">rebels,</span> <span data-i="4625">though</span> <span data-i="4626">none</span> <span data-i="4627">else</span> <span data-i="4628">near.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="4630">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4632">I</span> <span data-i="4633">shall</span> <span data-i="4634">the</span> <span data-i="4635">effect</span> <span data-i="4636">of</span> <span data-i="4637">this</span> <span data-i="4638">good</span> <span data-i="4639">lesson</span> <span data-i="4640">keep,</span> </div>
+			<div><span data-i="4642">As</span> <span data-i="4643">watchman</span> <span data-i="4644">to</span> <span data-i="4645">my</span> <span data-i="4646">heart.</span> <span data-i="4647">But,</span> <span data-i="4648">good</span> <span data-i="4649">my</span> <span data-i="4650">brother,</span> </div>
+			<div><span data-i="4652">Do</span> <span data-i="4653">not,</span> <span data-i="4654">as</span> <span data-i="4655">some</span> <span data-i="4656">ungracious</span> <span data-i="4657">pastors</span> <span data-i="4658">do,</span> </div>
+			<div><span data-i="4660">Show</span> <span data-i="4661">me</span> <span data-i="4662">the</span> <span data-i="4663">steep</span> <span data-i="4664">and</span> <span data-i="4665">thorny</span> <span data-i="4666">way</span> <span data-i="4667">to</span> <span data-i="4668">heaven;</span> </div>
+			<div><span data-i="4670">Whiles,</span> <span data-i="4671">like</span> <span data-i="4672">a</span> <span data-i="4673">puff'd</span> <span data-i="4674">and</span> <span data-i="4675">reckless</span> <span data-i="4676">libertine,</span> </div>
+			<div><span data-i="4678">Himself</span> <span data-i="4679">the</span> <span data-i="4680">primrose</span> <span data-i="4681">path</span> <span data-i="4682">of</span> <span data-i="4683">dalliance</span> <span data-i="4684">treads,</span> </div>
+			<div><span data-i="4686">And</span> <span data-i="4687">recks</span> <span data-i="4688">not</span> <span data-i="4689">his</span> <span data-i="4690">own</span> <span data-i="4691">rede.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="4693">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="4695">O,</span> <span data-i="4696">fear</span> <span data-i="4697">me</span> <span data-i="4698">not.</span> </div>
+			<div><span data-i="4700">I</span> <span data-i="4701">stay</span> <span data-i="4702">too</span> <span data-i="4703">long:</span> <span data-i="4704">but</span> <span data-i="4705">here</span> <span data-i="4706">my</span> <span data-i="4707">father</span> <span data-i="4708">comes.</span> </div>
+		</div>
+	</div>
+</div>

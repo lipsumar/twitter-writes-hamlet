@@ -1,0 +1,33 @@
+<div class="text__stage-direction"><span data-i="7413">Writing</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="7416">So,</span> <span data-i="7417">uncle,</span> <span data-i="7418">there</span> <span data-i="7419">you</span> <span data-i="7420">are.</span> <span data-i="7421">Now</span> <span data-i="7422">to</span> <span data-i="7423">my</span> <span data-i="7424">word;</span> </div>
+			<div><span data-i="7426">It</span> <span data-i="7427">is</span> <span data-i="7428">'Adieu,</span> <span data-i="7429">adieu!</span> <span data-i="7430">remember</span> <span data-i="7431">me.'</span> </div>
+			<div><span data-i="7433">I</span> <span data-i="7434">have</span> <span data-i="7435">sworn</span> <span data-i="7436">'t.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="7438">MARCELLUS</span> <span data-i="7439">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="7441">[Within]</span> <span data-i="7442">My</span> <span data-i="7443">lord,</span> <span data-i="7444">my</span> <span data-i="7445">lord,—</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="7447">MARCELLUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="7449">[Within]</span> <span data-i="7450">Lord</span> <span data-i="7451">Hamlet,—</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="7453">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="7455">[Within]</span> <span data-i="7456">Heaven</span> <span data-i="7457">secure</span> <span data-i="7458">him!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="7460">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="7462">So</span> <span data-i="7463">be</span> <span data-i="7464">it!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="7466">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="7468">[Within]</span> <span data-i="7469">Hillo,</span> <span data-i="7470">ho,</span> <span data-i="7471">ho,</span> <span data-i="7472">my</span> <span data-i="7473">lord!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="7475">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="7477">Hillo,</span> <span data-i="7478">ho,</span> <span data-i="7479">ho,</span> <span data-i="7480">boy!</span> <span data-i="7481">come,</span> <span data-i="7482">bird,</span> <span data-i="7483">come.</span> </div>
+		</div>
+	</div>
+</div>

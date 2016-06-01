@@ -1,0 +1,16 @@
+<div class="text__stage-direction"><span data-i="14677">Exit</span> <span data-i="14678">First</span> <span data-i="14679">Player</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="14682">My</span> <span data-i="14683">good</span> <span data-i="14684">friends,</span> <span data-i="14685">I'll</span> <span data-i="14686">leave</span> <span data-i="14687">you</span> <span data-i="14688">till</span> <span data-i="14689">night:</span> <span data-i="14690">you</span> <span data-i="14691">are</span> </div>
+			<div><span data-i="14693">welcome</span> <span data-i="14694">to</span> <span data-i="14695">Elsinore.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="14697">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="14699">Good</span> <span data-i="14700">my</span> <span data-i="14701">lord!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="14703">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="14705">Ay,</span> <span data-i="14706">so,</span> <span data-i="14707">God</span> <span data-i="14708">be</span> <span data-i="14709">wi'</span> <span data-i="14710">ye;</span> </div>
+		</div>
+	</div>
+</div>

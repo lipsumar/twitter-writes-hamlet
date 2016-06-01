@@ -1,0 +1,13 @@
+<div class="text__stage-direction"><span data-i="11634">Enter</span> <span data-i="11635">ROSENCRANTZ</span> <span data-i="11636">and</span> <span data-i="11637">GUILDENSTERN</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="11640">LORD</span> <span data-i="11641">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="11643">You</span> <span data-i="11644">go</span> <span data-i="11645">to</span> <span data-i="11646">seek</span> <span data-i="11647">the</span> <span data-i="11648">Lord</span> <span data-i="11649">Hamlet;</span> <span data-i="11650">there</span> <span data-i="11651">he</span> <span data-i="11652">is.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="11654">ROSENCRANTZ</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="11656">[To</span> <span data-i="11657">POLONIUS]</span> <span data-i="11658">God</span> <span data-i="11659">save</span> <span data-i="11660">you,</span> <span data-i="11661">sir!</span> </div>
+		</div>
+	</div>
+</div>

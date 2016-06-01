@@ -1,0 +1,17 @@
+<div class="text__stage-direction"><span data-i="18597">Exeunt</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="18600">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18602">What</span> <span data-i="18603">means</span> <span data-i="18604">this,</span> <span data-i="18605">my</span> <span data-i="18606">lord?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18608">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18610">Marry,</span> <span data-i="18611">this</span> <span data-i="18612">is</span> <span data-i="18613">miching</span> <span data-i="18614">mallecho;</span> <span data-i="18615">it</span> <span data-i="18616">means</span> <span data-i="18617">mischief.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18619">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18621">Belike</span> <span data-i="18622">this</span> <span data-i="18623">show</span> <span data-i="18624">imports</span> <span data-i="18625">the</span> <span data-i="18626">argument</span> <span data-i="18627">of</span> <span data-i="18628">the</span> <span data-i="18629">play.</span> </div>
+		</div>
+	</div>
+</div>

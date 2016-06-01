@@ -1,0 +1,35 @@
+<div class="text__stage-direction"><span data-i="36596">QUEEN</span> <span data-i="36597">GERTRUDE</span> <span data-i="36598">falls</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="36601">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36603">Look</span> <span data-i="36604">to</span> <span data-i="36605">the</span> <span data-i="36606">queen</span> <span data-i="36607">there,</span> <span data-i="36608">ho!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36610">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36612">They</span> <span data-i="36613">bleed</span> <span data-i="36614">on</span> <span data-i="36615">both</span> <span data-i="36616">sides.</span> <span data-i="36617">How</span> <span data-i="36618">is</span> <span data-i="36619">it,</span> <span data-i="36620">my</span> <span data-i="36621">lord?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36623">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36625">How</span> <span data-i="36626">is't,</span> <span data-i="36627">Laertes?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36629">LAERTES</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36631">Why,</span> <span data-i="36632">as</span> <span data-i="36633">a</span> <span data-i="36634">woodcock</span> <span data-i="36635">to</span> <span data-i="36636">mine</span> <span data-i="36637">own</span> <span data-i="36638">springe,</span> <span data-i="36639">Osric;</span> </div>
+			<div><span data-i="36641">I</span> <span data-i="36642">am</span> <span data-i="36643">justly</span> <span data-i="36644">kill'd</span> <span data-i="36645">with</span> <span data-i="36646">mine</span> <span data-i="36647">own</span> <span data-i="36648">treachery.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36650">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36652">How</span> <span data-i="36653">does</span> <span data-i="36654">the</span> <span data-i="36655">queen?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36657">KING</span> <span data-i="36658">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36660">She</span> <span data-i="36661">swounds</span> <span data-i="36662">to</span> <span data-i="36663">see</span> <span data-i="36664">them</span> <span data-i="36665">bleed.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="36667">QUEEN</span> <span data-i="36668">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="36670">No,</span> <span data-i="36671">no,</span> <span data-i="36672">the</span> <span data-i="36673">drink,</span> <span data-i="36674">the</span> <span data-i="36675">drink,</span> <span data-i="36676">—O</span> <span data-i="36677">my</span> <span data-i="36678">dear</span> <span data-i="36679">Hamlet,—</span> </div>
+			<div><span data-i="36681">The</span> <span data-i="36682">drink,</span> <span data-i="36683">the</span> <span data-i="36684">drink!</span> <span data-i="36685">I</span> <span data-i="36686">am</span> <span data-i="36687">poison'd.</span> </div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,70 @@
+<div class="text__stage-direction"><span data-i="18253">Lying</span> <span data-i="18254">down</span> <span data-i="18255">at</span> <span data-i="18256">OPHELIA's</span> <span data-i="18257">feet</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="18260">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18262">No,</span> <span data-i="18263">my</span> <span data-i="18264">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18266">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18268">I</span> <span data-i="18269">mean,</span> <span data-i="18270">my</span> <span data-i="18271">head</span> <span data-i="18272">upon</span> <span data-i="18273">your</span> <span data-i="18274">lap?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18276">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18278">Ay,</span> <span data-i="18279">my</span> <span data-i="18280">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18282">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18284">Do</span> <span data-i="18285">you</span> <span data-i="18286">think</span> <span data-i="18287">I</span> <span data-i="18288">meant</span> <span data-i="18289">country</span> <span data-i="18290">matters?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18292">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18294">I</span> <span data-i="18295">think</span> <span data-i="18296">nothing,</span> <span data-i="18297">my</span> <span data-i="18298">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18300">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18302">That's</span> <span data-i="18303">a</span> <span data-i="18304">fair</span> <span data-i="18305">thought</span> <span data-i="18306">to</span> <span data-i="18307">lie</span> <span data-i="18308">between</span> <span data-i="18309">maids'</span> <span data-i="18310">legs.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18312">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18314">What</span> <span data-i="18315">is,</span> <span data-i="18316">my</span> <span data-i="18317">lord?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18319">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18321">Nothing.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18323">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18325">You</span> <span data-i="18326">are</span> <span data-i="18327">merry,</span> <span data-i="18328">my</span> <span data-i="18329">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18331">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18333">Who,</span> <span data-i="18334">I?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18336">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18338">Ay,</span> <span data-i="18339">my</span> <span data-i="18340">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18342">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18344">O</span> <span data-i="18345">God,</span> <span data-i="18346">your</span> <span data-i="18347">only</span> <span data-i="18348">jig-maker.</span> <span data-i="18349">What</span> <span data-i="18350">should</span> <span data-i="18351">a</span> <span data-i="18352">man</span> <span data-i="18353">do</span> </div>
+			<div><span data-i="18355">but</span> <span data-i="18356">be</span> <span data-i="18357">merry?</span> <span data-i="18358">for,</span> <span data-i="18359">look</span> <span data-i="18360">you,</span> <span data-i="18361">how</span> <span data-i="18362">cheerfully</span> <span data-i="18363">my</span> </div>
+			<div><span data-i="18365">mother</span> <span data-i="18366">looks,</span> <span data-i="18367">and</span> <span data-i="18368">my</span> <span data-i="18369">father</span> <span data-i="18370">died</span> <span data-i="18371">within</span> <span data-i="18372">these</span> <span data-i="18373">two</span> <span data-i="18374">hours.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18376">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18378">Nay,</span> <span data-i="18379">'tis</span> <span data-i="18380">twice</span> <span data-i="18381">two</span> <span data-i="18382">months,</span> <span data-i="18383">my</span> <span data-i="18384">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18386">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18388">So</span> <span data-i="18389">long?</span> <span data-i="18390">Nay</span> <span data-i="18391">then,</span> <span data-i="18392">let</span> <span data-i="18393">the</span> <span data-i="18394">devil</span> <span data-i="18395">wear</span> <span data-i="18396">black,</span> <span data-i="18397">for</span> </div>
+			<div><span data-i="18399">I'll</span> <span data-i="18400">have</span> <span data-i="18401">a</span> <span data-i="18402">suit</span> <span data-i="18403">of</span> <span data-i="18404">sables.</span> <span data-i="18405">O</span> <span data-i="18406">heavens!</span> <span data-i="18407">die</span> <span data-i="18408">two</span> </div>
+			<div><span data-i="18410">months</span> <span data-i="18411">ago,</span> <span data-i="18412">and</span> <span data-i="18413">not</span> <span data-i="18414">forgotten</span> <span data-i="18415">yet?</span> <span data-i="18416">Then</span> <span data-i="18417">there's</span> </div>
+			<div><span data-i="18419">hope</span> <span data-i="18420">a</span> <span data-i="18421">great</span> <span data-i="18422">man's</span> <span data-i="18423">memory</span> <span data-i="18424">may</span> <span data-i="18425">outlive</span> <span data-i="18426">his</span> <span data-i="18427">life</span> <span data-i="18428">half</span> </div>
+			<div><span data-i="18430">a</span> <span data-i="18431">year:</span> <span data-i="18432">but,</span> <span data-i="18433">by'r</span> <span data-i="18434">lady,</span> <span data-i="18435">he</span> <span data-i="18436">must</span> <span data-i="18437">build</span> <span data-i="18438">churches,</span> </div>
+			<div><span data-i="18440">then;</span> <span data-i="18441">or</span> <span data-i="18442">else</span> <span data-i="18443">shall</span> <span data-i="18444">he</span> <span data-i="18445">suffer</span> <span data-i="18446">not</span> <span data-i="18447">thinking</span> <span data-i="18448">on,</span> <span data-i="18449">with</span> </div>
+			<div><span data-i="18451">the</span> <span data-i="18452">hobby-horse,</span> <span data-i="18453">whose</span> <span data-i="18454">epitaph</span> <span data-i="18455">is</span> <span data-i="18456">'For,</span> <span data-i="18457">O,</span> <span data-i="18458">for,</span> <span data-i="18459">O,</span> </div>
+			<div><span data-i="18461">the</span> <span data-i="18462">hobby-horse</span> <span data-i="18463">is</span> <span data-i="18464">forgot.'</span> </div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+<div class="text__stage-direction"><span data-i="10027">Re-enter</span> <span data-i="10028">POLONIUS,</span> <span data-i="10029">with</span> <span data-i="10030">VOLTIMAND</span> <span data-i="10031">and</span> <span data-i="10032">CORNELIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="10035">Welcome,</span> <span data-i="10036">my</span> <span data-i="10037">good</span> <span data-i="10038">friends!</span> </div>
+			<div><span data-i="10040">Say,</span> <span data-i="10041">Voltimand,</span> <span data-i="10042">what</span> <span data-i="10043">from</span> <span data-i="10044">our</span> <span data-i="10045">brother</span> <span data-i="10046">Norway?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="10048">VOLTIMAND</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="10050">Most</span> <span data-i="10051">fair</span> <span data-i="10052">return</span> <span data-i="10053">of</span> <span data-i="10054">greetings</span> <span data-i="10055">and</span> <span data-i="10056">desires.</span> </div>
+			<div><span data-i="10058">Upon</span> <span data-i="10059">our</span> <span data-i="10060">first,</span> <span data-i="10061">he</span> <span data-i="10062">sent</span> <span data-i="10063">out</span> <span data-i="10064">to</span> <span data-i="10065">suppress</span> </div>
+			<div><span data-i="10067">His</span> <span data-i="10068">nephew's</span> <span data-i="10069">levies;</span> <span data-i="10070">which</span> <span data-i="10071">to</span> <span data-i="10072">him</span> <span data-i="10073">appear'd</span> </div>
+			<div><span data-i="10075">To</span> <span data-i="10076">be</span> <span data-i="10077">a</span> <span data-i="10078">preparation</span> <span data-i="10079">'gainst</span> <span data-i="10080">the</span> <span data-i="10081">Polack;</span> </div>
+			<div><span data-i="10083">But,</span> <span data-i="10084">better</span> <span data-i="10085">look'd</span> <span data-i="10086">into,</span> <span data-i="10087">he</span> <span data-i="10088">truly</span> <span data-i="10089">found</span> </div>
+			<div><span data-i="10091">It</span> <span data-i="10092">was</span> <span data-i="10093">against</span> <span data-i="10094">your</span> <span data-i="10095">highness:</span> <span data-i="10096">whereat</span> <span data-i="10097">grieved,</span> </div>
+			<div><span data-i="10099">That</span> <span data-i="10100">so</span> <span data-i="10101">his</span> <span data-i="10102">sickness,</span> <span data-i="10103">age</span> <span data-i="10104">and</span> <span data-i="10105">impotence</span> </div>
+			<div><span data-i="10107">Was</span> <span data-i="10108">falsely</span> <span data-i="10109">borne</span> <span data-i="10110">in</span> <span data-i="10111">hand,</span> <span data-i="10112">sends</span> <span data-i="10113">out</span> <span data-i="10114">arrests</span> </div>
+			<div><span data-i="10116">On</span> <span data-i="10117">Fortinbras;</span> <span data-i="10118">which</span> <span data-i="10119">he,</span> <span data-i="10120">in</span> <span data-i="10121">brief,</span> <span data-i="10122">obeys;</span> </div>
+			<div><span data-i="10124">Receives</span> <span data-i="10125">rebuke</span> <span data-i="10126">from</span> <span data-i="10127">Norway,</span> <span data-i="10128">and</span> <span data-i="10129">in</span> <span data-i="10130">fine</span> </div>
+			<div><span data-i="10132">Makes</span> <span data-i="10133">vow</span> <span data-i="10134">before</span> <span data-i="10135">his</span> <span data-i="10136">uncle</span> <span data-i="10137">never</span> <span data-i="10138">more</span> </div>
+			<div><span data-i="10140">To</span> <span data-i="10141">give</span> <span data-i="10142">the</span> <span data-i="10143">assay</span> <span data-i="10144">of</span> <span data-i="10145">arms</span> <span data-i="10146">against</span> <span data-i="10147">your</span> <span data-i="10148">majesty.</span> </div>
+			<div><span data-i="10150">Whereon</span> <span data-i="10151">old</span> <span data-i="10152">Norway,</span> <span data-i="10153">overcome</span> <span data-i="10154">with</span> <span data-i="10155">joy,</span> </div>
+			<div><span data-i="10157">Gives</span> <span data-i="10158">him</span> <span data-i="10159">three</span> <span data-i="10160">thousand</span> <span data-i="10161">crowns</span> <span data-i="10162">in</span> <span data-i="10163">annual</span> <span data-i="10164">fee,</span> </div>
+			<div><span data-i="10166">And</span> <span data-i="10167">his</span> <span data-i="10168">commission</span> <span data-i="10169">to</span> <span data-i="10170">employ</span> <span data-i="10171">those</span> <span data-i="10172">soldiers,</span> </div>
+			<div><span data-i="10174">So</span> <span data-i="10175">levied</span> <span data-i="10176">as</span> <span data-i="10177">before,</span> <span data-i="10178">against</span> <span data-i="10179">the</span> <span data-i="10180">Polack:</span> </div>
+			<div><span data-i="10182">With</span> <span data-i="10183">an</span> <span data-i="10184">entreaty,</span> <span data-i="10185">herein</span> <span data-i="10186">further</span> <span data-i="10187">shown,</span> </div>
+		</div>
+	</div>
+</div>

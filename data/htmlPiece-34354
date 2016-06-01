@@ -1,0 +1,64 @@
+<div class="text__stage-direction"><span data-i="34354">Enter</span> <span data-i="34355">OSRIC</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="34358">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34360">Your</span> <span data-i="34361">lordship</span> <span data-i="34362">is</span> <span data-i="34363">right</span> <span data-i="34364">welcome</span> <span data-i="34365">back</span> <span data-i="34366">to</span> <span data-i="34367">Denmark.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34369">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34371">I</span> <span data-i="34372">humbly</span> <span data-i="34373">thank</span> <span data-i="34374">you,</span> <span data-i="34375">sir.</span> <span data-i="34376">Dost</span> <span data-i="34377">know</span> <span data-i="34378">this</span> <span data-i="34379">water-fly?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34381">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34383">No,</span> <span data-i="34384">my</span> <span data-i="34385">good</span> <span data-i="34386">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34388">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34390">Thy</span> <span data-i="34391">state</span> <span data-i="34392">is</span> <span data-i="34393">the</span> <span data-i="34394">more</span> <span data-i="34395">gracious;</span> <span data-i="34396">for</span> <span data-i="34397">'tis</span> <span data-i="34398">a</span> <span data-i="34399">vice</span> <span data-i="34400">to</span> </div>
+			<div><span data-i="34402">know</span> <span data-i="34403">him.</span> <span data-i="34404">He</span> <span data-i="34405">hath</span> <span data-i="34406">much</span> <span data-i="34407">land,</span> <span data-i="34408">and</span> <span data-i="34409">fertile:</span> <span data-i="34410">let</span> <span data-i="34411">a</span> </div>
+			<div><span data-i="34413">beast</span> <span data-i="34414">be</span> <span data-i="34415">lord</span> <span data-i="34416">of</span> <span data-i="34417">beasts,</span> <span data-i="34418">and</span> <span data-i="34419">his</span> <span data-i="34420">crib</span> <span data-i="34421">shall</span> <span data-i="34422">stand</span> <span data-i="34423">at</span> </div>
+			<div><span data-i="34425">the</span> <span data-i="34426">king's</span> <span data-i="34427">mess:</span> <span data-i="34428">'tis</span> <span data-i="34429">a</span> <span data-i="34430">chough;</span> <span data-i="34431">but,</span> <span data-i="34432">as</span> <span data-i="34433">I</span> <span data-i="34434">say,</span> </div>
+			<div><span data-i="34436">spacious</span> <span data-i="34437">in</span> <span data-i="34438">the</span> <span data-i="34439">possession</span> <span data-i="34440">of</span> <span data-i="34441">dirt.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34443">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34445">Sweet</span> <span data-i="34446">lord,</span> <span data-i="34447">if</span> <span data-i="34448">your</span> <span data-i="34449">lordship</span> <span data-i="34450">were</span> <span data-i="34451">at</span> <span data-i="34452">leisure,</span> <span data-i="34453">I</span> </div>
+			<div><span data-i="34455">should</span> <span data-i="34456">impart</span> <span data-i="34457">a</span> <span data-i="34458">thing</span> <span data-i="34459">to</span> <span data-i="34460">you</span> <span data-i="34461">from</span> <span data-i="34462">his</span> <span data-i="34463">majesty.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34465">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34467">I</span> <span data-i="34468">will</span> <span data-i="34469">receive</span> <span data-i="34470">it,</span> <span data-i="34471">sir,</span> <span data-i="34472">with</span> <span data-i="34473">all</span> <span data-i="34474">diligence</span> <span data-i="34475">of</span> </div>
+			<div><span data-i="34477">spirit.</span> <span data-i="34478">Put</span> <span data-i="34479">your</span> <span data-i="34480">bonnet</span> <span data-i="34481">to</span> <span data-i="34482">his</span> <span data-i="34483">right</span> <span data-i="34484">use;</span> <span data-i="34485">'tis</span> <span data-i="34486">for</span> <span data-i="34487">the</span> <span data-i="34488">head.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34490">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34492">I</span> <span data-i="34493">thank</span> <span data-i="34494">your</span> <span data-i="34495">lordship,</span> <span data-i="34496">it</span> <span data-i="34497">is</span> <span data-i="34498">very</span> <span data-i="34499">hot.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34501">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34503">No,</span> <span data-i="34504">believe</span> <span data-i="34505">me,</span> <span data-i="34506">'tis</span> <span data-i="34507">very</span> <span data-i="34508">cold;</span> <span data-i="34509">the</span> <span data-i="34510">wind</span> <span data-i="34511">is</span> </div>
+			<div><span data-i="34513">northerly.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34515">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34517">It</span> <span data-i="34518">is</span> <span data-i="34519">indifferent</span> <span data-i="34520">cold,</span> <span data-i="34521">my</span> <span data-i="34522">lord,</span> <span data-i="34523">indeed.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34525">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34527">But</span> <span data-i="34528">yet</span> <span data-i="34529">methinks</span> <span data-i="34530">it</span> <span data-i="34531">is</span> <span data-i="34532">very</span> <span data-i="34533">sultry</span> <span data-i="34534">and</span> <span data-i="34535">hot</span> <span data-i="34536">for</span> <span data-i="34537">my</span> </div>
+			<div><span data-i="34539">complexion.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34541">OSRIC</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34543">Exceedingly,</span> <span data-i="34544">my</span> <span data-i="34545">lord;</span> <span data-i="34546">it</span> <span data-i="34547">is</span> <span data-i="34548">very</span> <span data-i="34549">sultry,</span> <span data-i="34550">—as</span> </div>
+			<div><span data-i="34552">'twere,</span> <span data-i="34553">—I</span> <span data-i="34554">cannot</span> <span data-i="34555">tell</span> <span data-i="34556">how.</span> <span data-i="34557">But,</span> <span data-i="34558">my</span> <span data-i="34559">lord,</span> <span data-i="34560">his</span> </div>
+			<div><span data-i="34562">majesty</span> <span data-i="34563">bade</span> <span data-i="34564">me</span> <span data-i="34565">signify</span> <span data-i="34566">to</span> <span data-i="34567">you</span> <span data-i="34568">that</span> <span data-i="34569">he</span> <span data-i="34570">has</span> <span data-i="34571">laid</span> <span data-i="34572">a</span> </div>
+			<div><span data-i="34574">great</span> <span data-i="34575">wager</span> <span data-i="34576">on</span> <span data-i="34577">your</span> <span data-i="34578">head:</span> <span data-i="34579">sir,</span> <span data-i="34580">this</span> <span data-i="34581">is</span> <span data-i="34582">the</span> <span data-i="34583">matter,—</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="34585">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="34587">I</span> <span data-i="34588">beseech</span> <span data-i="34589">you,</span> <span data-i="34590">remember—</span> </div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,31 @@
+<div class="text__stage-direction"><span data-i="15532">Exeunt</span> <span data-i="15533">ROSENCRANTZ</span> <span data-i="15534">and</span> <span data-i="15535">GUILDENSTERN</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="15538">KING</span> <span data-i="15539">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15541">Sweet</span> <span data-i="15542">Gertrude,</span> <span data-i="15543">leave</span> <span data-i="15544">us</span> <span data-i="15545">too;</span> </div>
+			<div><span data-i="15547">For</span> <span data-i="15548">we</span> <span data-i="15549">have</span> <span data-i="15550">closely</span> <span data-i="15551">sent</span> <span data-i="15552">for</span> <span data-i="15553">Hamlet</span> <span data-i="15554">hither,</span> </div>
+			<div><span data-i="15556">That</span> <span data-i="15557">he,</span> <span data-i="15558">as</span> <span data-i="15559">'twere</span> <span data-i="15560">by</span> <span data-i="15561">accident,</span> <span data-i="15562">may</span> <span data-i="15563">here</span> </div>
+			<div><span data-i="15565">Affront</span> <span data-i="15566">Ophelia:</span> </div>
+			<div><span data-i="15568">Her</span> <span data-i="15569">father</span> <span data-i="15570">and</span> <span data-i="15571">myself,</span> <span data-i="15572">lawful</span> <span data-i="15573">espials,</span> </div>
+			<div><span data-i="15575">Will</span> <span data-i="15576">so</span> <span data-i="15577">bestow</span> <span data-i="15578">ourselves</span> <span data-i="15579">that,</span> <span data-i="15580">seeing,</span> <span data-i="15581">unseen,</span> </div>
+			<div><span data-i="15583">We</span> <span data-i="15584">may</span> <span data-i="15585">of</span> <span data-i="15586">their</span> <span data-i="15587">encounter</span> <span data-i="15588">frankly</span> <span data-i="15589">judge,</span> </div>
+			<div><span data-i="15591">And</span> <span data-i="15592">gather</span> <span data-i="15593">by</span> <span data-i="15594">him,</span> <span data-i="15595">as</span> <span data-i="15596">he</span> <span data-i="15597">is</span> <span data-i="15598">behaved,</span> </div>
+			<div><span data-i="15600">If</span> <span data-i="15601">'t</span> <span data-i="15602">be</span> <span data-i="15603">the</span> <span data-i="15604">affliction</span> <span data-i="15605">of</span> <span data-i="15606">his</span> <span data-i="15607">love</span> <span data-i="15608">or</span> <span data-i="15609">no</span> </div>
+			<div><span data-i="15611">That</span> <span data-i="15612">thus</span> <span data-i="15613">he</span> <span data-i="15614">suffers</span> <span data-i="15615">for.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15617">QUEEN</span> <span data-i="15618">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15620">I</span> <span data-i="15621">shall</span> <span data-i="15622">obey</span> <span data-i="15623">you.</span> </div>
+			<div><span data-i="15625">And</span> <span data-i="15626">for</span> <span data-i="15627">your</span> <span data-i="15628">part,</span> <span data-i="15629">Ophelia,</span> <span data-i="15630">I</span> <span data-i="15631">do</span> <span data-i="15632">wish</span> </div>
+			<div><span data-i="15634">That</span> <span data-i="15635">your</span> <span data-i="15636">good</span> <span data-i="15637">beauties</span> <span data-i="15638">be</span> <span data-i="15639">the</span> <span data-i="15640">happy</span> <span data-i="15641">cause</span> </div>
+			<div><span data-i="15643">Of</span> <span data-i="15644">Hamlet's</span> <span data-i="15645">wildness:</span> <span data-i="15646">so</span> <span data-i="15647">shall</span> <span data-i="15648">I</span> <span data-i="15649">hope</span> <span data-i="15650">your</span> <span data-i="15651">virtues</span> </div>
+			<div><span data-i="15653">Will</span> <span data-i="15654">bring</span> <span data-i="15655">him</span> <span data-i="15656">to</span> <span data-i="15657">his</span> <span data-i="15658">wonted</span> <span data-i="15659">way</span> <span data-i="15660">again,</span> </div>
+			<div><span data-i="15662">To</span> <span data-i="15663">both</span> <span data-i="15664">your</span> <span data-i="15665">honours.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="15667">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="15669">Madam,</span> <span data-i="15670">I</span> <span data-i="15671">wish</span> <span data-i="15672">it</span> <span data-i="15673">may.</span> </div>
+		</div>
+	</div>
+</div>

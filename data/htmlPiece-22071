@@ -1,0 +1,66 @@
+<div class="text__stage-direction"><span data-i="22071">Enter</span> <span data-i="22072">HAMLET</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="22075">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22077">Now,</span> <span data-i="22078">mother,</span> <span data-i="22079">what's</span> <span data-i="22080">the</span> <span data-i="22081">matter?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22083">QUEEN</span> <span data-i="22084">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22086">Hamlet,</span> <span data-i="22087">thou</span> <span data-i="22088">hast</span> <span data-i="22089">thy</span> <span data-i="22090">father</span> <span data-i="22091">much</span> <span data-i="22092">offended.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22094">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22096">Mother,</span> <span data-i="22097">you</span> <span data-i="22098">have</span> <span data-i="22099">my</span> <span data-i="22100">father</span> <span data-i="22101">much</span> <span data-i="22102">offended.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22104">QUEEN</span> <span data-i="22105">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22107">Come,</span> <span data-i="22108">come,</span> <span data-i="22109">you</span> <span data-i="22110">answer</span> <span data-i="22111">with</span> <span data-i="22112">an</span> <span data-i="22113">idle</span> <span data-i="22114">tongue.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22116">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22118">Go,</span> <span data-i="22119">go,</span> <span data-i="22120">you</span> <span data-i="22121">question</span> <span data-i="22122">with</span> <span data-i="22123">a</span> <span data-i="22124">wicked</span> <span data-i="22125">tongue.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22127">QUEEN</span> <span data-i="22128">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22130">Why,</span> <span data-i="22131">how</span> <span data-i="22132">now,</span> <span data-i="22133">Hamlet!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22135">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22137">What's</span> <span data-i="22138">the</span> <span data-i="22139">matter</span> <span data-i="22140">now?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22142">QUEEN</span> <span data-i="22143">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22145">Have</span> <span data-i="22146">you</span> <span data-i="22147">forgot</span> <span data-i="22148">me?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22150">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22152">No,</span> <span data-i="22153">by</span> <span data-i="22154">the</span> <span data-i="22155">rood,</span> <span data-i="22156">not</span> <span data-i="22157">so:</span> </div>
+			<div><span data-i="22159">You</span> <span data-i="22160">are</span> <span data-i="22161">the</span> <span data-i="22162">queen,</span> <span data-i="22163">your</span> <span data-i="22164">husband's</span> <span data-i="22165">brother's</span> <span data-i="22166">wife;</span> </div>
+			<div><span data-i="22168">And—would</span> <span data-i="22169">it</span> <span data-i="22170">were</span> <span data-i="22171">not</span> <span data-i="22172">so!</span> <span data-i="22173">—you</span> <span data-i="22174">are</span> <span data-i="22175">my</span> <span data-i="22176">mother.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22178">QUEEN</span> <span data-i="22179">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22181">Nay,</span> <span data-i="22182">then,</span> <span data-i="22183">I'll</span> <span data-i="22184">set</span> <span data-i="22185">those</span> <span data-i="22186">to</span> <span data-i="22187">you</span> <span data-i="22188">that</span> <span data-i="22189">can</span> <span data-i="22190">speak.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22192">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22194">Come,</span> <span data-i="22195">come,</span> <span data-i="22196">and</span> <span data-i="22197">sit</span> <span data-i="22198">you</span> <span data-i="22199">down;</span> <span data-i="22200">you</span> <span data-i="22201">shall</span> <span data-i="22202">not</span> <span data-i="22203">budge;</span> </div>
+			<div><span data-i="22205">You</span> <span data-i="22206">go</span> <span data-i="22207">not</span> <span data-i="22208">till</span> <span data-i="22209">I</span> <span data-i="22210">set</span> <span data-i="22211">you</span> <span data-i="22212">up</span> <span data-i="22213">a</span> <span data-i="22214">glass</span> </div>
+			<div><span data-i="22216">Where</span> <span data-i="22217">you</span> <span data-i="22218">may</span> <span data-i="22219">see</span> <span data-i="22220">the</span> <span data-i="22221">inmost</span> <span data-i="22222">part</span> <span data-i="22223">of</span> <span data-i="22224">you.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22226">QUEEN</span> <span data-i="22227">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22229">What</span> <span data-i="22230">wilt</span> <span data-i="22231">thou</span> <span data-i="22232">do?</span> <span data-i="22233">thou</span> <span data-i="22234">wilt</span> <span data-i="22235">not</span> <span data-i="22236">murder</span> <span data-i="22237">me?</span> </div>
+			<div><span data-i="22239">Help,</span> <span data-i="22240">help,</span> <span data-i="22241">ho!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22243">LORD</span> <span data-i="22244">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22246">[Behind]</span> <span data-i="22247">What,</span> <span data-i="22248">ho!</span> <span data-i="22249">help,</span> <span data-i="22250">help,</span> <span data-i="22251">help!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22253">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22255">[Drawing]</span> <span data-i="22256">How</span> <span data-i="22257">now!</span> <span data-i="22258">a</span> <span data-i="22259">rat?</span> <span data-i="22260">Dead,</span> <span data-i="22261">for</span> <span data-i="22262">a</span> <span data-i="22263">ducat,</span> <span data-i="22264">dead!</span> </div>
+		</div>
+	</div>
+</div>

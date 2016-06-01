@@ -1,0 +1,43 @@
+<div class="text__stage-direction"><span data-i="19598">Enter</span> <span data-i="19599">LUCIANUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="19602">This</span> <span data-i="19603">is</span> <span data-i="19604">one</span> <span data-i="19605">Lucianus,</span> <span data-i="19606">nephew</span> <span data-i="19607">to</span> <span data-i="19608">the</span> <span data-i="19609">king.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19611">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19613">You</span> <span data-i="19614">are</span> <span data-i="19615">as</span> <span data-i="19616">good</span> <span data-i="19617">as</span> <span data-i="19618">a</span> <span data-i="19619">chorus,</span> <span data-i="19620">my</span> <span data-i="19621">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19623">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19625">I</span> <span data-i="19626">could</span> <span data-i="19627">interpret</span> <span data-i="19628">between</span> <span data-i="19629">you</span> <span data-i="19630">and</span> <span data-i="19631">your</span> <span data-i="19632">love,</span> <span data-i="19633">if</span> <span data-i="19634">I</span> </div>
+			<div><span data-i="19636">could</span> <span data-i="19637">see</span> <span data-i="19638">the</span> <span data-i="19639">puppets</span> <span data-i="19640">dallying.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19642">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19644">You</span> <span data-i="19645">are</span> <span data-i="19646">keen,</span> <span data-i="19647">my</span> <span data-i="19648">lord,</span> <span data-i="19649">you</span> <span data-i="19650">are</span> <span data-i="19651">keen.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19653">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19655">It</span> <span data-i="19656">would</span> <span data-i="19657">cost</span> <span data-i="19658">you</span> <span data-i="19659">a</span> <span data-i="19660">groaning</span> <span data-i="19661">to</span> <span data-i="19662">take</span> <span data-i="19663">off</span> <span data-i="19664">my</span> <span data-i="19665">edge.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19667">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19669">Still</span> <span data-i="19670">better,</span> <span data-i="19671">and</span> <span data-i="19672">worse.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19674">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19676">So</span> <span data-i="19677">you</span> <span data-i="19678">must</span> <span data-i="19679">take</span> <span data-i="19680">your</span> <span data-i="19681">husbands.</span> <span data-i="19682">Begin,</span> <span data-i="19683">murderer;</span> </div>
+			<div><span data-i="19685">pox,</span> <span data-i="19686">leave</span> <span data-i="19687">thy</span> <span data-i="19688">damnable</span> <span data-i="19689">faces,</span> <span data-i="19690">and</span> <span data-i="19691">begin.</span> <span data-i="19692">Come:</span> </div>
+			<div><span data-i="19694">'the</span> <span data-i="19695">croaking</span> <span data-i="19696">raven</span> <span data-i="19697">doth</span> <span data-i="19698">bellow</span> <span data-i="19699">for</span> <span data-i="19700">revenge.'</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="19702">LUCIANUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="19704">Thoughts</span> <span data-i="19705">black,</span> <span data-i="19706">hands</span> <span data-i="19707">apt,</span> <span data-i="19708">drugs</span> <span data-i="19709">fit,</span> <span data-i="19710">and</span> <span data-i="19711">time</span> <span data-i="19712">agreeing;</span> </div>
+			<div><span data-i="19714">Confederate</span> <span data-i="19715">season,</span> <span data-i="19716">else</span> <span data-i="19717">no</span> <span data-i="19718">creature</span> <span data-i="19719">seeing;</span> </div>
+			<div><span data-i="19721">Thou</span> <span data-i="19722">mixture</span> <span data-i="19723">rank,</span> <span data-i="19724">of</span> <span data-i="19725">midnight</span> <span data-i="19726">weeds</span> <span data-i="19727">collected,</span> </div>
+			<div><span data-i="19729">With</span> <span data-i="19730">Hecate's</span> <span data-i="19731">ban</span> <span data-i="19732">thrice</span> <span data-i="19733">blasted,</span> <span data-i="19734">thrice</span> <span data-i="19735">infected,</span> </div>
+			<div><span data-i="19737">Thy</span> <span data-i="19738">natural</span> <span data-i="19739">magic</span> <span data-i="19740">and</span> <span data-i="19741">dire</span> <span data-i="19742">property,</span> </div>
+			<div><span data-i="19744">On</span> <span data-i="19745">wholesome</span> <span data-i="19746">life</span> <span data-i="19747">usurp</span> <span data-i="19748">immediately.</span> </div>
+		</div>
+	</div>
+</div>

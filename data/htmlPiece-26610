@@ -1,0 +1,35 @@
+<div class="text__stage-direction"><span data-i="26610">Enter</span> <span data-i="26611">KING</span> <span data-i="26612">CLAUDIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="26615">QUEEN</span> <span data-i="26616">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26618">Alas,</span> <span data-i="26619">look</span> <span data-i="26620">here,</span> <span data-i="26621">my</span> <span data-i="26622">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26624">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26626">[Sings]</span> </div>
+			<div><span data-i="26628">Larded</span> <span data-i="26629">with</span> <span data-i="26630">sweet</span> <span data-i="26631">flowers</span> </div>
+			<div><span data-i="26633">Which</span> <span data-i="26634">bewept</span> <span data-i="26635">to</span> <span data-i="26636">the</span> <span data-i="26637">grave</span> <span data-i="26638">did</span> <span data-i="26639">go</span> </div>
+			<div><span data-i="26641">With</span> <span data-i="26642">true-love</span> <span data-i="26643">showers.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26645">KING</span> <span data-i="26646">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26648">How</span> <span data-i="26649">do</span> <span data-i="26650">you,</span> <span data-i="26651">pretty</span> <span data-i="26652">lady?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26654">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26656">Well,</span> <span data-i="26657">God</span> <span data-i="26658">'ild</span> <span data-i="26659">you!</span> <span data-i="26660">They</span> <span data-i="26661">say</span> <span data-i="26662">the</span> <span data-i="26663">owl</span> <span data-i="26664">was</span> <span data-i="26665">a</span> <span data-i="26666">baker's</span> </div>
+			<div><span data-i="26668">daughter.</span> <span data-i="26669">Lord,</span> <span data-i="26670">we</span> <span data-i="26671">know</span> <span data-i="26672">what</span> <span data-i="26673">we</span> <span data-i="26674">are,</span> <span data-i="26675">but</span> <span data-i="26676">know</span> <span data-i="26677">not</span> </div>
+			<div><span data-i="26679">what</span> <span data-i="26680">we</span> <span data-i="26681">may</span> <span data-i="26682">be.</span> <span data-i="26683">God</span> <span data-i="26684">be</span> <span data-i="26685">at</span> <span data-i="26686">your</span> <span data-i="26687">table!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26689">KING</span> <span data-i="26690">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26692">Conceit</span> <span data-i="26693">upon</span> <span data-i="26694">her</span> <span data-i="26695">father.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26697">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26699">Pray</span> <span data-i="26700">you,</span> <span data-i="26701">let's</span> <span data-i="26702">have</span> <span data-i="26703">no</span> <span data-i="26704">words</span> <span data-i="26705">of</span> <span data-i="26706">this;</span> <span data-i="26707">but</span> <span data-i="26708">when</span> <span data-i="26709">they</span> </div>
+			<div><span data-i="26711">ask</span> <span data-i="26712">you</span> <span data-i="26713">what</span> <span data-i="26714">it</span> <span data-i="26715">means,</span> <span data-i="26716">say</span> <span data-i="26717">you</span> <span data-i="26718">this:</span> </div>
+		</div>
+	</div>
+</div>

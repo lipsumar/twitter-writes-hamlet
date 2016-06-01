@@ -1,0 +1,31 @@
+<div class="text__stage-direction"><span data-i="22283">Falls</span> <span data-i="22284">and</span> <span data-i="22285">dies</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="22288">QUEEN</span> <span data-i="22289">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22291">O</span> <span data-i="22292">me,</span> <span data-i="22293">what</span> <span data-i="22294">hast</span> <span data-i="22295">thou</span> <span data-i="22296">done?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22298">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22300">Nay,</span> <span data-i="22301">I</span> <span data-i="22302">know</span> <span data-i="22303">not:</span> </div>
+			<div><span data-i="22305">Is</span> <span data-i="22306">it</span> <span data-i="22307">the</span> <span data-i="22308">king?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22310">QUEEN</span> <span data-i="22311">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22313">O,</span> <span data-i="22314">what</span> <span data-i="22315">a</span> <span data-i="22316">rash</span> <span data-i="22317">and</span> <span data-i="22318">bloody</span> <span data-i="22319">deed</span> <span data-i="22320">is</span> <span data-i="22321">this!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22323">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22325">A</span> <span data-i="22326">bloody</span> <span data-i="22327">deed!</span> <span data-i="22328">almost</span> <span data-i="22329">as</span> <span data-i="22330">bad,</span> <span data-i="22331">good</span> <span data-i="22332">mother,</span> </div>
+			<div><span data-i="22334">As</span> <span data-i="22335">kill</span> <span data-i="22336">a</span> <span data-i="22337">king,</span> <span data-i="22338">and</span> <span data-i="22339">marry</span> <span data-i="22340">with</span> <span data-i="22341">his</span> <span data-i="22342">brother.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22344">QUEEN</span> <span data-i="22345">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22347">As</span> <span data-i="22348">kill</span> <span data-i="22349">a</span> <span data-i="22350">king!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="22352">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="22354">Ay,</span> <span data-i="22355">lady,</span> <span data-i="22356">'twas</span> <span data-i="22357">my</span> <span data-i="22358">word.</span> </div>
+		</div>
+	</div>
+</div>

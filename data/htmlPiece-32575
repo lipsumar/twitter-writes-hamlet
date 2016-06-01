@@ -1,0 +1,33 @@
+<div class="text__stage-direction"><span data-i="32575">Puts</span> <span data-i="32576">down</span> <span data-i="32577">the</span> <span data-i="32578">skull</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="32581">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="32583">E'en</span> <span data-i="32584">so,</span> <span data-i="32585">my</span> <span data-i="32586">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="32588">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="32590">To</span> <span data-i="32591">what</span> <span data-i="32592">base</span> <span data-i="32593">uses</span> <span data-i="32594">we</span> <span data-i="32595">may</span> <span data-i="32596">return,</span> <span data-i="32597">Horatio!</span> <span data-i="32598">Why</span> <span data-i="32599">may</span> </div>
+			<div><span data-i="32601">not</span> <span data-i="32602">imagination</span> <span data-i="32603">trace</span> <span data-i="32604">the</span> <span data-i="32605">noble</span> <span data-i="32606">dust</span> <span data-i="32607">of</span> <span data-i="32608">Alexander,</span> </div>
+			<div><span data-i="32610">till</span> <span data-i="32611">he</span> <span data-i="32612">find</span> <span data-i="32613">it</span> <span data-i="32614">stopping</span> <span data-i="32615">a</span> <span data-i="32616">bung-hole?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="32618">HORATIO</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="32620">'Twere</span> <span data-i="32621">to</span> <span data-i="32622">consider</span> <span data-i="32623">too</span> <span data-i="32624">curiously,</span> <span data-i="32625">to</span> <span data-i="32626">consider</span> <span data-i="32627">so.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="32629">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="32631">No,</span> <span data-i="32632">faith,</span> <span data-i="32633">not</span> <span data-i="32634">a</span> <span data-i="32635">jot;</span> <span data-i="32636">but</span> <span data-i="32637">to</span> <span data-i="32638">follow</span> <span data-i="32639">him</span> <span data-i="32640">thither</span> <span data-i="32641">with</span> </div>
+			<div><span data-i="32643">modesty</span> <span data-i="32644">enough,</span> <span data-i="32645">and</span> <span data-i="32646">likelihood</span> <span data-i="32647">to</span> <span data-i="32648">lead</span> <span data-i="32649">it:</span> <span data-i="32650">as</span> </div>
+			<div><span data-i="32652">thus:</span> <span data-i="32653">Alexander</span> <span data-i="32654">died,</span> <span data-i="32655">Alexander</span> <span data-i="32656">was</span> <span data-i="32657">buried,</span> </div>
+			<div><span data-i="32659">Alexander</span> <span data-i="32660">returneth</span> <span data-i="32661">into</span> <span data-i="32662">dust;</span> <span data-i="32663">the</span> <span data-i="32664">dust</span> <span data-i="32665">is</span> <span data-i="32666">earth;</span> <span data-i="32667">of</span> </div>
+			<div><span data-i="32669">earth</span> <span data-i="32670">we</span> <span data-i="32671">make</span> <span data-i="32672">loam;</span> <span data-i="32673">and</span> <span data-i="32674">why</span> <span data-i="32675">of</span> <span data-i="32676">that</span> <span data-i="32677">loam,</span> <span data-i="32678">whereto</span> <span data-i="32679">he</span> </div>
+			<div><span data-i="32681">was</span> <span data-i="32682">converted,</span> <span data-i="32683">might</span> <span data-i="32684">they</span> <span data-i="32685">not</span> <span data-i="32686">stop</span> <span data-i="32687">a</span> <span data-i="32688">beer-barrel?</span> </div>
+			<div><span data-i="32690">Imperious</span> <span data-i="32691">Caesar,</span> <span data-i="32692">dead</span> <span data-i="32693">and</span> <span data-i="32694">turn'd</span> <span data-i="32695">to</span> <span data-i="32696">clay,</span> </div>
+			<div><span data-i="32698">Might</span> <span data-i="32699">stop</span> <span data-i="32700">a</span> <span data-i="32701">hole</span> <span data-i="32702">to</span> <span data-i="32703">keep</span> <span data-i="32704">the</span> <span data-i="32705">wind</span> <span data-i="32706">away:</span> </div>
+			<div><span data-i="32708">O,</span> <span data-i="32709">that</span> <span data-i="32710">that</span> <span data-i="32711">earth,</span> <span data-i="32712">which</span> <span data-i="32713">kept</span> <span data-i="32714">the</span> <span data-i="32715">world</span> <span data-i="32716">in</span> <span data-i="32717">awe,</span> </div>
+			<div><span data-i="32719">Should</span> <span data-i="32720">patch</span> <span data-i="32721">a</span> <span data-i="32722">wall</span> <span data-i="32723">to</span> <span data-i="32724">expel</span> <span data-i="32725">the</span> <span data-i="32726">winter</span> <span data-i="32727">flaw!</span> </div>
+			<div><span data-i="32729">But</span> <span data-i="32730">soft!</span> <span data-i="32731">but</span> <span data-i="32732">soft!</span> <span data-i="32733">aside:</span> <span data-i="32734">here</span> <span data-i="32735">comes</span> <span data-i="32736">the</span> <span data-i="32737">king.</span> </div>
+		</div>
+	</div>
+</div>

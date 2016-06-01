@@ -1,0 +1,51 @@
+<div class="text__stage-direction"><span data-i="25711">Enter</span> <span data-i="25712">HAMLET,</span> <span data-i="25713">ROSENCRANTZ,</span> <span data-i="25714">GUILDENSTERN,</span> <span data-i="25715">and</span> <span data-i="25716">others</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="25719">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25721">Good</span> <span data-i="25722">sir,</span> <span data-i="25723">whose</span> <span data-i="25724">powers</span> <span data-i="25725">are</span> <span data-i="25726">these?</span> </div>
+			<div><span data-i="25728">Captain</span> </div>
+			<div><span data-i="25730">They</span> <span data-i="25731">are</span> <span data-i="25732">of</span> <span data-i="25733">Norway,</span> <span data-i="25734">sir.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25736">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25738">How</span> <span data-i="25739">purposed,</span> <span data-i="25740">sir,</span> <span data-i="25741">I</span> <span data-i="25742">pray</span> <span data-i="25743">you?</span> </div>
+			<div><span data-i="25745">Captain</span> </div>
+			<div><span data-i="25747">Against</span> <span data-i="25748">some</span> <span data-i="25749">part</span> <span data-i="25750">of</span> <span data-i="25751">Poland.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25753">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25755">Who</span> <span data-i="25756">commands</span> <span data-i="25757">them,</span> <span data-i="25758">sir?</span> </div>
+			<div><span data-i="25760">Captain</span> </div>
+			<div><span data-i="25762">The</span> <span data-i="25763">nephews</span> <span data-i="25764">to</span> <span data-i="25765">old</span> <span data-i="25766">Norway,</span> <span data-i="25767">Fortinbras.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25769">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25771">Goes</span> <span data-i="25772">it</span> <span data-i="25773">against</span> <span data-i="25774">the</span> <span data-i="25775">main</span> <span data-i="25776">of</span> <span data-i="25777">Poland,</span> <span data-i="25778">sir,</span> </div>
+			<div><span data-i="25780">Or</span> <span data-i="25781">for</span> <span data-i="25782">some</span> <span data-i="25783">frontier?</span> </div>
+			<div><span data-i="25785">Captain</span> </div>
+			<div><span data-i="25787">Truly</span> <span data-i="25788">to</span> <span data-i="25789">speak,</span> <span data-i="25790">and</span> <span data-i="25791">with</span> <span data-i="25792">no</span> <span data-i="25793">addition,</span> </div>
+			<div><span data-i="25795">We</span> <span data-i="25796">go</span> <span data-i="25797">to</span> <span data-i="25798">gain</span> <span data-i="25799">a</span> <span data-i="25800">little</span> <span data-i="25801">patch</span> <span data-i="25802">of</span> <span data-i="25803">ground</span> </div>
+			<div><span data-i="25805">That</span> <span data-i="25806">hath</span> <span data-i="25807">in</span> <span data-i="25808">it</span> <span data-i="25809">no</span> <span data-i="25810">profit</span> <span data-i="25811">but</span> <span data-i="25812">the</span> <span data-i="25813">name.</span> </div>
+			<div><span data-i="25815">To</span> <span data-i="25816">pay</span> <span data-i="25817">five</span> <span data-i="25818">ducats,</span> <span data-i="25819">five,</span> <span data-i="25820">I</span> <span data-i="25821">would</span> <span data-i="25822">not</span> <span data-i="25823">farm</span> <span data-i="25824">it;</span> </div>
+			<div><span data-i="25826">Nor</span> <span data-i="25827">will</span> <span data-i="25828">it</span> <span data-i="25829">yield</span> <span data-i="25830">to</span> <span data-i="25831">Norway</span> <span data-i="25832">or</span> <span data-i="25833">the</span> <span data-i="25834">Pole</span> </div>
+			<div><span data-i="25836">A</span> <span data-i="25837">ranker</span> <span data-i="25838">rate,</span> <span data-i="25839">should</span> <span data-i="25840">it</span> <span data-i="25841">be</span> <span data-i="25842">sold</span> <span data-i="25843">in</span> <span data-i="25844">fee.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25846">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25848">Why,</span> <span data-i="25849">then</span> <span data-i="25850">the</span> <span data-i="25851">Polack</span> <span data-i="25852">never</span> <span data-i="25853">will</span> <span data-i="25854">defend</span> <span data-i="25855">it.</span> </div>
+			<div><span data-i="25857">Captain</span> </div>
+			<div><span data-i="25859">Yes,</span> <span data-i="25860">it</span> <span data-i="25861">is</span> <span data-i="25862">already</span> <span data-i="25863">garrison'd.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="25865">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="25867">Two</span> <span data-i="25868">thousand</span> <span data-i="25869">souls</span> <span data-i="25870">and</span> <span data-i="25871">twenty</span> <span data-i="25872">thousand</span> <span data-i="25873">ducats</span> </div>
+			<div><span data-i="25875">Will</span> <span data-i="25876">not</span> <span data-i="25877">debate</span> <span data-i="25878">the</span> <span data-i="25879">question</span> <span data-i="25880">of</span> <span data-i="25881">this</span> <span data-i="25882">straw:</span> </div>
+			<div><span data-i="25884">This</span> <span data-i="25885">is</span> <span data-i="25886">the</span> <span data-i="25887">imposthume</span> <span data-i="25888">of</span> <span data-i="25889">much</span> <span data-i="25890">wealth</span> <span data-i="25891">and</span> <span data-i="25892">peace,</span> </div>
+			<div><span data-i="25894">That</span> <span data-i="25895">inward</span> <span data-i="25896">breaks,</span> <span data-i="25897">and</span> <span data-i="25898">shows</span> <span data-i="25899">no</span> <span data-i="25900">cause</span> <span data-i="25901">without</span> </div>
+			<div><span data-i="25903">Why</span> <span data-i="25904">the</span> <span data-i="25905">man</span> <span data-i="25906">dies.</span> <span data-i="25907">I</span> <span data-i="25908">humbly</span> <span data-i="25909">thank</span> <span data-i="25910">you,</span> <span data-i="25911">sir.</span> </div>
+			<div><span data-i="25913">Captain</span> </div>
+			<div><span data-i="25915">God</span> <span data-i="25916">be</span> <span data-i="25917">wi'</span> <span data-i="25918">you,</span> <span data-i="25919">sir.</span> </div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,29 @@
+<div class="text__stage-direction"><span data-i="26486">Re-enter</span> <span data-i="26487">HORATIO,</span> <span data-i="26488">with</span> <span data-i="26489">OPHELIA</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="26492">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26494">Where</span> <span data-i="26495">is</span> <span data-i="26496">the</span> <span data-i="26497">beauteous</span> <span data-i="26498">majesty</span> <span data-i="26499">of</span> <span data-i="26500">Denmark?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26502">QUEEN</span> <span data-i="26503">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26505">How</span> <span data-i="26506">now,</span> <span data-i="26507">Ophelia!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26509">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26511">[Sings]</span> </div>
+			<div><span data-i="26513">How</span> <span data-i="26514">should</span> <span data-i="26515">I</span> <span data-i="26516">your</span> <span data-i="26517">true</span> <span data-i="26518">love</span> <span data-i="26519">know</span> </div>
+			<div><span data-i="26521">From</span> <span data-i="26522">another</span> <span data-i="26523">one?</span> </div>
+			<div><span data-i="26525">By</span> <span data-i="26526">his</span> <span data-i="26527">cockle</span> <span data-i="26528">hat</span> <span data-i="26529">and</span> <span data-i="26530">staff,</span> </div>
+			<div><span data-i="26532">And</span> <span data-i="26533">his</span> <span data-i="26534">sandal</span> <span data-i="26535">shoon.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26537">QUEEN</span> <span data-i="26538">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26540">Alas,</span> <span data-i="26541">sweet</span> <span data-i="26542">lady,</span> <span data-i="26543">what</span> <span data-i="26544">imports</span> <span data-i="26545">this</span> <span data-i="26546">song?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26548">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26550">Say</span> <span data-i="26551">you?</span> <span data-i="26552">nay,</span> <span data-i="26553">pray</span> <span data-i="26554">you,</span> <span data-i="26555">mark.</span> </div>
+		</div>
+	</div>
+</div>

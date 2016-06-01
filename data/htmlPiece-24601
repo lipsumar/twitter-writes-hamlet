@@ -1,0 +1,18 @@
+<div class="text__stage-direction"><span data-i="24601">Enter</span> <span data-i="24602">HAMLET</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="24604">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="24606">Safely</span> <span data-i="24607">stowed.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="24609">ROSENCRANTZ:</span> <span data-i="24610">GUILDENSTERN:</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="24612">[Within]</span> <span data-i="24613">Hamlet!</span> <span data-i="24614">Lord</span> <span data-i="24615">Hamlet!</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="24617">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="24619">What</span> <span data-i="24620">noise?</span> <span data-i="24621">who</span> <span data-i="24622">calls</span> <span data-i="24623">on</span> <span data-i="24624">Hamlet?</span> </div>
+			<div><span data-i="24626">O,</span> <span data-i="24627">here</span> <span data-i="24628">they</span> <span data-i="24629">come.</span> </div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+<div class="text__stage-direction"><span data-i="17599">Enter</span> <span data-i="17600">POLONIUS,</span> <span data-i="17601">ROSENCRANTZ,</span> <span data-i="17602">and</span> <span data-i="17603">GUILDENSTERN</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="17606">How</span> <span data-i="17607">now,</span> <span data-i="17608">my</span> <span data-i="17609">lord!</span> <span data-i="17610">I</span> <span data-i="17611">will</span> <span data-i="17612">the</span> <span data-i="17613">king</span> <span data-i="17614">hear</span> <span data-i="17615">this</span> <span data-i="17616">piece</span> <span data-i="17617">of</span> <span data-i="17618">work?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="17620">LORD</span> <span data-i="17621">POLONIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="17623">And</span> <span data-i="17624">the</span> <span data-i="17625">queen</span> <span data-i="17626">too,</span> <span data-i="17627">and</span> <span data-i="17628">that</span> <span data-i="17629">presently.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="17631">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="17633">Bid</span> <span data-i="17634">the</span> <span data-i="17635">players</span> <span data-i="17636">make</span> <span data-i="17637">haste.</span> </div>
+		</div>
+	</div>
+</div>

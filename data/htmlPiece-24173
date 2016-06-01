@@ -1,0 +1,15 @@
+<div class="text__stage-direction"><span data-i="24173">Enter</span> <span data-i="24174">KING</span> <span data-i="24175">CLAUDIUS,</span> <span data-i="24176">QUEEN</span> <span data-i="24177">GERTRUDE,</span> <span data-i="24178">ROSENCRANTZ,</span> <span data-i="24179">and</span> <span data-i="24180">GUILDENSTERN</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="24182">KING</span> <span data-i="24183">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="24185">There's</span> <span data-i="24186">matter</span> <span data-i="24187">in</span> <span data-i="24188">these</span> <span data-i="24189">sighs,</span> <span data-i="24190">these</span> <span data-i="24191">profound</span> <span data-i="24192">heaves:</span> </div>
+			<div><span data-i="24194">You</span> <span data-i="24195">must</span> <span data-i="24196">translate:</span> <span data-i="24197">'tis</span> <span data-i="24198">fit</span> <span data-i="24199">we</span> <span data-i="24200">understand</span> <span data-i="24201">them.</span> </div>
+			<div><span data-i="24203">Where</span> <span data-i="24204">is</span> <span data-i="24205">your</span> <span data-i="24206">son?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="24208">QUEEN</span> <span data-i="24209">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="24211">Bestow</span> <span data-i="24212">this</span> <span data-i="24213">place</span> <span data-i="24214">on</span> <span data-i="24215">us</span> <span data-i="24216">a</span> <span data-i="24217">little</span> <span data-i="24218">while.</span> </div>
+		</div>
+	</div>
+</div>

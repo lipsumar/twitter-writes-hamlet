@@ -1,0 +1,11 @@
+<div class="text__stage-direction"><span data-i="17639">Exit</span> <span data-i="17640">POLONIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="17643">Will</span> <span data-i="17644">you</span> <span data-i="17645">two</span> <span data-i="17646">help</span> <span data-i="17647">to</span> <span data-i="17648">hasten</span> <span data-i="17649">them?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="17651">ROSENCRANTZ</span> <span data-i="17652">GUILDENSTERN</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="17654">We</span> <span data-i="17655">will,</span> <span data-i="17656">my</span> <span data-i="17657">lord.</span> </div>
+		</div>
+	</div>
+</div>

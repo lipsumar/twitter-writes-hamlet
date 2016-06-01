@@ -1,0 +1,17 @@
+<div class="text__stage-direction"><span data-i="9973">Exit</span> <span data-i="9974">POLONIUS</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="9977">He</span> <span data-i="9978">tells</span> <span data-i="9979">me,</span> <span data-i="9980">my</span> <span data-i="9981">dear</span> <span data-i="9982">Gertrude,</span> <span data-i="9983">he</span> <span data-i="9984">hath</span> <span data-i="9985">found</span> </div>
+			<div><span data-i="9987">The</span> <span data-i="9988">head</span> <span data-i="9989">and</span> <span data-i="9990">source</span> <span data-i="9991">of</span> <span data-i="9992">all</span> <span data-i="9993">your</span> <span data-i="9994">son's</span> <span data-i="9995">distemper.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="9997">QUEEN</span> <span data-i="9998">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="10000">I</span> <span data-i="10001">doubt</span> <span data-i="10002">it</span> <span data-i="10003">is</span> <span data-i="10004">no</span> <span data-i="10005">other</span> <span data-i="10006">but</span> <span data-i="10007">the</span> <span data-i="10008">main;</span> </div>
+			<div><span data-i="10010">His</span> <span data-i="10011">father's</span> <span data-i="10012">death,</span> <span data-i="10013">and</span> <span data-i="10014">our</span> <span data-i="10015">o'erhasty</span> <span data-i="10016">marriage.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="10018">KING</span> <span data-i="10019">CLAUDIUS</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="10021">Well,</span> <span data-i="10022">we</span> <span data-i="10023">shall</span> <span data-i="10024">sift</span> <span data-i="10025">him.</span> </div>
+		</div>
+	</div>
+</div>

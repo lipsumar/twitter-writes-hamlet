@@ -1,0 +1,17 @@
+<div class="text__stage-direction"><span data-i="18725">Exit</span> </div>
+<div class="text__dialog">
+	<div class="dialog">
+		<div class="dialog__name"><span data-i="18728">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18730">Is</span> <span data-i="18731">this</span> <span data-i="18732">a</span> <span data-i="18733">prologue,</span> <span data-i="18734">or</span> <span data-i="18735">the</span> <span data-i="18736">posy</span> <span data-i="18737">of</span> <span data-i="18738">a</span> <span data-i="18739">ring?</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18741">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18743">'Tis</span> <span data-i="18744">brief,</span> <span data-i="18745">my</span> <span data-i="18746">lord.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="18748">HAMLET</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="18750">As</span> <span data-i="18751">woman's</span> <span data-i="18752">love.</span> </div>
+		</div>
+	</div>
+</div>

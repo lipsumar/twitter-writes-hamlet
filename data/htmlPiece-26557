@@ -1,0 +1,18 @@
+<div class="text__stage-direction"><span data-i="26557">Sings</span> </div>
+<div class="text__dialog">
+	<div class="dialog"><div class="dialog__name"></div><div class="dialog__text">
+			<div><span data-i="26560">He</span> <span data-i="26561">is</span> <span data-i="26562">dead</span> <span data-i="26563">and</span> <span data-i="26564">gone,</span> <span data-i="26565">lady,</span> </div>
+			<div><span data-i="26567">He</span> <span data-i="26568">is</span> <span data-i="26569">dead</span> <span data-i="26570">and</span> <span data-i="26571">gone;</span> </div>
+			<div><span data-i="26573">At</span> <span data-i="26574">his</span> <span data-i="26575">head</span> <span data-i="26576">a</span> <span data-i="26577">grass-green</span> <span data-i="26578">turf,</span> </div>
+			<div><span data-i="26580">At</span> <span data-i="26581">his</span> <span data-i="26582">heels</span> <span data-i="26583">a</span> <span data-i="26584">stone.</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26586">QUEEN</span> <span data-i="26587">GERTRUDE</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26589">Nay,</span> <span data-i="26590">but,</span> <span data-i="26591">Ophelia,—</span> </div>
+		</div>
+		<div class="dialog__name"><span data-i="26593">OPHELIA</span> </div>
+		<div class="dialog__text">
+			<div><span data-i="26595">Pray</span> <span data-i="26596">you,</span> <span data-i="26597">mark.</span> </div>
+		</div>
+	</div>
+</div>

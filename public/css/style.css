@@ -334,8 +334,14 @@ body{
 }
 .tweet-bubble__screen-name{
 	font-weight: bold;
+	display:inline;
 }
-
+.tweet-bubble__date{
+	display: inline;
+	margin-left: 1em;
+	color: #8899a6;
+	font-size: 13px;
+}
 
 
 @media screen and (min-width: 40em) {

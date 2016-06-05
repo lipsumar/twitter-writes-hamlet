@@ -5,13 +5,17 @@ var socket = io();
 var TweetStore = require('./TweetStore');
 var TweetBubble = require('./TweetBubble');
 var millisecondsToStr = require('./millisecondsToStr');
+var monthsShort = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 
-
-
+var dblZero = function(a){
+	return a < 10 ? '0'+a : a;
+};
 var bubble = new TweetBubble({
 	tweetTpl: function(tw){
 		var parts = [];
+		var date = new Date(tw.date);
+		var dateStr = monthsShort[date.getUTCMonth()]+' '+date.getUTCDate()+' '+dblZero(date.getUTCHours())+':'+dblZero(date.getUTCMinutes())+':'+dblZero(date.getUTCSeconds());
 		parts.push(tw.tweetText.substring(0,tw.charAt));
 		parts.push(tw.tweetText.substring(tw.charAt+tw.clean.length));
 
@@ -20,6 +24,7 @@ var bubble = new TweetBubble({
 		return '<img class="tweet-bubble__avatar" src="'+tw.profile_image_url+'">'
 		+ '<div class="tweet-bubble__body">'
 		+ '<div class="tweet-bubble__screen-name">@'+tw.screen_name+'</div>'
+		+ '<div class="tweet-bubble__date">'+tw.+'</div>'
 		+ '<div class="tweet-bubble__text">'+text+'</div></div>';
 
 	}

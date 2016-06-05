@@ -151,42 +151,6 @@ function removeFetchedRange(range){
 module.exports = store;
 
 },{}],3:[function(require,module,exports){
-function millisecondsToStr (milliseconds) {
-    // TIP: to find current time in milliseconds, use:
-    // var  current_time_milliseconds = new Date().getTime();
-
-    function numberEnding (number) {
-        return (number > 1) ? 's' : '';
-    }
-
-    var temp = Math.floor(milliseconds / 1000);
-    var years = Math.floor(temp / 31536000);
-    if (years) {
-        return years + ' year' + numberEnding(years);
-    }
-    //TODO: Months! Maybe weeks?
-    var days = Math.floor((temp %= 31536000) / 86400);
-    if (days) {
-        return days + ' day' + numberEnding(days);
-    }
-    var hours = Math.floor((temp %= 86400) / 3600);
-    if (hours) {
-        return hours + ' hour' + numberEnding(hours);
-    }
-    var minutes = Math.floor((temp %= 3600) / 60);
-    if (minutes) {
-        return minutes + ' minute' + numberEnding(minutes);
-    }
-    var seconds = temp % 60;
-    if (seconds) {
-        return seconds + ' second' + numberEnding(seconds);
-    }
-    return 'less than a second'; //'just now' //or other string you like;
-}
-module.exports = millisecondsToStr;
-
-
-},{}],4:[function(require,module,exports){
 var TOTAL_WORDS = 32003;
 var WORDS_PER_PAGE = 150;
 var PAGE_COUNT = Math.ceil(TOTAL_WORDS / WORDS_PER_PAGE);
@@ -294,15 +258,19 @@ setInterval(refreshTimer, 60000);
 
 $(window).on('resize', scrollText);
 
-$('.text').delegate('span', 'mouseenter', function(){
+$('.hover-words').delegate('span', 'mouseenter', function(){
 	var index = $(this).data('i');
 	bubble.show(this, index);
 });
-$('.text').delegate('span', 'click', function(e){
+$('.hover-words').delegate('span', 'mouseleave', function(){
+	bubble.hide();
+});
+$('.hover-words').delegate('span', 'click', function(e){
 	var index = $(this).data('i');
 	e.preventDefault();
-	//window.open('https://twitter.com/'+tw.screen_name+'/status/'+tw.id);
-	window.open('https://twitter.com/status/'+tw.id);
+	TweetStore.get(index, function(tw){
+		window.open('https://twitter.com/status/'+tw.id);
+	});
 });
 
 
@@ -331,4 +299,40 @@ function scrollText(){
 keepTextScrolled();
 
 
-},{"./TweetBubble":1,"./TweetStore":2,"./millisecondsToStr":3}]},{},[4]);
+},{"./TweetBubble":1,"./TweetStore":2,"./millisecondsToStr":4}],4:[function(require,module,exports){
+function millisecondsToStr (milliseconds) {
+    // TIP: to find current time in milliseconds, use:
+    // var  current_time_milliseconds = new Date().getTime();
+
+    function numberEnding (number) {
+        return (number > 1) ? 's' : '';
+    }
+
+    var temp = Math.floor(milliseconds / 1000);
+    var years = Math.floor(temp / 31536000);
+    if (years) {
+        return years + ' year' + numberEnding(years);
+    }
+    //TODO: Months! Maybe weeks?
+    var days = Math.floor((temp %= 31536000) / 86400);
+    if (days) {
+        return days + ' day' + numberEnding(days);
+    }
+    var hours = Math.floor((temp %= 86400) / 3600);
+    if (hours) {
+        return hours + ' hour' + numberEnding(hours);
+    }
+    var minutes = Math.floor((temp %= 3600) / 60);
+    if (minutes) {
+        return minutes + ' minute' + numberEnding(minutes);
+    }
+    var seconds = temp % 60;
+    if (seconds) {
+        return seconds + ' second' + numberEnding(seconds);
+    }
+    return 'less than a second'; //'just now' //or other string you like;
+}
+module.exports = millisecondsToStr;
+
+
+},{}]},{},[3]);

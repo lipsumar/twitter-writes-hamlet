@@ -112,8 +112,9 @@ $('.text').delegate('span', 'mouseenter', function(){
 $('.text').delegate('span', 'click', function(e){
 	var index = $(this).data('i');
 	e.preventDefault();
-	//window.open('https://twitter.com/'+tw.screen_name+'/status/'+tw.id);
-	window.open('https://twitter.com/status/'+tw.id);
+	TweetStore.get(index, function(tw){
+		window.open('https://twitter.com/status/'+tw.id);
+	});
 });
 
 

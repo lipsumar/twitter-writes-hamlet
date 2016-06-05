@@ -26,7 +26,7 @@ var fs = require('fs');
 var words = [];
 var currentWordI = -1;
 var currentWordIndex = -1;
-var currentWordCount = 1; //count starts 1, not 0
+var currentWordCount = 0; //count starts 1, not 0
 var currentWordFetchIndex;
 var currentWord,currentWordNotClean,matchWordRegex,currentWordDate;
 var found = false;
@@ -400,6 +400,7 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 		if(metaLast.data.count) currentWordCount = metaLast.data.count;
 		if(metaLast.data.start_again){
 			currentWordIndex = -1;
+			currentWordCount = 0;
 		}
 		console.log('currentWordIndex', currentWordIndex);
 	}

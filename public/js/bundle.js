@@ -254,7 +254,7 @@ function refreshStatsPages(resp){
 }
 
 function refreshTimer(){
-	var duration = millisecondsToStr( (new Date()).getTime() - (new Date('Sat Apr 16 2016 11:06:10 GMT+0000 (UTC)')).getTime() );
+	var duration = millisecondsToStr( (new Date()).getTime() - (new Date('Sun Jun 05 2016 15:27:53 GMT+0000 (UTC)')).getTime() );
 	$('.full-duration').text(duration);
 }
 refreshTimer();

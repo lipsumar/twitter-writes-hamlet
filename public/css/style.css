@@ -28,7 +28,6 @@ body{
 	display: flex;
 	width:100%;
 	flex-direction:column;
-	padding-bottom:50px;
 	align-items:center;
 }
 
@@ -89,7 +88,8 @@ body{
 }
 .text span{display: none;}
 .text span.v{display: inline;}
-.text span.v:hover{background-color: rgba(85, 172, 238, 0.38);}
+.text span.v:hover,
+.app__title span:hover{background-color: rgba(85, 172, 238, 0.38);}
 .text span.looking{
 	display: inline;
 	opacity:0.6;
@@ -276,10 +276,10 @@ body{
 	margin-bottom:2em;
 }
 .stat-page{
-	width:20px;
-	height:29px;
-	border:1px solid #FFF;
-	margin:2px;
+	width: 16px;
+    height: 25px;
+    border: 1px solid #FFF;
+    margin: 1px;
 }
 .stat-page.written{
 	background-color: rgba(255,255,255,0.4);

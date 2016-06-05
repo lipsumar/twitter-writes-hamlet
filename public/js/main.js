@@ -24,7 +24,7 @@ var bubble = new TweetBubble({
 		return '<img class="tweet-bubble__avatar" src="'+tw.profile_image_url+'">'
 		+ '<div class="tweet-bubble__body">'
 		+ '<div class="tweet-bubble__screen-name">@'+tw.screen_name+'</div>'
-		+ '<div class="tweet-bubble__date">'+tw.+'</div>'
+		+ '<div class="tweet-bubble__date">'+dateStr+'</div>'
 		+ '<div class="tweet-bubble__text">'+text+'</div></div>';
 
 	}

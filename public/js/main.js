@@ -109,6 +109,9 @@ $('.text').delegate('span', 'mouseenter', function(){
 	var index = $(this).data('i');
 	bubble.show(this, index);
 });
+$('.text').delegate('span', 'mouseleave', function(){
+	bubble.hide();
+});
 $('.text').delegate('span', 'click', function(e){
 	var index = $(this).data('i');
 	e.preventDefault();

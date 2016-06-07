@@ -189,7 +189,8 @@ function nextWord(){
 	}
 
 	currentWordNotClean = currentWord;
-	currentWord = cleanWord(currentWord);
+	currentWord = words[currentWordI].clean;
+	console.log('clean', currentWord);
 	matchWordRegex = new RegExp('([^a-z]|^)'+currentWord+'([^a-z]|$)','mi');
 	//exec('afplay /System/Library/Sounds/Pop.aiff -v 0.5');
 
@@ -219,9 +220,7 @@ function saveTweet(tw, callback){
 	});
 }
 
-function cleanWord(w){
-	return w.replace(/(^[,.'":;!?]+)|([,.'":;!?]+$)/g, '');
-}
+
 
 
 function fetchNextWordsFromStore(callback){

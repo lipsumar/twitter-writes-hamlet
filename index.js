@@ -369,7 +369,7 @@ app.get('/tweets/range/:range', function(req, res){
 	console.log(range);
 
 	var query = dataset.createQuery('Word')
-		.filter('found_in_twitter =', 1)
+		.filter('found_in_twitter >', 0)
 		.filter('index >=', parseInt(range[0],10))
 		.filter('index <=', parseInt(range[1], 10));
 

@@ -121,7 +121,7 @@ $('.hover-words').delegate('span', 'click', function(e){
 	var index = $(this).data('i');
 	e.preventDefault();
 	TweetStore.get(index, function(tw){
-		window.open('https://twitter.com/status/'+tw.id);
+		window.open('https://twitter.com/' + tw.screen_name + '/status/' + tw.id);
 	});
 });
 

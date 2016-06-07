@@ -369,7 +369,6 @@ app.get('/tweets/range/:range', function(req, res){
 	console.log(range);
 
 	var query = dataset.createQuery('Word')
-		.filter('found_in_twitter >', 0)
 		.filter('index >=', parseInt(range[0],10))
 		.filter('index <=', parseInt(range[1], 10));
 
@@ -380,9 +379,12 @@ app.get('/tweets/range/:range', function(req, res){
 			throw err;
 		}
 
-		var tweets = wordsFromStore.map(function(word){
-			return word.data;
-		});
+		var tweets = wordsFromStore.reduce(function(m, word){
+			if(word.data.found_in_twitter){
+				m.push(word.data);
+			}
+			return m;
+		},[]);
 
 		res.end(JSON.stringify({tweets:tweets}));
 

@@ -382,9 +382,6 @@ body{
 		font-size:5em;
 		letter-spacing: 0.2em;
 	}
-	.app__page{
-		margin-top:120px;
-	}
 	.app__title{
 		display: block;
 		width:100%;
@@ -456,7 +453,6 @@ body{
 		width:70%;
 		height: 100%;
 		padding:3em;
-		margin-top:190px;
 	}
 	.app__aside{
 		width:30%;

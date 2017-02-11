@@ -1,21 +1,13 @@
----
 indexes:
-  -
-    kind: Word
+  - kind: Word
     properties:
-      -
-        name: found_in_twitter
-  -
-    kind: Word
+    - name: found_in_twitter
+  - kind: Word
     properties:
-      -
-        name: index
-  -
-    kind: Word
+    - name: index >
+    - name: index
+  - kind: Word
     properties:
-      -
-        name: found_in_twitter
-      -
-        direction: asc
-        name: index
-
+    - name: found_in_twitter
+      direction: asc
+    - name: index

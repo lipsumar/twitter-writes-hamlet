@@ -3,8 +3,8 @@ process.env.GOOGLE_APPLICATION_CREDENTIALS = './gcred.json';
 var Twitter = require('twitter');
 var client = new Twitter(require('./twitter-cred.json'));
 
-var gcloud = require('gcloud');
-var dataset = gcloud.datastore.dataset({
+var datastore = require('@google-cloud/datastore');
+var dataset = datastore({
 	projectId: process.env.GCLOUD_PROJECT || 'twitter-writes-hamlet-us'
 });
 
@@ -396,7 +396,7 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 	if(err){
 		throw err;
 	}
-	console.log(metaLast);
+	console.log('metaLast',metaLast);
 	if(metaLast && metaLast.data){
 		currentWordIndex = metaLast.data.index;
 		if(metaLast.data.count) currentWordCount = metaLast.data.count;

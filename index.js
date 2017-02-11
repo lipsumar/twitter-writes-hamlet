@@ -224,21 +224,27 @@ function saveTweet(tw, callback){
 
 
 function fetchNextWordsFromStore(callback){
+	console.log('qu',currentWordFetchIndex);
 	var query = dataset.createQuery('Word')
-		.filter('index >', currentWordFetchIndex)
+		.filter('index', '>', currentWordFetchIndex)
 		.order('index')
 		.limit(10);
 
 	dataset.runQuery(query, function(err,wordsFromStore){
-
 		if(err){
 			console.log(err);
 			throw err;
 		}
+
+		if(wordsFromStore.length === 0){
+			console.log('wordsFromStore:', wordsFromStore);
+			throw new Error('could not get any word from store :(');
+		}
+
 		var lastIndex;
 		wordsFromStore.forEach(function(word){
-			words.push(word.data);
-			lastIndex = word.data.index;
+			words.push(word);
+			lastIndex = word.index;
 		});
 		currentWordFetchIndex = lastIndex;
 
@@ -369,8 +375,8 @@ app.get('/tweets/range/:range', function(req, res){
 	console.log(range);
 
 	var query = dataset.createQuery('Word')
-		.filter('index >=', parseInt(range[0],10))
-		.filter('index <=', parseInt(range[1], 10));
+		.filter('index', '>=', parseInt(range[0],10))
+		.filter('index', '<=', parseInt(range[1], 10));
 
 	dataset.runQuery(query, function(err,wordsFromStore){
 		if(err){
@@ -380,8 +386,8 @@ app.get('/tweets/range/:range', function(req, res){
 		}
 
 		var tweets = wordsFromStore.reduce(function(m, word){
-			if(word.data.found_in_twitter){
-				m.push(word.data);
+			if(word.found_in_twitter){
+				m.push(word);
 			}
 			return m;
 		},[]);
@@ -397,10 +403,10 @@ dataset.get(dataset.key(['Meta',1]), function(err, metaLast){
 		throw err;
 	}
 	console.log('metaLast',metaLast);
-	if(metaLast && metaLast.data){
-		currentWordIndex = metaLast.data.index;
-		if(metaLast.data.count) currentWordCount = metaLast.data.count;
-		if(metaLast.data.start_again){
+	if(metaLast){
+		currentWordIndex = metaLast.index;
+		if(metaLast.count) currentWordCount = metaLast.count;
+		if(metaLast.start_again){
 			currentWordIndex = -1;
 			currentWordCount = 0;
 		}

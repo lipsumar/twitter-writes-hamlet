@@ -1,9 +1,6 @@
 indexes:
   - kind: Word
     properties:
-    - name: found_in_twitter
-  - kind: Word
-    properties:
     - name: index >
     - name: index
   - kind: Word

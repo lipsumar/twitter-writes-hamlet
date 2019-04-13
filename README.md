@@ -1,4 +1,5 @@
 # Twitter writes Hamlet
 
-* See it live: <http://twitter-writes-hamlet/>
-* Read the blog post: <http://blog.lipsumarium.com/twitter-writes-hamlet/>
+**Deprecated** - new version is: [twitter-writes-hamlet-v2](https://github.com/lipsumar/twitter-writes-hamlet-v2)
+
+* Read the original blog post: <http://blog.lipsumarium.com/twitter-writes-hamlet/>
